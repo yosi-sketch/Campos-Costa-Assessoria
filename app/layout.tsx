@@ -20,14 +20,14 @@ const bodyFont = Source_Sans_3({
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 const metadataBase = siteUrl ? new URL(siteUrl) : undefined;
 const shareImage = brand.portrait;
-const title = "Heloísa de Almeida | Advogada em Andradas, MG";
-const description = "Heloísa de Almeida, advogada em Andradas, MG. Orientação em Direito do Trabalho, Previdenciário e de Família. Agende pelo WhatsApp (35) 99886-8578.";
+const title = "Danielle Maria | Advogada Previdenciarista em Patos de Minas";
+const description = "Danielle Maria, advogada previdenciarista em Patos de Minas, MG. Aposentadorias, BPC e benefícios do INSS. Agende pelo WhatsApp (34) 99908-9393.";
 
 export const metadata: Metadata = {
   ...(metadataBase ? { metadataBase } : {}),
   title,
   description,
-  keywords: ["Heloísa de Almeida", "advogada em Andradas", "Direito do Trabalho", "Direito Previdenciário", "Direito de Família"],
+  keywords: ["Danielle Maria", "advogada previdenciarista em Patos de Minas", "Direito Previdenciário", "aposentadorias", "BPC", "benefícios do INSS"],
   icons: { icon: [{ url: "/icon.svg", type: "image/svg+xml" }] },
   openGraph: {
     title,
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
       ? [
           {
             url: shareImage,
-            width: 438,
-            height: 510,
+            width: 661,
+            height: 849,
             alt: brand.businessName,
           },
         ]
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#191713",
+  themeColor: "#242122",
 };
 
 export default function RootLayout({

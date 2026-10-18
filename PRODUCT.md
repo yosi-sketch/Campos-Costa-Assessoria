@@ -1,4 +1,4 @@
-# Heloísa de Almeida — Advogada
+# Danielle Maria — Advogada Previdenciarista
 
 <!-- impeccable:product-schema 1 -->
 
@@ -6,38 +6,46 @@
 web
 
 ## Users
-Pessoas em busca de orientação em Direito do Trabalho, Previdenciário e de Família em Andradas, Minas Gerais.
+Pessoas em busca de orientação sobre aposentadorias e benefícios previdenciários em Patos de Minas, Minas Gerais.
 
 ## Product Purpose
-Apresentar Heloísa de Almeida e facilitar agendamento por WhatsApp, telefone, Instagram e localização.
+Apresentar Danielle Maria e facilitar o agendamento por WhatsApp, telefone, Instagram e localização do escritório.
 
 ## Positioning
-Escuta, clareza e atenção individual, sem promessas de resultado ou títulos de especialista.
+Advocacia previdenciária com escuta, clareza e atenção à história de cada pessoa, sem promessas de resultado ou títulos acadêmicos não informados.
 
 ## Operating Context
-Página pt-BR com hero, três temas com diálogos, sobre, etapas, FAQ, quatro relatos, contato e rodapé. Sem formulário nem e-mail. Dados em app/lib/brand.ts; tokens Tailwind CSS 4 em app/globals.css; fontes e metadados em app/layout.tsx.
+Página pt-BR com hero, três temas com diálogos, sobre, etapas, FAQ, quatro relatos, contato e rodapé. Contato direto, sem formulário. Dados e relatos em app/lib/brand.ts; tokens Tailwind CSS 4 em app/globals.css; fontes e metadados em app/layout.tsx; composição em app/page.tsx.
 
 ## Capabilities and Constraints
-Next.js 16.3.5, React 19.2.8, Tailwind CSS 4, Framer Motion e Lucide. Ler guias locais do Next.js antes de alterar APIs. Diálogos com WhatsApp contextual, Escape, ciclo de foco, fundo inert, bloqueio de rolagem e retorno do foco. Menu fecha por seleção ou Escape. Movimento reduzido respeitado. NEXT_PUBLIC_SITE_URL somente com domínio real.
+Next.js 16.3.5, React 19.2.8, Tailwind CSS 4, Framer Motion e Lucide conforme package.json. Ler AGENTS.md e os guias locais em node_modules/next/dist/docs/ antes de alterar código Next.js.
+O código dos diálogos prevê WhatsApp contextual, Escape, ciclo de foco, fundo inert, bloqueio de rolagem e retorno do foco. Menu fecha por seleção ou Escape. CSS e MotionConfig contemplam movimento reduzido. As verificações funcionais executadas pelo agente principal estão registradas em .impeccable/review/danielle/validation.md; esta etapa documental incorporou essa evidência sem repetir os testes.
+NEXT_PUBLIC_SITE_URL deve receber somente um domínio real informado; sem a variável, metadataBase e imagens sociais não são definidos. OAB, e-mail, formação e domínio não informados.
 
 ## Brand Commitments
-Logo Móia Advogados exibido no cabeçalho e rodapé conforme pedido mais recente da cliente em 18/10/2026. Arquivo original preservado em public/moia-advogados-logo.png (1983 × 793). Nome profissional, textos e contatos continuam de Heloísa de Almeida. Favicon H em vetor.
-Pixels opacos do logo quantizados em passos de 16: #c09050 (21.528), #d0a060 (18.705), #f0c080 (14.615), #e0b070 (14.342), #ffe0a0 (11.004), #fff0c0 (10.510). Paleta refinada em 18/10/2026: preto quente #191713, champanhe #d8b87c, bronze #76572d e marfim #f8f5ef, derivados da faixa de dourados e sombras do logo para leitura e contraste.
-Bodoni Moda 400/500 nos títulos: contraste das hastes e serifas afinado às letras do logo. Source Sans 3 400/500/600/700 nos textos e controles: clareza sem competir com os títulos. Fontes por next/font com display swap.
-Preservar integralmente os dois retratos. Proveniência e hashes em .impeccable/asset-origins.json.
+Identidade integral de Danielle Maria, conforme substituição autorizada pelo usuário, preservando estrutura e funções.
+Logo original transparente preservado em public/danielle-maria-logo.png (2172 × 724), sem alteração: cabeçalho claro, apresentação sobre marfim e placa marfim no rodapé grafite.
+Fotografia institucional integral em public/danielle-maria-institucional.png (661 × 849), com duas mulheres em um auditório. Não atribuir identidades às retratadas.
+Pixels opacos do novo logo quantizados em passos de 16, conforme extração fornecida: #303030 (49.726), #c0a080 (5.293), #d0b090 (4.733), #b09070 (3.742), #f0e0d0 (3.159). São amostras do arquivo, não a escala completa de tokens. Tokens reais em app/globals.css; DESIGN.md registra seus valores.
+Bodoni Moda 400/500 mantida pelo contraste das hastes e serifas afinado ao logo; Source Sans 3 400/500/600/700 para leitura e controles. Fontes por next/font com display swap.
+Proveniência e hashes somente dos dois novos assets em .impeccable/asset-origins.json.
 
 ## Evidence on Hand
-Dados enviados pela cliente em 18/10/2026:
+Dados e relatos enviados em 18/10/2026, registrados em app/lib/brand.ts:
 
-- Heloísa de Almeida | Advogada.
-- WhatsApp/telefone: (35) 99886-8578; 5535998868578.
-- Endereço: Rua da Saudade, 180, Sala 02, Centro, Andradas — MG, CEP 37938-014.
-- Instagram: https://www.instagram.com/heloalmeida.adv/ — @heloalmeida.adv.
-- Atuação: Direito do Trabalho, Previdenciário e de Família. Apresentação enviada: membro das comissões de Direito do Trabalho e Previdenciário, Direito de Família e OAB Jovem. Sem atribuir título de especialista.
-- Google: 10 avaliações no material enviado; CID 2661713746485173089; quatro relatos transcritos em app/lib/brand.ts com links individuais. Sem nota média informada nem integração ao vivo. Não presumir estrelas.
-- public/heloisa-almeida-retrato.png: 438 × 510; public/heloisa-almeida-sobre.png: 393 × 785. Cópias integrais dos anexos.
+- Danielle Maria — Advogada Previdenciarista; Direito Previdenciário.
+- WhatsApp/telefone: (34) 99908-9393; 5534999089393.
+- Endereço: Rua José de Santana, 1306, sala 509, Centro, Patos de Minas — MG, CEP 38700-052.
+- Instagram: https://www.instagram.com/daniellemariaadvocacia/ — @daniellemariaadvocacia.
+- Temas da página: aposentadorias; benefícios por incapacidade e auxílio-acidente; BPC, pensão por morte e salário-maternidade.
+- Google: nota informada 5,0 e 72 avaliações; CID 6512141540918169075. Dados fornecidos, sem integração de atualização automática.
+- Quatro transcrições integrais em app/lib/brand.ts: Andrea Cristine, Newton Cesar, Giullia Santiago e Maria Helena Beltoldo. Links levam ao perfil do escritório no Google, não a avaliações individuais.
+- Logo e foto copiados sem alteração dos originais enviados. SHA-256 de cada destino conferido contra sua fonte nesta atualização.
 
-Cliente confirmou ausência de e-mail. OAB, formação, experiência, modalidade on-line, abrangência e domínio não informados. Instagram externo indisponível na consulta; fatos usados vêm do material enviado. Horário parcial não permite grade semanal; orientar agendamento.
+Validação do agente principal documentada em .impeccable/review/danielle/validation.md: lint, TypeScript e build com exit 0; quatro imagens carregadas no Browser CUA; ausência de overflow horizontal em 320, 390, 527, 768, 1024 e 1440px; três diálogos com links contextuais corretos, ciclo de foco entre fechar e WhatsApp, Escape, retorno ao acionador e restauração da rolagem; menu móvel fechado por seleção. Contrastes medidos: bronze/claro 6,60:1, texto secundário/marfim 5,55:1, texto/botão 6,76:1 e champanhe/grafite 7,82:1.
+Revisor independente: disposition ship, sem material_fixes, conforme conclusão informada pelo usuário. Escopo: 11 capturas de viewports segmentadas em .impeccable/review/danielle/, leitura de código e verificação de dados/metadados; não full page. Esta etapa documental não repetiu os testes nem o detector.
+
+OAB, e-mail, formação, experiência, modalidade on-line, abrangência e domínio não informados. Não deduzir essas informações das imagens ou dos relatos. Atendimento com agendamento; não publicar grade semanal não informada.
 
 ## Product Principles
-Preservar estrutura e funções ao substituir todos os dados anteriores. Não inventar contatos, credenciais, resultados, depoimentos ou nota média. Informar origem e data dos relatos. Conteúdo institucional, sem orientação a casos concretos.
+Preservar estrutura e funções ao substituir a identidade. Usar apenas contatos, temas e relatos fornecidos. Não inventar credenciais, resultados, avaliações ou vínculos pessoais. Informar origem e data dos relatos e da nota. Conteúdo institucional, sem orientação a casos concretos.

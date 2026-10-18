@@ -15,7 +15,7 @@ import {
   MessageCircle,
   MapPin,
   Menu,
-  BriefcaseBusiness,
+  Landmark,
   HeartHandshake,
   ShieldCheck,
   Camera,
@@ -45,22 +45,22 @@ const stagger: Variants = {
 // Temas de orientação informados pela cliente, sem atribuição de especializações.
 const areas = [
   {
-    title: "Direito do Trabalho", icon: BriefcaseBusiness,
-    summary: "Orientação para compreender seus direitos e as questões que fazem parte da sua relação de trabalho.",
-    details: "Cada relação de trabalho tem sua própria história. O atendimento parte da escuta e da análise dos documentos para compreender a situação e explicar as possibilidades de encaminhamento.",
-    topics: ["Dúvidas sobre a relação de trabalho", "Organização dos documentos para análise", "Orientação sobre os próximos passos"],
+    title: "Aposentadorias", icon: Landmark,
+    summary: "Entenda sua trajetória de contribuição e os caminhos para solicitar sua aposentadoria.",
+    details: "Sua história de trabalho merece uma análise cuidadosa. O atendimento considera os documentos e o histórico de contribuições para esclarecer dúvidas sobre a aposentadoria e os próximos passos perante o INSS.",
+    topics: ["Análise do histórico de contribuições", "Orientação para pedidos de aposentadoria", "Organização da documentação previdenciária"],
   },
   {
-    title: "Direito Previdenciário", icon: ShieldCheck,
-    summary: "Clareza para conversar sobre aposentadoria, benefícios e sua trajetória de contribuição.",
-    details: "Entender o histórico de contribuições e os documentos disponíveis é o primeiro passo para avaliar uma questão previdenciária. Na consulta, você pode apresentar suas dúvidas e compreender o que precisa ser analisado.",
-    topics: ["Dúvidas sobre aposentadoria e benefícios", "Análise da documentação apresentada", "Orientação individual sobre sua demanda"],
+    title: "Benefícios por incapacidade e auxílio-acidente", icon: ShieldCheck,
+    summary: "Orientação quando a saúde ou um acidente afetam sua capacidade de trabalhar.",
+    details: "Questões de saúde e acidentes exigem atenção à documentação e à realidade de cada pessoa. A consulta permite compreender a situação, analisar os documentos apresentados e conversar sobre os possíveis encaminhamentos.",
+    topics: ["Benefícios por incapacidade", "Auxílio-acidente", "Orientação sobre documentos para análise"],
   },
   {
-    title: "Direito de Família", icon: HeartHandshake,
-    summary: "Escuta e cuidado para lidar com questões familiares e decisões que afetam sua vida.",
-    details: "Questões de família pedem atenção às pessoas e aos detalhes de cada história. Um atendimento individual oferece espaço para compreender o contexto, organizar as informações e conversar sobre os caminhos possíveis.",
-    topics: ["Escuta das questões familiares", "Esclarecimento de dúvidas na consulta", "Orientação sobre documentos e encaminhamentos"],
+    title: "BPC, pensão e salário-maternidade", icon: HeartHandshake,
+    summary: "Cuidado com as dúvidas sobre proteção social e os benefícios que fazem parte da sua vida.",
+    details: "O atendimento abrange BPC, pensão por morte e salário-maternidade. Cada demanda começa pela escuta e pela análise das informações apresentadas para explicar os caminhos possíveis e os documentos necessários.",
+    topics: ["Benefício de Prestação Continuada (BPC)", "Pensão por morte", "Salário-maternidade"],
   },
 ];
 
@@ -152,11 +152,11 @@ export default function Home() {
       <main className="bg-ivory text-ink">
         <div ref={contentRef}>
         <a href="#inicio" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-sm focus:bg-paper focus:p-4 focus:text-ink">Ir para o conteúdo</a>
-        <header className="brand-header sticky top-0 z-40 border-b border-brand-300/20 bg-brand-950 text-white">
+        <header className="brand-header sticky top-0 z-40 border-b border-linen bg-paper text-ink">
           <div className="mx-auto flex h-[104px] max-w-7xl items-center justify-between gap-5 px-5 sm:h-[112px] sm:px-8 lg:px-12">
             <a
               href="#inicio"
-              aria-label="Heloísa de Almeida — início"
+              aria-label="Danielle Maria — início"
               onClick={closeMenu}
               className="shrink-0"
             >
@@ -187,7 +187,7 @@ export default function Home() {
                 href={contact}
                 target="_blank"
                 rel="noreferrer"
-                aria-label="WhatsApp da Dra. Heloísa de Almeida"
+                aria-label="WhatsApp da Dra. Danielle Maria"
                 className="grid size-11 place-items-center rounded-full border border-ink/20 text-brand-700 transition-colors hover:border-brand-700 hover:bg-brand-50"
               >
                 <WhatsAppMark size={17} strokeWidth={1.7} />
@@ -270,14 +270,14 @@ export default function Home() {
                 variants={reveal}
                 className="max-w-[720px] font-display text-[2.75rem] leading-[1.1] tracking-[-0.025em] text-brand-50 sm:text-[3.6rem] lg:text-[4.2rem]"
               >
-                Seus direitos merecem atenção.{" "}
-                <span className="text-brand-300">Sua história também.</span>
+                Sua história de trabalho.{" "}
+                <span className="text-brand-300">Seus direitos, com clareza.</span>
               </motion.h1>
               <motion.p
                 variants={reveal}
                 className="mt-7 max-w-xl text-[15px] leading-7 text-brand-100 sm:text-base sm:leading-8"
               >
-                Heloísa de Almeida, advogada em Andradas. Orientação em Direito do Trabalho, Previdenciário e de Família, com escuta, clareza e atenção a cada história.
+                Danielle Maria, advogada previdenciarista em Patos de Minas. Orientação sobre aposentadorias e benefícios do INSS, com atenção à sua história e clareza em cada etapa.
               </motion.p>
               <motion.div
                 variants={reveal}
@@ -289,7 +289,7 @@ export default function Home() {
                   size="lg"
                   className="rounded-sm"
                 >
-                  <WhatsAppMark size={17} /> Converse com a Dra. Heloísa
+                  <WhatsAppMark size={17} /> Converse com a Dra. Danielle
                 </GlowingButton>
                 <a
                   href="#atuacao"
@@ -332,16 +332,16 @@ export default function Home() {
               <figure className="hero-signature border border-brand-300/30 p-3">
                 <Image
                   src={brand.portrait}
-                  alt="Retrato profissional de Heloísa de Almeida"
-                  width={438}
-                  height={510}
+                  alt="Registro institucional fornecido para o site de Danielle Maria, com duas mulheres em um auditório"
+                  width={661}
+                  height={849}
                   preload
                   sizes="(max-width: 639px) 90vw, 390px"
                   className="h-auto w-full"
                 />
                 <figcaption className="flex flex-col gap-2 px-2 pb-2 pt-5 text-center leading-6 text-brand-200">
-                  <span className="font-display text-2xl text-brand-100">Dra. Heloísa de Almeida</span>
-                  <span className="text-xs tracking-[0.06em]">Advocacia</span>
+                  <span className="font-display text-2xl text-brand-100">Presença e proximidade.</span>
+                  <span className="text-xs tracking-[0.06em]">Direito Previdenciário · Patos de Minas</span>
                 </figcaption>
               </figure>
             </motion.div>
@@ -355,7 +355,7 @@ export default function Home() {
           <div className="mx-auto grid max-w-7xl gap-6 px-5 py-7 sm:grid-cols-3 sm:gap-4 sm:px-8 lg:px-12">
             {[
               ["Atenção", "Escuta e análise do seu caso"],
-              ["Proximidade", "No centro de Andradas"],
+              ["Proximidade", "No centro de Patos de Minas"],
               ["Clareza", "Orientação em cada etapa"],
             ].map(([value, label], index) => (
               <div
@@ -391,7 +391,7 @@ export default function Home() {
             >
               <Heading
 
-                description="Trabalho, proteção social e família: orientação jurídica para assuntos que fazem parte da sua vida."
+                description="Aposentadorias, benefícios por incapacidade e proteção social. Conheça os assuntos em que a Dra. Danielle pode orientar você."
               >
                 Orientação para o que{" "}
                 <span className="text-brand-700">importa para você.</span>
@@ -450,16 +450,16 @@ export default function Home() {
 
         <section id="sobre" className="scroll-mt-28 bg-paper py-20 sm:py-28 lg:py-32">
           <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-[0.85fr_1.15fr] lg:gap-24 lg:px-12">
-            <figure className="about-signature mx-auto w-full max-w-[350px] bg-brand-950 lg:mx-0">
-              <Image src={brand.aboutPortrait} alt="Fotografia fornecida para a apresentação de Heloísa de Almeida" width={393} height={785} sizes="(max-width: 639px) 90vw, 350px" className="h-auto w-full" />
-              <figcaption className="px-6 py-5 text-sm leading-6 text-brand-200">Advocacia · Andradas, MG</figcaption>
+            <figure className="about-signature mx-auto w-full max-w-[420px] border border-linen bg-ivory px-7 py-12 sm:px-10 sm:py-16 lg:mx-0">
+              <Image src={brand.logo} alt={brand.businessName} width={2172} height={724} sizes="(max-width: 639px) 80vw, 340px" className="h-auto w-full" />
+              <figcaption className="mt-10 border-t border-linen pt-6 text-center text-sm leading-6 text-brand-700">Direito Previdenciário<br />Patos de Minas, Minas Gerais</figcaption>
             </figure>
             <div>
               <Heading>Clareza para orientar.{" "}<span className="text-brand-700">Sensibilidade para acolher.</span></Heading>
-              <h3 className="mt-7 font-display text-3xl text-brand-800">Dra. Heloísa de Almeida</h3>
-              <p className="mt-2 text-sm font-medium text-ink-soft">Advogada em Andradas, Minas Gerais</p>
-              <p className="mt-6 max-w-xl text-base leading-8 text-ink-soft">Heloísa de Almeida é advogada em Andradas, Minas Gerais. Seu atendimento é um espaço para apresentar dúvidas, compreender direitos e conversar sobre decisões relacionadas ao trabalho, à previdência e à família.</p>
-              <p className="mt-4 max-w-xl text-base leading-8 text-ink-soft">Membro das comissões de Direito do Trabalho e Previdenciário, de Direito de Família e da OAB Jovem, conforme sua apresentação profissional. No escritório, na Rua da Saudade, cada atendimento começa com a escuta da sua história.</p>
+              <h3 className="mt-7 font-display text-3xl text-brand-800">Dra. Danielle Maria</h3>
+              <p className="mt-2 text-sm font-medium text-ink-soft">Advogada em Patos de Minas, Minas Gerais</p>
+              <p className="mt-6 max-w-xl text-base leading-8 text-ink-soft">Danielle Maria atua na advocacia previdenciária em Patos de Minas, Minas Gerais. Seu trabalho está voltado a aposentadorias, BPC, benefícios por incapacidade, pensão, auxílio-acidente e salário-maternidade.</p>
+              <p className="mt-4 max-w-xl text-base leading-8 text-ink-soft">Cada história de vida traz dúvidas e necessidades próprias. No escritório da Rua José de Santana, o atendimento é um espaço para ouvir você, analisar seus documentos e explicar os possíveis caminhos com atenção e transparência.</p>
               <a href={contact} target="_blank" rel="noopener noreferrer" className="group mt-8 inline-flex min-h-11 items-center gap-2 border-b border-brand-700/40 py-2 text-sm font-semibold text-brand-800 transition-colors hover:text-brand-700">Conheça o atendimento <ArrowUpRight size={16} /></a>
             </div>
           </div>
@@ -485,7 +485,7 @@ export default function Home() {
               {[
                 [
                   "Primeiro, a sua história",
-                  "Conte brevemente sua situação pelo WhatsApp e receba as informações para agendar seu atendimento com a Dra. Heloísa.",
+                  "Conte brevemente sua situação pelo WhatsApp e receba as informações para agendar seu atendimento com a Dra. Danielle.",
                 ],
                 [
                   "Depois, os documentos",
@@ -520,7 +520,7 @@ export default function Home() {
               {[
                 ["Como funciona o primeiro contato?", `Envie uma mensagem pelo WhatsApp ou ligue para ${brand.phone}. Conte brevemente sua situação para receber informações sobre o atendimento e os documentos iniciais necessários.`],
                 ["Onde fica o escritório?", `O escritório fica na ${brand.address}. Entre em contato para combinar sua visita.`],
-                ["Quais situações posso apresentar?", "Você pode apresentar dúvidas de Direito do Trabalho, Previdenciário e de Família. O primeiro contato ajuda a compreender o assunto e organizar o agendamento da consulta."],
+                ["Quais situações posso apresentar?", "Você pode trazer dúvidas sobre aposentadorias, BPC, benefícios por incapacidade, pensão, auxílio-acidente e salário-maternidade. O primeiro contato ajuda a organizar o agendamento e a documentação para sua consulta."],
                 ["Quais documentos devo separar?", "Os documentos variam conforme o assunto. Durante o agendamento, informe brevemente sua dúvida para receber orientação sobre os documentos pertinentes à consulta."],
               ].map(([question, answer]) => (
                 <details key={question} className="group py-6">
@@ -543,7 +543,7 @@ export default function Home() {
                 <span className="text-brand-300">em cada atendimento.</span>
               </Heading>
               <a href={reviews} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 w-fit shrink-0 flex-col items-start gap-3 border-b border-brand-300/30 pb-4 text-brand-100 transition-colors hover:text-brand-300">
-                <span className="font-display text-2xl">Relatos de quem foi atendido</span>
+                <span className="inline-flex items-center gap-3 font-display text-2xl"><Star size={20} fill="currentColor" aria-hidden="true" /> {brand.googleRating} no Google</span>
                 <span className="inline-flex items-center gap-2 text-sm">{brand.googleReviewCount} avaliações no Google <ArrowUpRight size={15} aria-hidden="true" /></span>
               </a>
             </div>
@@ -555,7 +555,7 @@ export default function Home() {
                   </div>
                   <figcaption className="border-t border-brand-300/15 pt-5">
                     <p className="text-sm font-semibold text-white">{testimonial.name}</p>
-                    <a href={testimonial.source} target="_blank" rel="noopener noreferrer" className="mt-1 inline-flex min-h-11 items-center gap-2 text-xs text-brand-200 underline-offset-4 hover:underline">Avaliação publicada no Google<ArrowUpRight size={12} aria-hidden="true" /></a>
+                    <a href={testimonial.source} target="_blank" rel="noopener noreferrer" className="mt-1 inline-flex min-h-11 items-center gap-2 text-xs text-brand-200 underline-offset-4 hover:underline">Ver perfil no Google<ArrowUpRight size={12} aria-hidden="true" /></a>
                   </figcaption>
                 </figure>
               ))}
@@ -578,7 +578,7 @@ export default function Home() {
             <div>
               <Heading
 
-                description="Precisa de orientação sobre trabalho, previdência ou família? Fale com a Dra. Heloísa e receba informações para agendar seu atendimento."
+                description="Tem dúvidas sobre aposentadoria ou benefícios do INSS? Fale com a Dra. Danielle para agendar seu atendimento."
               >
                 Um primeiro contato com{" "}
                 <span className="text-brand-700">tranquilidade.</span>
@@ -590,7 +590,7 @@ export default function Home() {
                   size="lg"
                   className="rounded-sm"
                 >
-                  <WhatsAppMark size={17} /> Converse com a Dra. Heloísa
+                  <WhatsAppMark size={17} /> Converse com a Dra. Danielle
                 </GlowingButton>
                 <a href={telephone} className="inline-flex min-h-11 items-center gap-2 text-sm text-brand-700 hover:text-brand-800"><Phone size={16} /> Ligue: {brand.phone}</a>
                 <a href={brand.instagram} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center gap-2 py-2 text-sm text-brand-700 hover:text-brand-800"><Camera size={16} /> {brand.instagramHandle}</a>
@@ -602,10 +602,10 @@ export default function Home() {
                   <MapPin size={21} strokeWidth={1.6} />
                 </span>
                 <div>
-                  <h3 className="font-display text-2xl text-ink">Encontre o escritório em Andradas</h3>
+                  <h3 className="font-display text-2xl text-ink">Encontre o escritório em Patos de Minas</h3>
                 </div>
               </div>
-              <p className="mt-6 text-sm font-semibold text-brand-700">Heloísa de Almeida · Advocacia</p>
+              <p className="mt-6 text-sm font-semibold text-brand-700">Danielle Maria · Advocacia</p>
               <address className="mt-2 max-w-md not-italic text-[14px] leading-7 text-ink-soft">
                 {brand.address}
               </address>
@@ -648,11 +648,11 @@ export default function Home() {
         <footer className="brand-footer bg-brand-950 px-5 py-12 text-brand-100 sm:px-8 lg:px-12">
           <div className="mx-auto grid max-w-7xl gap-10 sm:grid-cols-2 lg:grid-cols-[1.1fr_0.9fr_1fr]">
             <div>
-              <div className="inline-flex max-w-full py-2">
+              <div className="inline-flex max-w-full bg-ivory px-4 py-3">
                 <BrandSignature />
               </div>
               <p className="mt-4 max-w-xs text-xs leading-6 text-ink-soft">
-                Orientação jurídica com escuta, clareza e atenção à sua história. Andradas, Minas Gerais.
+                Advocacia previdenciária com escuta, clareza e atenção à sua história. Patos de Minas, Minas Gerais.
               </p>
             </div>
             <div>
@@ -664,7 +664,7 @@ export default function Home() {
                   Áreas de atuação
                 </a>
                 <a className="footer-link" href="#sobre">
-                  Conheça a Heloísa
+                  Conheça a Danielle
                 </a>
                 <a className="footer-link" href="#avaliacoes">
                   Perfil no Google

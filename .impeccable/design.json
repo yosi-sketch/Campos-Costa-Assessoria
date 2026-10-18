@@ -1,263 +1,262 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-18T07:56:47.2362796Z",
-  "title": "Design System: Heloísa de Almeida",
+  "generatedAt": "2026-10-18T14:34:15.7899665Z",
+  "title": "Design System: Danielle Maria",
   "extensions": {
     "colorMeta": {
       "ink": {
         "role": "neutral",
         "displayName": "ink",
-        "canonical": "#29251f",
+        "canonical": "#302c2c",
         "tonalRamp": [
-          "#191713",
-          "#29251f",
-          "#2a251e",
-          "#655e53",
-          "#dfd5c4",
-          "#f1eadd",
-          "#f8f5ef",
-          "#fffdf8"
+          "#242122",
+          "#302c2c",
+          "#342d2a",
+          "#6b605c",
+          "#e0d4ca",
+          "#f1e8df",
+          "#f8f4ef",
+          "#fffdfb"
         ]
       },
       "ink-soft": {
         "role": "neutral",
         "displayName": "ink-soft",
-        "canonical": "#655e53",
+        "canonical": "#6b605c",
         "tonalRamp": [
-          "#191713",
-          "#29251f",
-          "#2a251e",
-          "#655e53",
-          "#dfd5c4",
-          "#f1eadd",
-          "#f8f5ef",
-          "#fffdf8"
+          "#242122",
+          "#302c2c",
+          "#342d2a",
+          "#6b605c",
+          "#e0d4ca",
+          "#f1e8df",
+          "#f8f4ef",
+          "#fffdfb"
         ]
       },
       "paper": {
         "role": "neutral",
         "displayName": "paper",
-        "canonical": "#fffdf8",
+        "canonical": "#fffdfb",
         "tonalRamp": [
-          "#191713",
-          "#29251f",
-          "#2a251e",
-          "#655e53",
-          "#dfd5c4",
-          "#f1eadd",
-          "#f8f5ef",
-          "#fffdf8"
+          "#242122",
+          "#302c2c",
+          "#342d2a",
+          "#6b605c",
+          "#e0d4ca",
+          "#f1e8df",
+          "#f8f4ef",
+          "#fffdfb"
         ]
       },
       "ivory": {
         "role": "neutral",
         "displayName": "ivory",
-        "canonical": "#f8f5ef",
+        "canonical": "#f8f4ef",
         "tonalRamp": [
-          "#191713",
-          "#29251f",
-          "#2a251e",
-          "#655e53",
-          "#dfd5c4",
-          "#f1eadd",
-          "#f8f5ef",
-          "#fffdf8"
+          "#242122",
+          "#302c2c",
+          "#342d2a",
+          "#6b605c",
+          "#e0d4ca",
+          "#f1e8df",
+          "#f8f4ef",
+          "#fffdfb"
         ]
       },
       "linen": {
         "role": "neutral",
         "displayName": "linen",
-        "canonical": "#dfd5c4",
+        "canonical": "#e0d4ca",
         "tonalRamp": [
-          "#191713",
-          "#29251f",
-          "#2a251e",
-          "#655e53",
-          "#dfd5c4",
-          "#f1eadd",
-          "#f8f5ef",
-          "#fffdf8"
+          "#242122",
+          "#302c2c",
+          "#342d2a",
+          "#6b605c",
+          "#e0d4ca",
+          "#f1e8df",
+          "#f8f4ef",
+          "#fffdfb"
         ]
       },
       "brand-50": {
         "role": "primary",
         "displayName": "brand-50",
-        "canonical": "#f1eadd",
+        "canonical": "#f1e8df",
         "tonalRamp": [
-          "#191713",
-          "#2a251e",
-          "#584123",
-          "#76572d",
-          "#9a783e",
-          "#c09050",
-          "#d8b87c",
-          "#f1eadd"
+          "#242122",
+          "#342d2a",
+          "#594032",
+          "#755542",
+          "#95765e",
+          "#b09070",
+          "#d0b090",
+          "#f1e8df"
         ]
       },
       "brand-100": {
         "role": "primary",
         "displayName": "brand-100",
-        "canonical": "#ece1cd",
+        "canonical": "#eadcd0",
         "tonalRamp": [
-          "#191713",
-          "#2a251e",
-          "#584123",
-          "#76572d",
-          "#9a783e",
-          "#c09050",
-          "#d8b87c",
-          "#f1eadd"
+          "#242122",
+          "#342d2a",
+          "#594032",
+          "#755542",
+          "#95765e",
+          "#b09070",
+          "#d0b090",
+          "#f1e8df"
         ]
       },
       "brand-200": {
         "role": "primary",
         "displayName": "brand-200",
-        "canonical": "#ead4a6",
+        "canonical": "#e3c9b3",
         "tonalRamp": [
-          "#191713",
-          "#2a251e",
-          "#584123",
-          "#76572d",
-          "#9a783e",
-          "#c09050",
-          "#d8b87c",
-          "#f1eadd"
+          "#242122",
+          "#342d2a",
+          "#594032",
+          "#755542",
+          "#95765e",
+          "#b09070",
+          "#d0b090",
+          "#f1e8df"
         ]
       },
       "brand-300": {
         "role": "primary",
         "displayName": "brand-300",
-        "canonical": "#d8b87c",
+        "canonical": "#d0b090",
         "tonalRamp": [
-          "#191713",
-          "#2a251e",
-          "#584123",
-          "#76572d",
-          "#9a783e",
-          "#c09050",
-          "#d8b87c",
-          "#f1eadd"
+          "#242122",
+          "#342d2a",
+          "#594032",
+          "#755542",
+          "#95765e",
+          "#b09070",
+          "#d0b090",
+          "#f1e8df"
         ]
       },
       "brand-400": {
         "role": "primary",
         "displayName": "brand-400",
-        "canonical": "#c9a25f",
+        "canonical": "#c0a080",
         "tonalRamp": [
-          "#191713",
-          "#2a251e",
-          "#584123",
-          "#76572d",
-          "#9a783e",
-          "#c09050",
-          "#d8b87c",
-          "#f1eadd"
+          "#242122",
+          "#342d2a",
+          "#594032",
+          "#755542",
+          "#95765e",
+          "#b09070",
+          "#d0b090",
+          "#f1e8df"
         ]
       },
       "brand-500": {
         "role": "primary",
         "displayName": "brand-500",
-        "canonical": "#c09050",
+        "canonical": "#b09070",
         "tonalRamp": [
-          "#191713",
-          "#2a251e",
-          "#584123",
-          "#76572d",
-          "#9a783e",
-          "#c09050",
-          "#d8b87c",
-          "#f1eadd"
+          "#242122",
+          "#342d2a",
+          "#594032",
+          "#755542",
+          "#95765e",
+          "#b09070",
+          "#d0b090",
+          "#f1e8df"
         ]
       },
       "brand-600": {
         "role": "secondary",
         "displayName": "brand-600",
-        "canonical": "#9a783e",
+        "canonical": "#95765e",
         "tonalRamp": [
-          "#191713",
-          "#2a251e",
-          "#584123",
-          "#76572d",
-          "#9a783e",
-          "#c09050",
-          "#d8b87c",
-          "#f1eadd"
+          "#242122",
+          "#342d2a",
+          "#594032",
+          "#755542",
+          "#95765e",
+          "#b09070",
+          "#d0b090",
+          "#f1e8df"
         ]
       },
       "brand-700": {
         "role": "secondary",
         "displayName": "brand-700",
-        "canonical": "#76572d",
+        "canonical": "#755542",
         "tonalRamp": [
-          "#191713",
-          "#2a251e",
-          "#584123",
-          "#76572d",
-          "#9a783e",
-          "#c09050",
-          "#d8b87c",
-          "#f1eadd"
+          "#242122",
+          "#342d2a",
+          "#594032",
+          "#755542",
+          "#95765e",
+          "#b09070",
+          "#d0b090",
+          "#f1e8df"
         ]
       },
       "brand-800": {
         "role": "secondary",
         "displayName": "brand-800",
-        "canonical": "#584123",
+        "canonical": "#594032",
         "tonalRamp": [
-          "#191713",
-          "#2a251e",
-          "#584123",
-          "#76572d",
-          "#9a783e",
-          "#c09050",
-          "#d8b87c",
-          "#f1eadd"
+          "#242122",
+          "#342d2a",
+          "#594032",
+          "#755542",
+          "#95765e",
+          "#b09070",
+          "#d0b090",
+          "#f1e8df"
         ]
       },
       "brand-900": {
         "role": "neutral",
         "displayName": "brand-900",
-        "canonical": "#2a251e",
+        "canonical": "#342d2a",
         "tonalRamp": [
-          "#191713",
-          "#2a251e",
-          "#584123",
-          "#76572d",
-          "#9a783e",
-          "#c09050",
-          "#d8b87c",
-          "#f1eadd"
+          "#242122",
+          "#302c2c",
+          "#342d2a",
+          "#6b605c",
+          "#e0d4ca",
+          "#f1e8df",
+          "#f8f4ef",
+          "#fffdfb"
         ]
       },
       "brand-950": {
         "role": "neutral",
         "displayName": "brand-950",
-        "canonical": "#191713",
+        "canonical": "#242122",
         "tonalRamp": [
-          "#191713",
-          "#2a251e",
-          "#584123",
-          "#76572d",
-          "#9a783e",
-          "#c09050",
-          "#d8b87c",
-          "#f1eadd"
+          "#242122",
+          "#302c2c",
+          "#342d2a",
+          "#6b605c",
+          "#e0d4ca",
+          "#f1e8df",
+          "#f8f4ef",
+          "#fffdfb"
         ]
       },
-      "gold-border": {
+      "champagne-divider": {
         "role": "primary",
-        "displayName": "gold-border",
-        "canonical": "rgb(216 184 124 / 40%)",
+        "displayName": "champagne-divider",
+        "canonical": "rgb(208 176 144 / 25%)",
         "tonalRamp": [
-          "rgb(216 184 124 / 40%)"
-        ]
-      },
-      "gold-divider": {
-        "role": "primary",
-        "displayName": "gold-divider",
-        "canonical": "rgb(216 184 124 / 25%)",
-        "tonalRamp": [
-          "rgb(216 184 124 / 25%)"
+          "rgb(36 33 34 / 25%)",
+          "rgb(52 45 42 / 25%)",
+          "rgb(89 64 50 / 25%)",
+          "rgb(117 85 66 / 25%)",
+          "rgb(149 118 94 / 25%)",
+          "rgb(176 144 112 / 25%)",
+          "rgb(208 176 144 / 25%)",
+          "rgb(241 232 223 / 25%)"
         ]
       }
     },
@@ -288,15 +287,27 @@
       },
       "title": {
         "displayName": "title",
-        "purpose": "Serviços"
+        "purpose": "Títulos dos temas"
       },
       "title-mobile": {
         "displayName": "title-mobile",
-        "purpose": "Serviços"
+        "purpose": "Títulos dos temas"
       },
       "dialog-mobile": {
         "displayName": "dialog-mobile",
-        "purpose": "Diálogo"
+        "purpose": "Título do diálogo"
+      },
+      "dialog-tablet": {
+        "displayName": "dialog-tablet",
+        "purpose": "Título do diálogo"
+      },
+      "value-mobile": {
+        "displayName": "value-mobile",
+        "purpose": "Faixa de valores de atendimento"
+      },
+      "value-tablet": {
+        "displayName": "value-tablet",
+        "purpose": "Faixa de valores de atendimento"
       },
       "body": {
         "displayName": "body",
@@ -310,10 +321,6 @@
         "displayName": "intro",
         "purpose": "Leitura e controles"
       },
-      "label": {
-        "displayName": "label",
-        "purpose": "Leitura e controles"
-      },
       "small": {
         "displayName": "small",
         "purpose": "Leitura e controles"
@@ -321,121 +328,160 @@
       "metadata": {
         "displayName": "metadata",
         "purpose": "Leitura e controles"
+      },
+      "label": {
+        "displayName": "label",
+        "purpose": "Leitura e controles"
       }
     },
     "shadows": [
       {
+        "value": "0 18px 48px rgb(48 44 44 / 18%)",
         "name": "dialog",
-        "value": "0 18px 48px rgb(41 37 31 / 18%)",
         "purpose": "Diálogo de detalhes"
       }
     ],
     "motion": [
       {
-        "name": "signature",
         "value": "1s cubic-bezier(0.16, 1, 0.3, 1)",
-        "purpose": "Revelação do retrato por clip-path"
+        "name": "signature",
+        "purpose": "Revelação da fotografia institucional por clip-path"
       },
       {
-        "name": "controls",
-        "value": "180–200ms",
-        "purpose": "Cor e sublinhado de controles"
+        "value": "180ms ease",
+        "name": "navigation",
+        "purpose": "Cor e sublinhado da navegação"
       },
       {
-        "name": "dialog",
+        "value": "200ms",
+        "name": "button",
+        "purpose": "Cor e borda do botão compartilhado"
+      },
+      {
+        "value": "220ms",
+        "name": "mobile-menu",
+        "purpose": "Abertura e fechamento do menu móvel"
+      },
+      {
         "value": "240ms",
+        "name": "dialog",
         "purpose": "Abertura e fechamento do diálogo"
       },
       {
-        "name": "reduced-motion",
+        "value": "680ms cubic-bezier(0.22, 1, 0.36, 1)",
+        "name": "content",
+        "purpose": "Variantes de revelação do conteúdo"
+      },
+      {
+        "value": "staggerChildren:0.1s; delayChildren:0.04s",
+        "name": "stagger",
+        "purpose": "Sequenciamento dos grupos"
+      },
+      {
         "value": "animation:none; transition-duration:0.01ms; reducedMotion:user",
-        "purpose": "Respeitar a preferência de movimento"
+        "name": "reduced-motion",
+        "purpose": "Preferência de movimento prevista em CSS e MotionConfig"
       }
     ],
     "breakpoints": [
       {
-        "name": "sm",
-        "value": "640px"
+        "value": "640px",
+        "name": "sm"
       },
       {
-        "name": "md",
-        "value": "768px"
+        "value": "768px",
+        "name": "md"
       },
       {
-        "name": "lg",
-        "value": "1024px"
+        "value": "1024px",
+        "name": "lg"
       }
     ]
   },
   "components": [
     {
-      "html": "<a class=\"ds-cta\" href=\"https://wa.me/5535998868578\">Converse com a Dra. Heloísa</a>",
-      "kind": "button",
-      "description": "Contato pelo WhatsApp da Dra. Heloísa.",
-      "refersTo": "button-primary",
       "name": "Botão principal",
-      "css": ".ds-cta{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:14px 24px;border:1px solid #d8b87c;border-radius:4px;background:#d8b87c;color:#29251f;font:600 14px/20px \"Source Sans 3\",sans-serif;text-decoration:none}.ds-cta:hover{background:#ead4a6}.ds-cta:focus-visible{outline:2px solid #76572d;outline-offset:4px}"
-    },
-    {
-      "kind": "nav",
-      "name": "Navegação",
-      "description": "Navegação sobre preto quente; menu móvel sobre marfim com foco bronze.",
-      "css": ".ds-nav{display:flex;flex-wrap:wrap;gap:28px;padding:20px;background:#191713}.ds-nav a{padding:12px 0;color:#ece1cd;font:600 15px/1.5 \"Source Sans 3\",sans-serif;text-decoration:none}.ds-nav a:hover{color:#d8b87c}.ds-nav a:focus-visible{outline:2px solid #d8b87c;outline-offset:4px}.brand-header #mobile-navigation :focus-visible{outline-color:#76572d}",
-      "html": "<nav class=\"ds-nav\"><a href=\"#inicio\">Início</a><a href=\"#atuacao\">Atendimento</a><a href=\"#sobre\">Sobre</a><a href=\"#contato\">Contato</a></nav>"
-    },
-    {
-      "kind": "custom",
-      "name": "Tema de atendimento",
-      "description": "Trabalho, Previdenciário e Família; detalhes em diálogo acessível com WhatsApp contextual.",
-      "css": ".ds-service{padding:32px 0;border-block:1px solid rgb(41 37 31 / 15%);background:#f8f5ef}.ds-service h3{margin:0;color:#29251f;font:400 1.8rem/1.25 \"Bodoni Moda\",Georgia,serif;letter-spacing:-.025em}.ds-service p{max-width:36rem;color:#655e53;font:400 16px/28px \"Source Sans 3\",sans-serif}.ds-service button{min-height:44px;border:0;background:transparent;color:#584123;font:600 12px/16px \"Source Sans 3\",sans-serif;cursor:pointer}.ds-service button:focus-visible{outline:2px solid #76572d;outline-offset:4px}",
-      "html": "<article class=\"ds-service\"><h3>Direito do Trabalho</h3><p>Orientação para compreender seus direitos e as questões que fazem parte da sua relação de trabalho.</p><button type=\"button\" aria-haspopup=\"dialog\">Saiba mais</button></article>"
-    },
-    {
-      "kind": "custom",
-      "name": "FAQ",
-      "description": "Expansão nativa, orientação documental conforme a demanda.",
-      "css": ".ds-faq{padding:24px 0;border-block:1px solid rgb(41 37 31 / 15%);color:#29251f;font:400 14px/28px \"Source Sans 3\",sans-serif}.ds-faq summary{cursor:pointer;font-weight:600}.ds-faq p{color:#655e53}.ds-faq summary:focus-visible{outline:2px solid #76572d;outline-offset:4px}",
-      "html": "<details class=\"ds-faq\"><summary>Quais documentos devo separar?</summary><p>Os documentos variam conforme o assunto. Durante o agendamento, informe brevemente sua dúvida para receber orientação sobre os documentos pertinentes à consulta.</p></details>"
-    },
-    {
       "kind": "button",
-      "name": "Contato secundário",
-      "description": "Telefone e Instagram @heloalmeida.adv.",
-      "css": ".ds-contact{display:inline-flex;align-items:center;min-height:44px;color:#76572d;font:400 14px/20px \"Source Sans 3\",sans-serif;text-decoration:none}.ds-contact:hover{color:#584123}.ds-contact:focus-visible{outline:2px solid #76572d;outline-offset:4px}",
-      "html": "<a class=\"ds-contact\" href=\"tel:+5535998868578\">Ligue: (35) 99886-8578</a>"
+      "refersTo": "button-primary",
+      "description": "WhatsApp de Danielle Maria; tamanho padrão.",
+      "html": "<a class=\"ds-cta\" href=\"https://wa.me/5534999089393\">Converse com a Dra. Danielle</a>",
+      "css": ".ds-cta{display:inline-flex;align-items:center;justify-content:center;min-height:44px;max-width:100%;padding:14px 24px;border:1px solid var(--color-brand-300,#d0b090);border-radius:4px;background:var(--color-brand-300,#d0b090);color:var(--color-ink,#302c2c);font:600 14px/20px \"Source Sans 3\",sans-serif;text-align:center;text-decoration:none;transition:background-color 200ms,border-color 200ms}.ds-cta:hover{border-color:var(--color-brand-200,#e3c9b3);background:var(--color-brand-200,#e3c9b3)}.ds-cta:focus-visible{outline:2px solid var(--color-brand-700,#755542);outline-offset:3px}"
     },
     {
+      "name": "Botão final",
+      "kind": "button",
+      "refersTo": "button-dark",
+      "description": "Ação grafite na faixa champanhe de encerramento.",
+      "html": "<div class=\"ds-final\"><a class=\"ds-dark\" href=\"https://wa.me/5534999089393\">Fale pelo WhatsApp</a></div>",
+      "css": ".ds-final{padding:24px;background:var(--color-brand-300,#d0b090)}.ds-dark{display:inline-flex;align-items:center;min-height:44px;padding:16px 24px;border-radius:4px;background:var(--color-brand-950,#242122);color:var(--color-brand-100,#eadcd0);font:600 14px/20px \"Source Sans 3\",sans-serif;text-decoration:none;transition:background-color 150ms}.ds-dark:hover{background:var(--color-brand-900,#342d2a)}.ds-dark:focus-visible{outline:2px solid var(--color-brand-700,#755542);outline-offset:4px}"
+    },
+    {
+      "name": "Navegação",
+      "kind": "nav",
+      "description": "Cabeçalho claro com links bronze no hover e sublinhado fino.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navegação principal\"><a href=\"#inicio\">Início</a><a href=\"#atuacao\">Atendimento</a><a href=\"#sobre\">Sobre</a><a href=\"#avaliacoes\">Avaliações</a><a href=\"#contato\">Contato</a></nav>",
+      "css": ".ds-nav{display:flex;flex-wrap:wrap;gap:28px;padding:20px;background:var(--color-paper,#fffdfb)}.ds-nav a{position:relative;padding:12px 0;color:var(--color-ink-soft,#6b605c);font:600 15px/22.5px \"Source Sans 3\",sans-serif;text-decoration:none;transition:color 180ms ease}.ds-nav a::after{position:absolute;inset:auto 0 0;height:1px;background:var(--color-brand-700,#755542);content:\"\";transform:scaleX(0);transform-origin:left;transition:transform 180ms ease}.ds-nav a:hover{color:var(--color-brand-700,#755542)}.ds-nav a:hover::after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:2px solid var(--color-brand-700,#755542);outline-offset:4px}"
+    },
+    {
+      "name": "Tema de atendimento",
       "kind": "custom",
+      "description": "Linha previdenciária; trecho visual do acionador cujo diálogo é gerenciado pela aplicação.",
+      "html": "<article class=\"ds-service\"><h3>Aposentadorias</h3><p>Entenda sua trajetória de contribuição e os caminhos para solicitar sua aposentadoria.</p><button type=\"button\" aria-haspopup=\"dialog\">Saiba mais</button></article>",
+      "css": ".ds-service{padding:32px 0;border-block:1px solid rgb(48 44 44 / 15%);background:var(--color-ivory,#f8f4ef)}.ds-service h3{margin:0;color:var(--color-ink,#302c2c);font:400 1.55rem/1.25 \"Bodoni Moda\",Georgia,serif;letter-spacing:-.025em}.ds-service p{max-width:36rem;color:var(--color-ink-soft,#6b605c);font:400 16px/28px \"Source Sans 3\",sans-serif}.ds-service button{display:inline-flex;align-items:center;min-height:44px;padding:0;border:0;background:transparent;color:var(--color-brand-800,#594032);font:600 12px/16px \"Source Sans 3\",sans-serif;cursor:pointer}.ds-service button:hover{color:var(--color-brand-700,#755542)}.ds-service button:focus-visible{outline:2px solid var(--color-brand-700,#755542);outline-offset:4px}@media(min-width:640px){.ds-service{padding:36px 0}.ds-service h3{font-size:1.8rem}}"
+    },
+    {
+      "name": "FAQ",
+      "kind": "custom",
+      "description": "Expansão nativa com pergunta e orientação documental da página.",
+      "html": "<details class=\"ds-faq\"><summary>Quais documentos devo separar?</summary><p>Os documentos variam conforme o assunto. Durante o agendamento, informe brevemente sua dúvida para receber orientação sobre os documentos pertinentes à consulta.</p></details>",
+      "css": ".ds-faq{padding:24px 0;border-block:1px solid rgb(48 44 44 / 15%);background:var(--color-brand-50,#f1e8df);color:var(--color-ink,#302c2c);font:400 14px/28px \"Source Sans 3\",sans-serif}.ds-faq summary{cursor:pointer;font-size:16px;font-weight:600;line-height:24px}.ds-faq summary::marker{color:var(--color-brand-700,#755542)}.ds-faq p{margin-top:16px;max-width:36rem;color:var(--color-ink-soft,#6b605c)}.ds-faq summary:focus-visible{outline:2px solid var(--color-brand-700,#755542);outline-offset:4px}"
+    },
+    {
+      "name": "Contato secundário",
+      "kind": "button",
+      "description": "Telefone fornecido; Instagram @daniellemariaadvocacia na mesma família de links.",
+      "html": "<a class=\"ds-contact\" href=\"tel:+5534999089393\">Ligue: (34) 99908-9393</a>",
+      "css": ".ds-contact{display:inline-flex;align-items:center;min-height:44px;color:var(--color-brand-700,#755542);font:400 14px/20px \"Source Sans 3\",sans-serif;text-decoration:none}.ds-contact:hover{color:var(--color-brand-800,#594032)}.ds-contact:focus-visible{outline:2px solid var(--color-brand-700,#755542);outline-offset:4px}"
+    },
+    {
+      "name": "Relato",
+      "kind": "card",
+      "description": "Transcrição fornecida por Andrea Cristine; link para o perfil do escritório, sem avaliação individual.",
+      "html": "<figure class=\"ds-review\"><blockquote><p>“Excelente trabalho, sempre nos auxiliando com paciência e prestatividade.”</p></blockquote><figcaption><strong>Andrea Cristine</strong><a href=\"https://www.google.com/maps?cid=6512141540918169075\">Ver perfil no Google</a></figcaption></figure>",
+      "css": ".ds-review{display:flex;flex-direction:column;justify-content:space-between;gap:32px;margin:0;padding:32px 24px;background:var(--color-brand-900,#342d2a);color:var(--color-brand-100,#eadcd0);font-family:\"Source Sans 3\",sans-serif}.ds-review blockquote{margin:24px 0 0;font-size:16px;line-height:32px}.ds-review blockquote p{margin:0}.ds-review figcaption{border-top:1px solid rgb(208 176 144 / 15%);padding-top:20px}.ds-review strong{display:block;color:white;font-size:14px;line-height:20px;font-weight:600}.ds-review a{display:inline-flex;align-items:center;min-height:44px;margin-top:4px;color:var(--color-brand-200,#e3c9b3);font-size:12px;line-height:16px;text-decoration:none;text-underline-offset:4px}.ds-review a:hover{text-decoration:underline}.ds-review a:focus-visible{outline:2px solid var(--color-brand-300,#d0b090);outline-offset:4px}@media(min-width:640px){.ds-review{padding:40px 32px}}"
+    },
+    {
       "name": "Avaliações no Google",
-      "description": "Quatro relatos fornecidos com autoria e links individuais; dez avaliações no material de 18/10/2026. Sem nota média ou classificação por estrelas.",
-      "css": ".ds-reviews{display:inline-flex;align-items:center;min-height:44px;padding:20px;background:#191713;color:#ece1cd;font:400 14px/20px \"Source Sans 3\",sans-serif}.ds-reviews:hover{color:#d8b87c}.ds-reviews:focus-visible{outline:2px solid #d8b87c;outline-offset:4px}",
-      "html": "<a class=\"ds-reviews\" href=\"https://www.google.com/maps?cid=2661713746485173089\">10 avaliações no Google</a>"
+      "kind": "custom",
+      "description": "Nota informada 5,0 e 72 avaliações no material de 18/10/2026; sem atualização automática.",
+      "html": "<a class=\"ds-reviews\" href=\"https://www.google.com/maps?cid=6512141540918169075\"><span>5,0 no Google</span><small>72 avaliações no Google</small></a>",
+      "css": ".ds-reviews{display:inline-flex;flex-direction:column;align-items:flex-start;gap:12px;min-height:44px;padding:20px 20px 16px;border-bottom:1px solid rgb(208 176 144 / 30%);background:var(--color-brand-900,#342d2a);color:var(--color-brand-100,#eadcd0);text-decoration:none;transition:color 150ms}.ds-reviews span{font:400 24px/32px \"Bodoni Moda\",Georgia,serif;letter-spacing:-.025em}.ds-reviews small{font:400 14px/20px \"Source Sans 3\",sans-serif}.ds-reviews:hover{color:var(--color-brand-300,#d0b090)}.ds-reviews:focus-visible{outline:2px solid var(--color-brand-300,#d0b090);outline-offset:4px}"
     }
   ],
   "narrative": {
     "northStar": "Escuta com presença",
-    "overview": "Logo dourado Móia Advogados, superfícies de preto quente e leitura em marfim para uma advocacia próxima em Andradas. A identidade combina contraste editorial com contato direto.",
+    "overview": "A identidade de Danielle Maria combina logo original transparente, superfícies grafite e áreas de leitura em marfim. O cabeçalho claro recebe a marca íntegra; o contraste editorial acompanha uma apresentação próxima e direta da advocacia previdenciária.\n\nBodoni Moda mantém a relação entre serifas de alto contraste e o desenho do logo. Source Sans 3 organiza a leitura e os controles. A fotografia institucional fornecida aparece integralmente, sem atribuir identidades às duas mulheres retratadas.",
     "keyCharacteristics": [
       "Bodoni Moda nos títulos e Source Sans 3 na leitura e nos controles.",
-      "Dourado nas ações sobre preto quente; bronze profundo nos links sobre claro.",
-      "Superfícies planas, divisórias finas e dois retratos fornecidos."
+      "Champanhe nas ações sobre grafite; bronze profundo nos destaques sobre claro.",
+      "Logo íntegro em superfícies claras e fotografia institucional sem corte."
     ],
     "rules": [
       {
         "section": "colors",
         "name": "The Contrast Rule",
-        "body": "Usar bronze profundo sobre claro e dourado sobre preto quente; preservar foco visível em cada superfície."
+        "body": "Usar bronze profundo sobre claro e champanhe sobre grafite; preservar foco visível em cada superfície."
       }
     ],
     "dos": [
-      "Preservar os dois retratos e o logo Móia Advogados fornecido.",
-      "Manter leitura responsiva, foco visível e movimento reduzido.",
-      "Usar apenas fatos, contatos e relatos fornecidos."
+      "Do preservar o logo original transparente e a fotografia institucional integral.",
+      "Do manter leitura responsiva, foco visível e movimento reduzido.",
+      "Do usar apenas fatos, contatos e relatos fornecidos, com data e origem."
     ],
     "donts": [
-      "Distorcer, recortar ou recolorir o logo original.",
-      "Inventar especializações, resultados, nota média ou estrelas.",
-      "Usar dourado como texto pequeno sobre branco."
+      "Don't distorcer, recortar ou recolorir o logo original.",
+      "Don't atribuir identidades às mulheres da foto sem informação fornecida.",
+      "Don't inventar credenciais, resultados, contatos ou avaliações."
     ]
   }
 }

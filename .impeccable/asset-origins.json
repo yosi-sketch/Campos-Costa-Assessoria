@@ -1,31 +1,22 @@
 {
-  "client": "Heloísa de Almeida — Advogada",
+  "client": "Danielle Maria — Advogada Previdenciarista",
   "assets": [
     {
-      "source": "C:/Users/matheus/AppData/Local/Temp/codex-clipboard-2383565a-7839-475d-8d5b-600e7af5227a.png",
-      "destination": "public/heloisa-almeida-retrato.png",
-      "width": 438,
-      "height": 510,
-      "sha256": "8e743bb4567f602fc862823cc982df8d0cf2af71a0f6338b4328449adfa8cc3c",
-      "sourceSha256": "8e743bb4567f602fc862823cc982df8d0cf2af71a0f6338b4328449adfa8cc3c",
+      "source": "C:/Users/matheus/Downloads/Logotipo Danielle Maria Advogada.png",
+      "destination": "public/danielle-maria-logo.png",
+      "width": 2172,
+      "height": 724,
+      "sha256": "7b7ad8725fd5d04a025316e0796a521c83ad83f09c7ec5023ceb22e43fe517bc",
+      "sourceSha256": "7b7ad8725fd5d04a025316e0796a521c83ad83f09c7ec5023ceb22e43fe517bc",
       "identicalToSource": true
     },
     {
-      "source": "C:/Users/matheus/AppData/Local/Temp/codex-clipboard-b36d9835-8b00-4042-b293-6e4903b3eb86.png",
-      "destination": "public/heloisa-almeida-sobre.png",
-      "width": 393,
-      "height": 785,
-      "sha256": "1706efcd11f13cc0d1bff6cce1caf8faa912a76f11515fe27cc05525fa2cd714",
-      "sourceSha256": "1706efcd11f13cc0d1bff6cce1caf8faa912a76f11515fe27cc05525fa2cd714",
-      "identicalToSource": true
-    },
-    {
-      "source": "C:/Users/matheus/Downloads/Logo Dourado Móia Advogados com Justiça (1).png",
-      "destination": "public/moia-advogados-logo.png",
-      "width": 1983,
-      "height": 793,
-      "sha256": "d85bc2db127b01da0e7cc2302cf67625749291bfb0e10fa61c273bb2515d3018",
-      "sourceSha256": "d85bc2db127b01da0e7cc2302cf67625749291bfb0e10fa61c273bb2515d3018",
+      "source": "C:/Users/matheus/AppData/Local/Temp/codex-clipboard-aadfa228-3c6e-40f0-a7ae-8da1feb64ecf.png",
+      "destination": "public/danielle-maria-institucional.png",
+      "width": 661,
+      "height": 849,
+      "sha256": "3f9276a059b2630b88b4b5d2dd78c8e30c48f61a4d2e15ff64dd047c50c0033c",
+      "sourceSha256": "3f9276a059b2630b88b4b5d2dd78c8e30c48f61a4d2e15ff64dd047c50c0033c",
       "identicalToSource": true
     }
   ]
