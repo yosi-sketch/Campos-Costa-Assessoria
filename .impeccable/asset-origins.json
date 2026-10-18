@@ -1,0 +1,32 @@
+{
+  "client": "Heloísa de Almeida — Advogada",
+  "assets": [
+    {
+      "source": "C:/Users/matheus/AppData/Local/Temp/codex-clipboard-2383565a-7839-475d-8d5b-600e7af5227a.png",
+      "destination": "public/heloisa-almeida-retrato.png",
+      "width": 438,
+      "height": 510,
+      "sha256": "8e743bb4567f602fc862823cc982df8d0cf2af71a0f6338b4328449adfa8cc3c",
+      "sourceSha256": "8e743bb4567f602fc862823cc982df8d0cf2af71a0f6338b4328449adfa8cc3c",
+      "identicalToSource": true
+    },
+    {
+      "source": "C:/Users/matheus/AppData/Local/Temp/codex-clipboard-b36d9835-8b00-4042-b293-6e4903b3eb86.png",
+      "destination": "public/heloisa-almeida-sobre.png",
+      "width": 393,
+      "height": 785,
+      "sha256": "1706efcd11f13cc0d1bff6cce1caf8faa912a76f11515fe27cc05525fa2cd714",
+      "sourceSha256": "1706efcd11f13cc0d1bff6cce1caf8faa912a76f11515fe27cc05525fa2cd714",
+      "identicalToSource": true
+    },
+    {
+      "source": "C:/Users/matheus/Downloads/Logo Dourado Móia Advogados com Justiça (1).png",
+      "destination": "public/moia-advogados-logo.png",
+      "width": 1983,
+      "height": 793,
+      "sha256": "d85bc2db127b01da0e7cc2302cf67625749291bfb0e10fa61c273bb2515d3018",
+      "sourceSha256": "d85bc2db127b01da0e7cc2302cf67625749291bfb0e10fa61c273bb2515d3018",
+      "identicalToSource": true
+    }
+  ]
+}

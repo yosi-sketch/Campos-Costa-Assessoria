@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-18T07:56:47.2362796Z",
+  "title": "Design System: Heloísa de Almeida",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "ink",
+        "canonical": "#29251f",
+        "tonalRamp": [
+          "#191713",
+          "#29251f",
+          "#2a251e",
+          "#655e53",
+          "#dfd5c4",
+          "#f1eadd",
+          "#f8f5ef",
+          "#fffdf8"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "ink-soft",
+        "canonical": "#655e53",
+        "tonalRamp": [
+          "#191713",
+          "#29251f",
+          "#2a251e",
+          "#655e53",
+          "#dfd5c4",
+          "#f1eadd",
+          "#f8f5ef",
+          "#fffdf8"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "paper",
+        "canonical": "#fffdf8",
+        "tonalRamp": [
+          "#191713",
+          "#29251f",
+          "#2a251e",
+          "#655e53",
+          "#dfd5c4",
+          "#f1eadd",
+          "#f8f5ef",
+          "#fffdf8"
+        ]
+      },
+      "ivory": {
+        "role": "neutral",
+        "displayName": "ivory",
+        "canonical": "#f8f5ef",
+        "tonalRamp": [
+          "#191713",
+          "#29251f",
+          "#2a251e",
+          "#655e53",
+          "#dfd5c4",
+          "#f1eadd",
+          "#f8f5ef",
+          "#fffdf8"
+        ]
+      },
+      "linen": {
+        "role": "neutral",
+        "displayName": "linen",
+        "canonical": "#dfd5c4",
+        "tonalRamp": [
+          "#191713",
+          "#29251f",
+          "#2a251e",
+          "#655e53",
+          "#dfd5c4",
+          "#f1eadd",
+          "#f8f5ef",
+          "#fffdf8"
+        ]
+      },
+      "brand-50": {
+        "role": "primary",
+        "displayName": "brand-50",
+        "canonical": "#f1eadd",
+        "tonalRamp": [
+          "#191713",
+          "#2a251e",
+          "#584123",
+          "#76572d",
+          "#9a783e",
+          "#c09050",
+          "#d8b87c",
+          "#f1eadd"
+        ]
+      },
+      "brand-100": {
+        "role": "primary",
+        "displayName": "brand-100",
+        "canonical": "#ece1cd",
+        "tonalRamp": [
+          "#191713",
+          "#2a251e",
+          "#584123",
+          "#76572d",
+          "#9a783e",
+          "#c09050",
+          "#d8b87c",
+          "#f1eadd"
+        ]
+      },
+      "brand-200": {
+        "role": "primary",
+        "displayName": "brand-200",
+        "canonical": "#ead4a6",
+        "tonalRamp": [
+          "#191713",
+          "#2a251e",
+          "#584123",
+          "#76572d",
+          "#9a783e",
+          "#c09050",
+          "#d8b87c",
+          "#f1eadd"
+        ]
+      },
+      "brand-300": {
+        "role": "primary",
+        "displayName": "brand-300",
+        "canonical": "#d8b87c",
+        "tonalRamp": [
+          "#191713",
+          "#2a251e",
+          "#584123",
+          "#76572d",
+          "#9a783e",
+          "#c09050",
+          "#d8b87c",
+          "#f1eadd"
+        ]
+      },
+      "brand-400": {
+        "role": "primary",
+        "displayName": "brand-400",
+        "canonical": "#c9a25f",
+        "tonalRamp": [
+          "#191713",
+          "#2a251e",
+          "#584123",
+          "#76572d",
+          "#9a783e",
+          "#c09050",
+          "#d8b87c",
+          "#f1eadd"
+        ]
+      },
+      "brand-500": {
+        "role": "primary",
+        "displayName": "brand-500",
+        "canonical": "#c09050",
+        "tonalRamp": [
+          "#191713",
+          "#2a251e",
+          "#584123",
+          "#76572d",
+          "#9a783e",
+          "#c09050",
+          "#d8b87c",
+          "#f1eadd"
+        ]
+      },
+      "brand-600": {
+        "role": "secondary",
+        "displayName": "brand-600",
+        "canonical": "#9a783e",
+        "tonalRamp": [
+          "#191713",
+          "#2a251e",
+          "#584123",
+          "#76572d",
+          "#9a783e",
+          "#c09050",
+          "#d8b87c",
+          "#f1eadd"
+        ]
+      },
+      "brand-700": {
+        "role": "secondary",
+        "displayName": "brand-700",
+        "canonical": "#76572d",
+        "tonalRamp": [
+          "#191713",
+          "#2a251e",
+          "#584123",
+          "#76572d",
+          "#9a783e",
+          "#c09050",
+          "#d8b87c",
+          "#f1eadd"
+        ]
+      },
+      "brand-800": {
+        "role": "secondary",
+        "displayName": "brand-800",
+        "canonical": "#584123",
+        "tonalRamp": [
+          "#191713",
+          "#2a251e",
+          "#584123",
+          "#76572d",
+          "#9a783e",
+          "#c09050",
+          "#d8b87c",
+          "#f1eadd"
+        ]
+      },
+      "brand-900": {
+        "role": "neutral",
+        "displayName": "brand-900",
+        "canonical": "#2a251e",
+        "tonalRamp": [
+          "#191713",
+          "#2a251e",
+          "#584123",
+          "#76572d",
+          "#9a783e",
+          "#c09050",
+          "#d8b87c",
+          "#f1eadd"
+        ]
+      },
+      "brand-950": {
+        "role": "neutral",
+        "displayName": "brand-950",
+        "canonical": "#191713",
+        "tonalRamp": [
+          "#191713",
+          "#2a251e",
+          "#584123",
+          "#76572d",
+          "#9a783e",
+          "#c09050",
+          "#d8b87c",
+          "#f1eadd"
+        ]
+      },
+      "gold-border": {
+        "role": "primary",
+        "displayName": "gold-border",
+        "canonical": "rgb(216 184 124 / 40%)",
+        "tonalRamp": [
+          "rgb(216 184 124 / 40%)"
+        ]
+      },
+      "gold-divider": {
+        "role": "primary",
+        "displayName": "gold-divider",
+        "canonical": "rgb(216 184 124 / 25%)",
+        "tonalRamp": [
+          "rgb(216 184 124 / 25%)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "display",
+        "purpose": "Título principal"
+      },
+      "display-tablet": {
+        "displayName": "display-tablet",
+        "purpose": "Título principal"
+      },
+      "display-mobile": {
+        "displayName": "display-mobile",
+        "purpose": "Título principal"
+      },
+      "headline": {
+        "displayName": "headline",
+        "purpose": "Títulos de seção"
+      },
+      "headline-tablet": {
+        "displayName": "headline-tablet",
+        "purpose": "Títulos de seção"
+      },
+      "headline-mobile": {
+        "displayName": "headline-mobile",
+        "purpose": "Títulos de seção"
+      },
+      "title": {
+        "displayName": "title",
+        "purpose": "Serviços"
+      },
+      "title-mobile": {
+        "displayName": "title-mobile",
+        "purpose": "Serviços"
+      },
+      "dialog-mobile": {
+        "displayName": "dialog-mobile",
+        "purpose": "Diálogo"
+      },
+      "body": {
+        "displayName": "body",
+        "purpose": "Leitura e controles"
+      },
+      "body-spacious": {
+        "displayName": "body-spacious",
+        "purpose": "Leitura e controles"
+      },
+      "intro": {
+        "displayName": "intro",
+        "purpose": "Leitura e controles"
+      },
+      "label": {
+        "displayName": "label",
+        "purpose": "Leitura e controles"
+      },
+      "small": {
+        "displayName": "small",
+        "purpose": "Leitura e controles"
+      },
+      "metadata": {
+        "displayName": "metadata",
+        "purpose": "Leitura e controles"
+      }
+    },
+    "shadows": [
+      {
+        "name": "dialog",
+        "value": "0 18px 48px rgb(41 37 31 / 18%)",
+        "purpose": "Diálogo de detalhes"
+      }
+    ],
+    "motion": [
+      {
+        "name": "signature",
+        "value": "1s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Revelação do retrato por clip-path"
+      },
+      {
+        "name": "controls",
+        "value": "180–200ms",
+        "purpose": "Cor e sublinhado de controles"
+      },
+      {
+        "name": "dialog",
+        "value": "240ms",
+        "purpose": "Abertura e fechamento do diálogo"
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation:none; transition-duration:0.01ms; reducedMotion:user",
+        "purpose": "Respeitar a preferência de movimento"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "html": "<a class=\"ds-cta\" href=\"https://wa.me/5535998868578\">Converse com a Dra. Heloísa</a>",
+      "kind": "button",
+      "description": "Contato pelo WhatsApp da Dra. Heloísa.",
+      "refersTo": "button-primary",
+      "name": "Botão principal",
+      "css": ".ds-cta{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:14px 24px;border:1px solid #d8b87c;border-radius:4px;background:#d8b87c;color:#29251f;font:600 14px/20px \"Source Sans 3\",sans-serif;text-decoration:none}.ds-cta:hover{background:#ead4a6}.ds-cta:focus-visible{outline:2px solid #76572d;outline-offset:4px}"
+    },
+    {
+      "kind": "nav",
+      "name": "Navegação",
+      "description": "Navegação sobre preto quente; menu móvel sobre marfim com foco bronze.",
+      "css": ".ds-nav{display:flex;flex-wrap:wrap;gap:28px;padding:20px;background:#191713}.ds-nav a{padding:12px 0;color:#ece1cd;font:600 15px/1.5 \"Source Sans 3\",sans-serif;text-decoration:none}.ds-nav a:hover{color:#d8b87c}.ds-nav a:focus-visible{outline:2px solid #d8b87c;outline-offset:4px}.brand-header #mobile-navigation :focus-visible{outline-color:#76572d}",
+      "html": "<nav class=\"ds-nav\"><a href=\"#inicio\">Início</a><a href=\"#atuacao\">Atendimento</a><a href=\"#sobre\">Sobre</a><a href=\"#contato\">Contato</a></nav>"
+    },
+    {
+      "kind": "custom",
+      "name": "Tema de atendimento",
+      "description": "Trabalho, Previdenciário e Família; detalhes em diálogo acessível com WhatsApp contextual.",
+      "css": ".ds-service{padding:32px 0;border-block:1px solid rgb(41 37 31 / 15%);background:#f8f5ef}.ds-service h3{margin:0;color:#29251f;font:400 1.8rem/1.25 \"Bodoni Moda\",Georgia,serif;letter-spacing:-.025em}.ds-service p{max-width:36rem;color:#655e53;font:400 16px/28px \"Source Sans 3\",sans-serif}.ds-service button{min-height:44px;border:0;background:transparent;color:#584123;font:600 12px/16px \"Source Sans 3\",sans-serif;cursor:pointer}.ds-service button:focus-visible{outline:2px solid #76572d;outline-offset:4px}",
+      "html": "<article class=\"ds-service\"><h3>Direito do Trabalho</h3><p>Orientação para compreender seus direitos e as questões que fazem parte da sua relação de trabalho.</p><button type=\"button\" aria-haspopup=\"dialog\">Saiba mais</button></article>"
+    },
+    {
+      "kind": "custom",
+      "name": "FAQ",
+      "description": "Expansão nativa, orientação documental conforme a demanda.",
+      "css": ".ds-faq{padding:24px 0;border-block:1px solid rgb(41 37 31 / 15%);color:#29251f;font:400 14px/28px \"Source Sans 3\",sans-serif}.ds-faq summary{cursor:pointer;font-weight:600}.ds-faq p{color:#655e53}.ds-faq summary:focus-visible{outline:2px solid #76572d;outline-offset:4px}",
+      "html": "<details class=\"ds-faq\"><summary>Quais documentos devo separar?</summary><p>Os documentos variam conforme o assunto. Durante o agendamento, informe brevemente sua dúvida para receber orientação sobre os documentos pertinentes à consulta.</p></details>"
+    },
+    {
+      "kind": "button",
+      "name": "Contato secundário",
+      "description": "Telefone e Instagram @heloalmeida.adv.",
+      "css": ".ds-contact{display:inline-flex;align-items:center;min-height:44px;color:#76572d;font:400 14px/20px \"Source Sans 3\",sans-serif;text-decoration:none}.ds-contact:hover{color:#584123}.ds-contact:focus-visible{outline:2px solid #76572d;outline-offset:4px}",
+      "html": "<a class=\"ds-contact\" href=\"tel:+5535998868578\">Ligue: (35) 99886-8578</a>"
+    },
+    {
+      "kind": "custom",
+      "name": "Avaliações no Google",
+      "description": "Quatro relatos fornecidos com autoria e links individuais; dez avaliações no material de 18/10/2026. Sem nota média ou classificação por estrelas.",
+      "css": ".ds-reviews{display:inline-flex;align-items:center;min-height:44px;padding:20px;background:#191713;color:#ece1cd;font:400 14px/20px \"Source Sans 3\",sans-serif}.ds-reviews:hover{color:#d8b87c}.ds-reviews:focus-visible{outline:2px solid #d8b87c;outline-offset:4px}",
+      "html": "<a class=\"ds-reviews\" href=\"https://www.google.com/maps?cid=2661713746485173089\">10 avaliações no Google</a>"
+    }
+  ],
+  "narrative": {
+    "northStar": "Escuta com presença",
+    "overview": "Logo dourado Móia Advogados, superfícies de preto quente e leitura em marfim para uma advocacia próxima em Andradas. A identidade combina contraste editorial com contato direto.",
+    "keyCharacteristics": [
+      "Bodoni Moda nos títulos e Source Sans 3 na leitura e nos controles.",
+      "Dourado nas ações sobre preto quente; bronze profundo nos links sobre claro.",
+      "Superfícies planas, divisórias finas e dois retratos fornecidos."
+    ],
+    "rules": [
+      {
+        "section": "colors",
+        "name": "The Contrast Rule",
+        "body": "Usar bronze profundo sobre claro e dourado sobre preto quente; preservar foco visível em cada superfície."
+      }
+    ],
+    "dos": [
+      "Preservar os dois retratos e o logo Móia Advogados fornecido.",
+      "Manter leitura responsiva, foco visível e movimento reduzido.",
+      "Usar apenas fatos, contatos e relatos fornecidos."
+    ],
+    "donts": [
+      "Distorcer, recortar ou recolorir o logo original.",
+      "Inventar especializações, resultados, nota média ou estrelas.",
+      "Usar dourado como texto pequeno sobre branco."
+    ]
+  }
+}
