@@ -1,39 +1,41 @@
-// Dados e relatos fornecidos pela cliente em 18/10/2026; sem atualização automática.
+// Informações e transcrições fornecidas em 18/10/2026; sem atualização automática.
 export const brand = {
-  name: "Danielle Maria",
-  businessName: "Danielle Maria — Advogada Previdenciarista",
-  specialty: "Direito Previdenciário",
-  phone: "(34) 99908-9393",
-  phoneDigits: "5534999089393",
-  whatsappDigits: "5534999089393",
-  address: "Rua José de Santana, 1306 · Sala 509 · Centro · Patos de Minas — MG · CEP 38700-052",
-  location: "Patos de Minas · Minas Gerais",
-  logo: "/danielle-maria-logo.png",
-  portrait: "/danielle-maria-institucional.png",
-  googleReviewCount: 72,
+  name: "Michelle Morato",
+  businessName: "Morato Advocacia",
+  specialty: "Direito de Família",
+  phone: "(31) 2568-2738",
+  phoneDigits: "553125682738",
+  // WhatsApp confirmado pelo usuário nesta atualização.
+  whatsappDigits: "553125682738",
+  address: "Av. João César de Oliveira, 1730 · Sala 104 · Eldorado · Contagem — MG · CEP 32310-000",
+  location: "Contagem · Minas Gerais",
+  logo: "/morato-advocacia-logo.png",
+  portrait: "/michelle-morato.png",
+  googleReviewCount: 40,
   googleRating: "5,0",
-  instagram: "https://www.instagram.com/daniellemariaadvocacia/",
-  instagramHandle: "@daniellemariaadvocacia",
-  googleCid: "6512141540918169075",
+  instagram: "https://www.instagram.com/michellemoratoadvogada/",
+  instagramHandle: "@michellemoratoadvogada",
+  googleCid: "16209826547785592380",
 };
 
 export const reviews = `https://www.google.com/maps?cid=${brand.googleCid}`;
 
 // Transcrições integrais do material enviado; links levam ao perfil do escritório.
 export const testimonials = [
-  { name: "Andrea Cristine", text: "Excelente trabalho, sempre nos auxiliando com paciência e prestatividade.", source: reviews },
-  { name: "Newton Cesar", text: "Equipe atenciosa e atendimento impecável. Fui muito bem recebido e sai confiante diante do que eu vi. São excelentes profissionais.", source: reviews },
-  { name: "Giullia Santiago", text: "Fui super bem atendida, esclareceram perfeitamente minhas dúvidas e me ajudaram nas questões que eu precisava e indico demais👏🏻", source: reviews },
-  { name: "Maria Helena Beltoldo", text: "Ótimo atendimento e uma excelente experiência. Recomendo.", source: reviews },
+  { name: "frederico luiz", text: "Excelente escritório de advocacia. Está conduzindo o caso do meu irmão e também o meu com transparência, responsabilidade e profissionalismo. Atendimento claro e seguro. Recomendo.", source: reviews },
+  { name: "Felipe Couto", text: "Excelente profissional do início ao fim do processo, sempre me prestando esclarecimentos. Recomendo.", source: reviews },
+  { name: "Jessica Fontoura", text: "Profissional extremamente qualificada. Se preocupa em atender de forma individualizada, cuidando do cliente com muita excelencia.\nFaz questão simplificar a linguagem complexa do direito, para que o cliente leigo no assunto se sinta de fato seguro com relação ao seu processo.\nSuper indico!", source: reviews },
+  { name: "Leonardo Patrick Nutricionista", text: "Recomendo 100%. A Dra. Michelle é extremamente competente, criteriosa e profissional.", source: reviews },
 ];
 
-export function whatsappFor(subject?: string) {
+export function contactFor(subject?: string) {
+  if (!brand.whatsappDigits) return telephone;
   const message = subject
-    ? `Olá, Dra. Danielle! Gostaria de informações sobre ${subject}.`
-    : "Olá, Dra. Danielle! Gostaria de agendar um atendimento sobre uma questão previdenciária.";
+    ? `Olá, Dra. Michelle! Gostaria de informações sobre ${subject}.`
+    : "Olá, Dra. Michelle! Gostaria de agendar um atendimento sobre Direito de Família.";
   return `https://wa.me/${brand.whatsappDigits}?text=${encodeURIComponent(message)}`;
 }
-export const whatsapp = whatsappFor();
-export const contact = whatsapp;
 export const telephone = `tel:+${brand.phoneDigits}`;
+export const contact = contactFor();
+export const contactAction = brand.whatsappDigits ? "Fale pelo WhatsApp" : "Ligar para o escritório";
 export const maps = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${brand.businessName}, ${brand.address}`)}`;

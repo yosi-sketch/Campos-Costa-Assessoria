@@ -1,12 +1,12 @@
 import type { Metadata, Viewport } from "next";
-import { Bodoni_Moda, Source_Sans_3 } from "next/font/google";
+import { Libre_Caslon_Display, Source_Sans_3 } from "next/font/google";
 import { brand } from "./lib/brand";
 import "./globals.css";
 
-const displayFont = Bodoni_Moda({
+const displayFont = Libre_Caslon_Display({
   variable: "--font-display-face",
   subsets: ["latin"],
-  weight: ["400", "500"],
+  weight: "400",
   display: "swap",
 });
 
@@ -20,15 +20,15 @@ const bodyFont = Source_Sans_3({
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 const metadataBase = siteUrl ? new URL(siteUrl) : undefined;
 const shareImage = brand.portrait;
-const title = "Danielle Maria | Advogada Previdenciarista em Patos de Minas";
-const description = "Danielle Maria, advogada previdenciarista em Patos de Minas, MG. Aposentadorias, BPC e benefícios do INSS. Agende pelo WhatsApp (34) 99908-9393.";
+const title = "Morato Advocacia | Michelle Morato · Direito de Família em Contagem";
+const description = "Direito de Família em Contagem com Michelle Morato. Divórcio, alimentos, guarda, convivência e partilha. Atendimento presencial e online. (31) 2568-2738.";
 
 export const metadata: Metadata = {
   ...(metadataBase ? { metadataBase } : {}),
   title,
   description,
-  keywords: ["Danielle Maria", "advogada previdenciarista em Patos de Minas", "Direito Previdenciário", "aposentadorias", "BPC", "benefícios do INSS"],
-  icons: { icon: [{ url: "/icon.svg", type: "image/svg+xml" }] },
+  keywords: ["Morato Advocacia", "Michelle Morato", "advogada de família em Contagem", "divórcio", "guarda", "alimentos", "partilha"],
+  icons: { icon: [{ url: brand.logo, type: "image/png" }] },
   openGraph: {
     title,
     description,
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
       ? [
           {
             url: shareImage,
-            width: 661,
-            height: 849,
+            width: 667,
+            height: 828,
             alt: brand.businessName,
           },
         ]
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#242122",
+  themeColor: "#0b1715",
 };
 
 export default function RootLayout({

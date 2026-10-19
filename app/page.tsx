@@ -15,7 +15,7 @@ import {
   MessageCircle,
   MapPin,
   Menu,
-  Landmark,
+  Scale,
   HeartHandshake,
   ShieldCheck,
   Camera,
@@ -24,9 +24,12 @@ import {
 } from "lucide-react";
 import BrandSignature from "./components/BrandSignature";
 import GlowingButton from "./components/GlowingButton";
-import { brand, testimonials, contact, whatsapp, telephone, whatsappFor, maps, reviews } from "./lib/brand";
+import { brand, testimonials, contact, contactAction, telephone, contactFor, maps, reviews } from "./lib/brand";
 
-function WhatsAppMark({size = 16, strokeWidth = 1.8}: {size?: number; strokeWidth?: number}) { return <MessageCircle size={size} strokeWidth={strokeWidth} aria-hidden="true" />; }
+function ContactMark({size = 16, strokeWidth = 1.8}: {size?: number; strokeWidth?: number}) {
+  const Icon = brand.whatsappDigits ? MessageCircle : Phone;
+  return <Icon size={size} strokeWidth={strokeWidth} aria-hidden="true" />;
+}
 
 const reveal: Variants = {
   hidden: { opacity: 0, y: 24 },
@@ -45,22 +48,22 @@ const stagger: Variants = {
 // Temas de orientação informados pela cliente, sem atribuição de especializações.
 const areas = [
   {
-    title: "Aposentadorias", icon: Landmark,
-    summary: "Entenda sua trajetória de contribuição e os caminhos para solicitar sua aposentadoria.",
-    details: "Sua história de trabalho merece uma análise cuidadosa. O atendimento considera os documentos e o histórico de contribuições para esclarecer dúvidas sobre a aposentadoria e os próximos passos perante o INSS.",
-    topics: ["Análise do histórico de contribuições", "Orientação para pedidos de aposentadoria", "Organização da documentação previdenciária"],
+    title: "Divórcio e partilha", icon: Scale,
+    summary: "Clareza para encerrar um ciclo e compreender as decisões sobre o patrimônio construído em conjunto.",
+    details: "O fim de uma relação envolve escolhas pessoais e patrimoniais. O atendimento começa pela escuta da sua situação e pela análise dos documentos, para explicar os caminhos possíveis para o divórcio e a partilha de bens.",
+    topics: ["Orientação sobre divórcio", "Análise da situação patrimonial", "Partilha de bens"],
   },
   {
-    title: "Benefícios por incapacidade e auxílio-acidente", icon: ShieldCheck,
-    summary: "Orientação quando a saúde ou um acidente afetam sua capacidade de trabalhar.",
-    details: "Questões de saúde e acidentes exigem atenção à documentação e à realidade de cada pessoa. A consulta permite compreender a situação, analisar os documentos apresentados e conversar sobre os possíveis encaminhamentos.",
-    topics: ["Benefícios por incapacidade", "Auxílio-acidente", "Orientação sobre documentos para análise"],
+    title: "Alimentos", icon: ShieldCheck,
+    summary: "Atenção às necessidades da família e às responsabilidades de cada pessoa.",
+    details: "Dúvidas sobre pensão alimentícia merecem uma conversa cuidadosa sobre a realidade de quem precisa e de quem contribui. Na consulta, as informações e os documentos apresentados ajudam a compreender a demanda e os próximos passos.",
+    topics: ["Orientação sobre pensão alimentícia", "Análise das necessidades e responsabilidades", "Organização de documentos para a consulta"],
   },
   {
-    title: "BPC, pensão e salário-maternidade", icon: HeartHandshake,
-    summary: "Cuidado com as dúvidas sobre proteção social e os benefícios que fazem parte da sua vida.",
-    details: "O atendimento abrange BPC, pensão por morte e salário-maternidade. Cada demanda começa pela escuta e pela análise das informações apresentadas para explicar os caminhos possíveis e os documentos necessários.",
-    topics: ["Benefício de Prestação Continuada (BPC)", "Pensão por morte", "Salário-maternidade"],
+    title: "Guarda e convivência", icon: HeartHandshake,
+    summary: "Cuidado com os vínculos familiares e com as decisões que fazem parte da vida dos filhos.",
+    details: "Questões de guarda e visitas envolvem a rotina e os vínculos da família. O atendimento busca compreender o contexto, ouvir suas dúvidas e explicar as alternativas para organizar a convivência com atenção a cada situação.",
+    topics: ["Orientação sobre guarda", "Convivência familiar e visitas", "Análise individual do contexto familiar"],
   },
 ];
 
@@ -156,7 +159,7 @@ export default function Home() {
           <div className="mx-auto flex h-[104px] max-w-7xl items-center justify-between gap-5 px-5 sm:h-[112px] sm:px-8 lg:px-12">
             <a
               href="#inicio"
-              aria-label="Danielle Maria — início"
+              aria-label="Morato Advocacia — início"
               onClick={closeMenu}
               className="shrink-0"
             >
@@ -187,13 +190,13 @@ export default function Home() {
                 href={contact}
                 target="_blank"
                 rel="noreferrer"
-                aria-label="WhatsApp da Dra. Danielle Maria"
+                aria-label={`${contactAction} — Morato Advocacia`}
                 className="grid size-11 place-items-center rounded-full border border-ink/20 text-brand-700 transition-colors hover:border-brand-700 hover:bg-brand-50"
               >
-                <WhatsAppMark size={17} strokeWidth={1.7} />
+                <ContactMark size={17} strokeWidth={1.7} />
               </a>
               <GlowingButton
-                href={whatsapp}
+                href={contact}
                 target="_blank"
                 size="sm"
                 className="rounded-sm"
@@ -242,12 +245,12 @@ export default function Home() {
                   ))}
                   <a
                     className="mt-3 inline-flex items-center justify-center gap-2 rounded-sm bg-brand-300 px-5 py-3.5 text-sm font-semibold text-ink"
-                    href={whatsapp}
+                    href={contact}
                     target="_blank"
                     rel="noreferrer"
                     onClick={closeMenu}
                   >
-                    <Phone size={15} /> WhatsApp
+                    <ContactMark size={15} /> {contactAction}
                   </a>
                 </div>
               </motion.nav>
@@ -270,26 +273,26 @@ export default function Home() {
                 variants={reveal}
                 className="max-w-[720px] font-display text-[2.75rem] leading-[1.1] tracking-[-0.025em] text-brand-50 sm:text-[3.6rem] lg:text-[4.2rem]"
               >
-                Sua história de trabalho.{" "}
-                <span className="text-brand-300">Seus direitos, com clareza.</span>
+                Sua família, sua história.{" "}
+                <span className="text-brand-300">Um novo caminho, com cuidado.</span>
               </motion.h1>
               <motion.p
                 variants={reveal}
                 className="mt-7 max-w-xl text-[15px] leading-7 text-brand-100 sm:text-base sm:leading-8"
               >
-                Danielle Maria, advogada previdenciarista em Patos de Minas. Orientação sobre aposentadorias e benefícios do INSS, com atenção à sua história e clareza em cada etapa.
+                Direito de Família com Michelle Morato. Orientação em divórcio, alimentos, guarda, convivência e partilha, com estratégia jurídica e acolhimento em cada decisão.
               </motion.p>
               <motion.div
                 variants={reveal}
                 className="mt-9 flex flex-col items-start gap-4 sm:flex-row sm:items-center"
               >
                 <GlowingButton
-                  href={whatsapp}
+                  href={contact}
                   target="_blank"
                   size="lg"
                   className="rounded-sm"
                 >
-                  <WhatsAppMark size={17} /> Converse com a Dra. Danielle
+                  <ContactMark size={17} /> {contactAction}
                 </GlowingButton>
                 <a
                   href="#atuacao"
@@ -312,7 +315,7 @@ export default function Home() {
                 </span>
                 <span className="inline-flex items-center gap-2">
                   <MessageCircle size={15} className="text-brand-300" />
-                  Atendimento com agendamento
+                  Presencial e online
                 </span>
                 <a href="#avaliacoes" className="inline-flex items-center gap-2 py-2 text-sm text-brand-300 underline underline-offset-4">
                   <Star size={15} fill="currentColor" aria-hidden="true" /> {brand.googleReviewCount} avaliações no Google
@@ -332,16 +335,16 @@ export default function Home() {
               <figure className="hero-signature border border-brand-300/30 p-3">
                 <Image
                   src={brand.portrait}
-                  alt="Registro institucional fornecido para o site de Danielle Maria, com duas mulheres em um auditório"
-                  width={661}
-                  height={849}
+                  alt="Michelle Morato, advogada de Direito de Família, sentada no escritório"
+                  width={667}
+                  height={828}
                   preload
                   sizes="(max-width: 639px) 90vw, 390px"
                   className="h-auto w-full"
                 />
                 <figcaption className="flex flex-col gap-2 px-2 pb-2 pt-5 text-center leading-6 text-brand-200">
-                  <span className="font-display text-2xl text-brand-100">Presença e proximidade.</span>
-                  <span className="text-xs tracking-[0.06em]">Direito Previdenciário · Patos de Minas</span>
+                  <span className="font-display text-2xl text-brand-100">Estratégia jurídica com acolhimento.</span>
+                  <span className="text-xs">Direito de Família · Contagem, MG</span>
                 </figcaption>
               </figure>
             </motion.div>
@@ -355,7 +358,7 @@ export default function Home() {
           <div className="mx-auto grid max-w-7xl gap-6 px-5 py-7 sm:grid-cols-3 sm:gap-4 sm:px-8 lg:px-12">
             {[
               ["Atenção", "Escuta e análise do seu caso"],
-              ["Proximidade", "No centro de Patos de Minas"],
+              ["Proximidade", "Presencial e online"],
               ["Clareza", "Orientação em cada etapa"],
             ].map(([value, label], index) => (
               <div
@@ -391,7 +394,7 @@ export default function Home() {
             >
               <Heading
 
-                description="Aposentadorias, benefícios por incapacidade e proteção social. Conheça os assuntos em que a Dra. Danielle pode orientar você."
+                description="Da reorganização da vida a dois ao cuidado com os filhos. Conheça os assuntos em que a Dra. Michelle pode orientar você."
               >
                 Orientação para o que{" "}
                 <span className="text-brand-700">importa para você.</span>
@@ -452,14 +455,14 @@ export default function Home() {
           <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-[0.85fr_1.15fr] lg:gap-24 lg:px-12">
             <figure className="about-signature mx-auto w-full max-w-[420px] border border-linen bg-ivory px-7 py-12 sm:px-10 sm:py-16 lg:mx-0">
               <Image src={brand.logo} alt={brand.businessName} width={2172} height={724} sizes="(max-width: 639px) 80vw, 340px" className="h-auto w-full" />
-              <figcaption className="mt-10 border-t border-linen pt-6 text-center text-sm leading-6 text-brand-700">Direito Previdenciário<br />Patos de Minas, Minas Gerais</figcaption>
+              <figcaption className="mt-10 border-t border-linen pt-6 text-center text-sm leading-6 text-brand-700">Michelle Morato · Direito de Família<br />Contagem, Minas Gerais</figcaption>
             </figure>
             <div>
               <Heading>Clareza para orientar.{" "}<span className="text-brand-700">Sensibilidade para acolher.</span></Heading>
-              <h3 className="mt-7 font-display text-3xl text-brand-800">Dra. Danielle Maria</h3>
-              <p className="mt-2 text-sm font-medium text-ink-soft">Advogada em Patos de Minas, Minas Gerais</p>
-              <p className="mt-6 max-w-xl text-base leading-8 text-ink-soft">Danielle Maria atua na advocacia previdenciária em Patos de Minas, Minas Gerais. Seu trabalho está voltado a aposentadorias, BPC, benefícios por incapacidade, pensão, auxílio-acidente e salário-maternidade.</p>
-              <p className="mt-4 max-w-xl text-base leading-8 text-ink-soft">Cada história de vida traz dúvidas e necessidades próprias. No escritório da Rua José de Santana, o atendimento é um espaço para ouvir você, analisar seus documentos e explicar os possíveis caminhos com atenção e transparência.</p>
+              <h3 className="mt-7 font-display text-3xl text-brand-800">Dra. Michelle Morato</h3>
+              <p className="mt-2 text-sm font-medium text-ink-soft">Advogada de família em Contagem, Minas Gerais</p>
+              <p className="mt-6 max-w-xl text-base leading-8 text-ink-soft">Michelle Morato atua em Direito de Família, com atenção a questões de divórcio, alimentos, guarda, visitas e partilha. Na Morato Advocacia, estratégia jurídica e acolhimento caminham juntos.</p>
+              <p className="mt-4 max-w-xl text-base leading-8 text-ink-soft">Cada família tem sua história. O atendimento presencial em Eldorado, Contagem, ou online é um espaço para ouvir você, compreender suas dúvidas e explicar os caminhos possíveis com clareza e atenção.</p>
               <a href={contact} target="_blank" rel="noopener noreferrer" className="group mt-8 inline-flex min-h-11 items-center gap-2 border-b border-brand-700/40 py-2 text-sm font-semibold text-brand-800 transition-colors hover:text-brand-700">Conheça o atendimento <ArrowUpRight size={16} /></a>
             </div>
           </div>
@@ -485,7 +488,7 @@ export default function Home() {
               {[
                 [
                   "Primeiro, a sua história",
-                  "Conte brevemente sua situação pelo WhatsApp e receba as informações para agendar seu atendimento com a Dra. Danielle.",
+                  "Entre em contato com o escritório e receba as informações para agendar seu atendimento presencial ou online com a Dra. Michelle.",
                 ],
                 [
                   "Depois, os documentos",
@@ -518,9 +521,10 @@ export default function Home() {
             <h2 id="questions-title" className="font-display text-3xl leading-tight text-ink sm:text-4xl">Antes da nossa primeira conversa.</h2>
             <div className="divide-y divide-ink/15 border-y border-ink/15">
               {[
-                ["Como funciona o primeiro contato?", `Envie uma mensagem pelo WhatsApp ou ligue para ${brand.phone}. Conte brevemente sua situação para receber informações sobre o atendimento e os documentos iniciais necessários.`],
+                ["Como funciona o primeiro contato?", `Envie uma mensagem pelo WhatsApp ou ligue para ${brand.phone} para receber informações sobre o agendamento e os documentos iniciais necessários.`],
                 ["Onde fica o escritório?", `O escritório fica na ${brand.address}. Entre em contato para combinar sua visita.`],
-                ["Quais situações posso apresentar?", "Você pode trazer dúvidas sobre aposentadorias, BPC, benefícios por incapacidade, pensão, auxílio-acidente e salário-maternidade. O primeiro contato ajuda a organizar o agendamento e a documentação para sua consulta."],
+                ["O atendimento pode ser online?", "Sim. A Morato Advocacia realiza atendimentos presenciais e online. Entre em contato para combinar a modalidade e agendar sua conversa."],
+                ["Quais situações posso apresentar?", "Você pode trazer dúvidas sobre divórcio, pensão alimentícia, guarda, visitas e partilha. O primeiro contato ajuda a organizar o agendamento e a documentação para sua consulta."],
                 ["Quais documentos devo separar?", "Os documentos variam conforme o assunto. Durante o agendamento, informe brevemente sua dúvida para receber orientação sobre os documentos pertinentes à consulta."],
               ].map(([question, answer]) => (
                 <details key={question} className="group py-6">
@@ -578,19 +582,19 @@ export default function Home() {
             <div>
               <Heading
 
-                description="Tem dúvidas sobre aposentadoria ou benefícios do INSS? Fale com a Dra. Danielle para agendar seu atendimento."
+                description="Tem dúvidas sobre uma questão de família? Fale com o escritório para agendar seu atendimento com a Dra. Michelle, presencial ou online."
               >
                 Um primeiro contato com{" "}
                 <span className="text-brand-700">tranquilidade.</span>
               </Heading>
               <div className="mt-9 flex flex-col items-start gap-4">
                 <GlowingButton
-                  href={whatsapp}
+                  href={contact}
                   target="_blank"
                   size="lg"
                   className="rounded-sm"
                 >
-                  <WhatsAppMark size={17} /> Converse com a Dra. Danielle
+                  <ContactMark size={17} /> {contactAction}
                 </GlowingButton>
                 <a href={telephone} className="inline-flex min-h-11 items-center gap-2 text-sm text-brand-700 hover:text-brand-800"><Phone size={16} /> Ligue: {brand.phone}</a>
                 <a href={brand.instagram} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center gap-2 py-2 text-sm text-brand-700 hover:text-brand-800"><Camera size={16} /> {brand.instagramHandle}</a>
@@ -602,10 +606,10 @@ export default function Home() {
                   <MapPin size={21} strokeWidth={1.6} />
                 </span>
                 <div>
-                  <h3 className="font-display text-2xl text-ink">Encontre o escritório em Patos de Minas</h3>
+                  <h3 className="font-display text-2xl text-ink">Encontre o escritório em Contagem</h3>
                 </div>
               </div>
-              <p className="mt-6 text-sm font-semibold text-brand-700">Danielle Maria · Advocacia</p>
+              <p className="mt-6 text-sm font-semibold text-brand-700">Morato Advocacia · Eldorado</p>
               <address className="mt-2 max-w-md not-italic text-[14px] leading-7 text-ink-soft">
                 {brand.address}
               </address>
@@ -635,12 +639,12 @@ export default function Home() {
               </h2>
             </div>
             <a
-              href={whatsapp}
+              href={contact}
               target="_blank"
               rel="noreferrer"
               className="group inline-flex min-h-11 w-fit shrink-0 items-center gap-3 rounded-sm bg-brand-950 px-6 py-4 text-sm font-semibold text-brand-100 transition-colors hover:bg-brand-900"
             >
-              Fale pelo WhatsApp <ArrowUpRight size={15} />
+              {contactAction} <ArrowUpRight size={15} />
             </a>
           </div>
         </section>
@@ -652,7 +656,7 @@ export default function Home() {
                 <BrandSignature />
               </div>
               <p className="mt-4 max-w-xs text-xs leading-6 text-ink-soft">
-                Advocacia previdenciária com escuta, clareza e atenção à sua história. Patos de Minas, Minas Gerais.
+                Direito de Família com estratégia jurídica e acolhimento. Atendimento presencial em Contagem e online.
               </p>
             </div>
             <div>
@@ -664,7 +668,7 @@ export default function Home() {
                   Áreas de atuação
                 </a>
                 <a className="footer-link" href="#sobre">
-                  Conheça a Danielle
+                  Conheça a Michelle
                 </a>
                 <a className="footer-link" href="#avaliacoes">
                   Perfil no Google
@@ -762,12 +766,12 @@ export default function Home() {
                   ))}
                 </ul>
                 <GlowingButton
-                  href={whatsappFor(activeArea.title.toLowerCase())}
+                  href={contactFor(activeArea.title.toLowerCase())}
                   target="_blank"
                   size="md"
                   className="mt-8 w-full rounded-sm sm:w-auto"
                 >
-                  <Phone size={15} /> Conversar sobre o atendimento
+                  <ContactMark size={15} /> {contactAction}
                   <ArrowUpRight size={15} />
                 </GlowingButton>
               </motion.section>

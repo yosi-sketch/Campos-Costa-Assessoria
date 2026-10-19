@@ -1,35 +1,35 @@
 @import "tailwindcss";
 
-/* Tailwind CSS 4: tokens centralizados em @theme.
-   Logo Danielle Maria, pixels opacos quantizados em passos de 16:
-   grafite #303030; champanhe #d0b090, #c0a080; bronze #b09070; luz #f0e0d0.
-   Grafite, champanhe e marfim: variações tonais para superfícies e contraste. */
+/* Tailwind CSS 4: tokens em @theme (substitui tailwind.config).
+   Logo Morato, alpha >= 220, quantização em passos de 16:
+   verde #001010/#002010; ouro #c09050/#d0a060; bronze #a07030;
+   luz #f0d090. Variações tonais para superfícies e contraste. */
 :root {
   color-scheme: light;
-  --brand-ink: #302c2c;
-  --brand-ink-soft: #6b605c;
-  --brand-paper: #f8f4ef;
+  --brand-ink: #172c27;
+  --brand-ink-soft: #59665f;
+  --brand-paper: #f0f1ea;
 }
 @theme inline {
-  --font-display: var(--font-display-face), "Bodoni Moda", Georgia, serif;
+  --font-display: var(--font-display-face), "Libre Caslon Display", Georgia, serif;
   --font-sans: var(--font-body), "Source Sans 3", system-ui, sans-serif;
-  --color-ink: #302c2c;
-  --color-ink-soft: #6b605c;
-  --color-paper: #fffdfb;
-  --color-ivory: #f8f4ef;
-  --color-linen: #e0d4ca;
-  --color-brand-50: #f1e8df;
-  --color-brand-100: #eadcd0;
-  --color-brand-200: #e3c9b3;
-  --color-brand-300: #d0b090;
-  --color-brand-400: #c0a080;
-  --color-brand-500: #b09070;
-  --color-brand-600: #95765e;
-  --color-brand-700: #755542;
-  --color-brand-800: #594032;
-  --color-brand-900: #342d2a;
-  --color-brand-950: #242122;
-  --shadow-card: 0 18px 48px rgb(48 44 44 / 18%);
+  --color-ink: #172c27;
+  --color-ink-soft: #59665f;
+  --color-paper: #fbfbf7;
+  --color-ivory: #f0f1ea;
+  --color-linen: #d5d9cf;
+  --color-brand-50: #eaf0e8;
+  --color-brand-100: #dce4da;
+  --color-brand-200: #e3c99e;
+  --color-brand-300: #cfa86e;
+  --color-brand-400: #c29a5e;
+  --color-brand-500: #b58949;
+  --color-brand-600: #926c32;
+  --color-brand-700: #705223;
+  --color-brand-800: #29453f;
+  --color-brand-900: #1b302b;
+  --color-brand-950: #0b1715;
+  --shadow-card: 0 18px 48px rgb(11 23 21 / 18%);
 }
 html { scroll-padding-top: 7rem; scroll-behavior: smooth; }
 img { max-width: 100%; }
@@ -90,7 +90,7 @@ h1, h2 { text-wrap: balance; }
 }
 .brand-footer .text-ink-soft { color: var(--color-brand-100); }
 .brand-footer .text-brand-700 { color: var(--color-brand-300); }
-.brand-footer .border-ink\/15 { border-color: rgb(208 176 144 / 25%); }
+.brand-footer .border-ink\/15 { border-color: rgb(207 168 110 / 25%); }
 ::-webkit-scrollbar { width: 9px; }
 ::-webkit-scrollbar-track { background: var(--color-brand-50); }
 ::-webkit-scrollbar-thumb {

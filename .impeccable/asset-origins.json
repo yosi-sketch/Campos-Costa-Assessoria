@@ -1,22 +1,22 @@
 {
-  "client": "Danielle Maria — Advogada Previdenciarista",
+  "client": "Morato Advocacia",
   "assets": [
     {
-      "source": "C:/Users/matheus/Downloads/Logotipo Danielle Maria Advogada.png",
-      "destination": "public/danielle-maria-logo.png",
+      "source": "C:/Users/matheus/Downloads/Logo Luxuoso Morato Advocacia.png",
+      "destination": "public/morato-advocacia-logo.png",
       "width": 2172,
       "height": 724,
-      "sha256": "7b7ad8725fd5d04a025316e0796a521c83ad83f09c7ec5023ceb22e43fe517bc",
-      "sourceSha256": "7b7ad8725fd5d04a025316e0796a521c83ad83f09c7ec5023ceb22e43fe517bc",
+      "sha256": "1d1827932ffc1610c0c28f689b17f5e9a45d7086b554642489253ad9d4259872",
+      "sourceSha256": "1d1827932ffc1610c0c28f689b17f5e9a45d7086b554642489253ad9d4259872",
       "identicalToSource": true
     },
     {
-      "source": "C:/Users/matheus/AppData/Local/Temp/codex-clipboard-aadfa228-3c6e-40f0-a7ae-8da1feb64ecf.png",
-      "destination": "public/danielle-maria-institucional.png",
-      "width": 661,
-      "height": 849,
-      "sha256": "3f9276a059b2630b88b4b5d2dd78c8e30c48f61a4d2e15ff64dd047c50c0033c",
-      "sourceSha256": "3f9276a059b2630b88b4b5d2dd78c8e30c48f61a4d2e15ff64dd047c50c0033c",
+      "source": "C:/Users/matheus/AppData/Local/Temp/codex-clipboard-acd5eb98-787a-4d02-a272-bc263cdcd2b5.png",
+      "destination": "public/michelle-morato.png",
+      "width": 667,
+      "height": 828,
+      "sha256": "2f9d73ec5ac3cc1237a3e8919215b612950084a82e4c1a0db1752934be026724",
+      "sourceSha256": "2f9d73ec5ac3cc1237a3e8919215b612950084a82e4c1a0db1752934be026724",
       "identicalToSource": true
     }
   ]

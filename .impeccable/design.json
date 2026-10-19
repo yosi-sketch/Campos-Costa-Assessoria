@@ -1,262 +1,262 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-18T14:34:15.7899665Z",
-  "title": "Design System: Danielle Maria",
+  "generatedAt": "2026-10-19T06:13:33.860Z",
+  "title": "Design System: Morato Advocacia",
   "extensions": {
     "colorMeta": {
       "ink": {
         "role": "neutral",
-        "displayName": "ink",
-        "canonical": "#302c2c",
+        "displayName": "Verde de leitura",
+        "canonical": "#172c27",
         "tonalRamp": [
-          "#242122",
-          "#302c2c",
-          "#342d2a",
-          "#6b605c",
-          "#e0d4ca",
-          "#f1e8df",
-          "#f8f4ef",
-          "#fffdfb"
+          "#0b1715",
+          "#172c27",
+          "#1b302b",
+          "#29453f",
+          "#59665f",
+          "#d5d9cf",
+          "#f0f1ea",
+          "#fbfbf7"
         ]
       },
       "ink-soft": {
         "role": "neutral",
-        "displayName": "ink-soft",
-        "canonical": "#6b605c",
+        "displayName": "Verde de leitura secundária",
+        "canonical": "#59665f",
         "tonalRamp": [
-          "#242122",
-          "#302c2c",
-          "#342d2a",
-          "#6b605c",
-          "#e0d4ca",
-          "#f1e8df",
-          "#f8f4ef",
-          "#fffdfb"
+          "#0b1715",
+          "#172c27",
+          "#1b302b",
+          "#29453f",
+          "#59665f",
+          "#d5d9cf",
+          "#f0f1ea",
+          "#fbfbf7"
         ]
       },
       "paper": {
         "role": "neutral",
-        "displayName": "paper",
-        "canonical": "#fffdfb",
+        "displayName": "Papel claro",
+        "canonical": "#fbfbf7",
         "tonalRamp": [
-          "#242122",
-          "#302c2c",
-          "#342d2a",
-          "#6b605c",
-          "#e0d4ca",
-          "#f1e8df",
-          "#f8f4ef",
-          "#fffdfb"
+          "#0b1715",
+          "#172c27",
+          "#1b302b",
+          "#29453f",
+          "#59665f",
+          "#d5d9cf",
+          "#f0f1ea",
+          "#fbfbf7"
         ]
       },
       "ivory": {
         "role": "neutral",
-        "displayName": "ivory",
-        "canonical": "#f8f4ef",
+        "displayName": "Marfim",
+        "canonical": "#f0f1ea",
         "tonalRamp": [
-          "#242122",
-          "#302c2c",
-          "#342d2a",
-          "#6b605c",
-          "#e0d4ca",
-          "#f1e8df",
-          "#f8f4ef",
-          "#fffdfb"
+          "#0b1715",
+          "#172c27",
+          "#1b302b",
+          "#29453f",
+          "#59665f",
+          "#d5d9cf",
+          "#f0f1ea",
+          "#fbfbf7"
         ]
       },
       "linen": {
         "role": "neutral",
-        "displayName": "linen",
-        "canonical": "#e0d4ca",
+        "displayName": "Linho",
+        "canonical": "#d5d9cf",
         "tonalRamp": [
-          "#242122",
-          "#302c2c",
-          "#342d2a",
-          "#6b605c",
-          "#e0d4ca",
-          "#f1e8df",
-          "#f8f4ef",
-          "#fffdfb"
+          "#0b1715",
+          "#172c27",
+          "#1b302b",
+          "#29453f",
+          "#59665f",
+          "#d5d9cf",
+          "#f0f1ea",
+          "#fbfbf7"
         ]
       },
       "brand-50": {
-        "role": "primary",
-        "displayName": "brand-50",
-        "canonical": "#f1e8df",
+        "role": "secondary",
+        "displayName": "Marfim dourado",
+        "canonical": "#eaf0e8",
         "tonalRamp": [
-          "#242122",
-          "#342d2a",
-          "#594032",
-          "#755542",
-          "#95765e",
-          "#b09070",
-          "#d0b090",
-          "#f1e8df"
+          "#705223",
+          "#926c32",
+          "#b58949",
+          "#c29a5e",
+          "#cfa86e",
+          "#e3c99e",
+          "#dce4da",
+          "#eaf0e8"
         ]
       },
       "brand-100": {
-        "role": "primary",
-        "displayName": "brand-100",
-        "canonical": "#eadcd0",
+        "role": "secondary",
+        "displayName": "Dourado de leitura",
+        "canonical": "#dce4da",
         "tonalRamp": [
-          "#242122",
-          "#342d2a",
-          "#594032",
-          "#755542",
-          "#95765e",
-          "#b09070",
-          "#d0b090",
-          "#f1e8df"
+          "#705223",
+          "#926c32",
+          "#b58949",
+          "#c29a5e",
+          "#cfa86e",
+          "#e3c99e",
+          "#dce4da",
+          "#eaf0e8"
         ]
       },
       "brand-200": {
-        "role": "primary",
-        "displayName": "brand-200",
-        "canonical": "#e3c9b3",
+        "role": "secondary",
+        "displayName": "Ouro claro",
+        "canonical": "#e3c99e",
         "tonalRamp": [
-          "#242122",
-          "#342d2a",
-          "#594032",
-          "#755542",
-          "#95765e",
-          "#b09070",
-          "#d0b090",
-          "#f1e8df"
+          "#705223",
+          "#926c32",
+          "#b58949",
+          "#c29a5e",
+          "#cfa86e",
+          "#e3c99e",
+          "#dce4da",
+          "#eaf0e8"
         ]
       },
       "brand-300": {
-        "role": "primary",
-        "displayName": "brand-300",
-        "canonical": "#d0b090",
+        "role": "secondary",
+        "displayName": "Dourado de ação",
+        "canonical": "#cfa86e",
         "tonalRamp": [
-          "#242122",
-          "#342d2a",
-          "#594032",
-          "#755542",
-          "#95765e",
-          "#b09070",
-          "#d0b090",
-          "#f1e8df"
+          "#705223",
+          "#926c32",
+          "#b58949",
+          "#c29a5e",
+          "#cfa86e",
+          "#e3c99e",
+          "#dce4da",
+          "#eaf0e8"
         ]
       },
       "brand-400": {
-        "role": "primary",
-        "displayName": "brand-400",
-        "canonical": "#c0a080",
+        "role": "secondary",
+        "displayName": "Ouro médio",
+        "canonical": "#c29a5e",
         "tonalRamp": [
-          "#242122",
-          "#342d2a",
-          "#594032",
-          "#755542",
-          "#95765e",
-          "#b09070",
-          "#d0b090",
-          "#f1e8df"
+          "#705223",
+          "#926c32",
+          "#b58949",
+          "#c29a5e",
+          "#cfa86e",
+          "#e3c99e",
+          "#dce4da",
+          "#eaf0e8"
         ]
       },
       "brand-500": {
-        "role": "primary",
-        "displayName": "brand-500",
-        "canonical": "#b09070",
+        "role": "secondary",
+        "displayName": "Ouro do logo",
+        "canonical": "#b58949",
         "tonalRamp": [
-          "#242122",
-          "#342d2a",
-          "#594032",
-          "#755542",
-          "#95765e",
-          "#b09070",
-          "#d0b090",
-          "#f1e8df"
+          "#705223",
+          "#926c32",
+          "#b58949",
+          "#c29a5e",
+          "#cfa86e",
+          "#e3c99e",
+          "#dce4da",
+          "#eaf0e8"
         ]
       },
       "brand-600": {
         "role": "secondary",
-        "displayName": "brand-600",
-        "canonical": "#95765e",
+        "displayName": "Bronze do logo",
+        "canonical": "#926c32",
         "tonalRamp": [
-          "#242122",
-          "#342d2a",
-          "#594032",
-          "#755542",
-          "#95765e",
-          "#b09070",
-          "#d0b090",
-          "#f1e8df"
+          "#705223",
+          "#926c32",
+          "#b58949",
+          "#c29a5e",
+          "#cfa86e",
+          "#e3c99e",
+          "#dce4da",
+          "#eaf0e8"
         ]
       },
       "brand-700": {
         "role": "secondary",
-        "displayName": "brand-700",
-        "canonical": "#755542",
+        "displayName": "Bronze legível",
+        "canonical": "#705223",
         "tonalRamp": [
-          "#242122",
-          "#342d2a",
-          "#594032",
-          "#755542",
-          "#95765e",
-          "#b09070",
-          "#d0b090",
-          "#f1e8df"
+          "#705223",
+          "#926c32",
+          "#b58949",
+          "#c29a5e",
+          "#cfa86e",
+          "#e3c99e",
+          "#dce4da",
+          "#eaf0e8"
         ]
       },
       "brand-800": {
-        "role": "secondary",
-        "displayName": "brand-800",
-        "canonical": "#594032",
+        "role": "primary",
+        "displayName": "Verde de apoio",
+        "canonical": "#29453f",
         "tonalRamp": [
-          "#242122",
-          "#342d2a",
-          "#594032",
-          "#755542",
-          "#95765e",
-          "#b09070",
-          "#d0b090",
-          "#f1e8df"
+          "#0b1715",
+          "#172c27",
+          "#1b302b",
+          "#29453f",
+          "#59665f",
+          "#d5d9cf",
+          "#f0f1ea",
+          "#fbfbf7"
         ]
       },
       "brand-900": {
-        "role": "neutral",
-        "displayName": "brand-900",
-        "canonical": "#342d2a",
+        "role": "primary",
+        "displayName": "Verde das avaliações",
+        "canonical": "#1b302b",
         "tonalRamp": [
-          "#242122",
-          "#302c2c",
-          "#342d2a",
-          "#6b605c",
-          "#e0d4ca",
-          "#f1e8df",
-          "#f8f4ef",
-          "#fffdfb"
+          "#0b1715",
+          "#172c27",
+          "#1b302b",
+          "#29453f",
+          "#59665f",
+          "#d5d9cf",
+          "#f0f1ea",
+          "#fbfbf7"
         ]
       },
       "brand-950": {
-        "role": "neutral",
-        "displayName": "brand-950",
-        "canonical": "#242122",
+        "role": "primary",
+        "displayName": "Verde profundo",
+        "canonical": "#0b1715",
         "tonalRamp": [
-          "#242122",
-          "#302c2c",
-          "#342d2a",
-          "#6b605c",
-          "#e0d4ca",
-          "#f1e8df",
-          "#f8f4ef",
-          "#fffdfb"
+          "#0b1715",
+          "#172c27",
+          "#1b302b",
+          "#29453f",
+          "#59665f",
+          "#d5d9cf",
+          "#f0f1ea",
+          "#fbfbf7"
         ]
       },
-      "champagne-divider": {
-        "role": "primary",
-        "displayName": "champagne-divider",
-        "canonical": "rgb(208 176 144 / 25%)",
+      "gold-divider": {
+        "role": "secondary",
+        "displayName": "Divisória dourada do rodapé",
+        "canonical": "rgb(207 168 110 / 25%)",
         "tonalRamp": [
-          "rgb(36 33 34 / 25%)",
-          "rgb(52 45 42 / 25%)",
-          "rgb(89 64 50 / 25%)",
-          "rgb(117 85 66 / 25%)",
-          "rgb(149 118 94 / 25%)",
-          "rgb(176 144 112 / 25%)",
-          "rgb(208 176 144 / 25%)",
-          "rgb(241 232 223 / 25%)"
+          "rgb(122 85 31 / 25%)",
+          "rgb(160 112 48 / 25%)",
+          "rgb(192 144 80 / 25%)",
+          "rgb(208 160 96 / 25%)",
+          "rgb(207 168 110 / 25%)",
+          "rgb(238 211 160 / 25%)",
+          "rgb(234 224 196 / 25%)",
+          "rgb(242 235 217 / 25%)"
         ]
       }
     },
@@ -303,41 +303,45 @@
       },
       "value-mobile": {
         "displayName": "value-mobile",
-        "purpose": "Faixa de valores de atendimento"
+        "purpose": "Faixa de atendimento"
       },
       "value-tablet": {
         "displayName": "value-tablet",
-        "purpose": "Faixa de valores de atendimento"
+        "purpose": "Faixa de atendimento"
       },
       "body": {
         "displayName": "body",
-        "purpose": "Leitura e controles"
+        "purpose": "Leitura"
       },
       "body-spacious": {
         "displayName": "body-spacious",
-        "purpose": "Leitura e controles"
+        "purpose": "Leitura"
       },
       "intro": {
         "displayName": "intro",
-        "purpose": "Leitura e controles"
+        "purpose": "Leitura"
       },
       "small": {
         "displayName": "small",
-        "purpose": "Leitura e controles"
-      },
-      "metadata": {
-        "displayName": "metadata",
-        "purpose": "Leitura e controles"
+        "purpose": "Leitura"
       },
       "label": {
         "displayName": "label",
-        "purpose": "Leitura e controles"
+        "purpose": "Botões e controles"
+      },
+      "navigation": {
+        "displayName": "navigation",
+        "purpose": "Links do cabeçalho"
+      },
+      "label-large": {
+        "displayName": "label-large",
+        "purpose": "Botões e controles"
       }
     },
     "shadows": [
       {
-        "value": "0 18px 48px rgb(48 44 44 / 18%)",
         "name": "dialog",
+        "value": "0 18px 48px rgb(11 23 21 / 18%)",
         "purpose": "Diálogo de detalhes"
       }
     ],
@@ -403,84 +407,89 @@
       "name": "Botão principal",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "WhatsApp de Danielle Maria; tamanho padrão.",
-      "html": "<a class=\"ds-cta\" href=\"https://wa.me/5534999089393\">Converse com a Dra. Danielle</a>",
-      "css": ".ds-cta{display:inline-flex;align-items:center;justify-content:center;min-height:44px;max-width:100%;padding:14px 24px;border:1px solid var(--color-brand-300,#d0b090);border-radius:4px;background:var(--color-brand-300,#d0b090);color:var(--color-ink,#302c2c);font:600 14px/20px \"Source Sans 3\",sans-serif;text-align:center;text-decoration:none;transition:background-color 200ms,border-color 200ms}.ds-cta:hover{border-color:var(--color-brand-200,#e3c9b3);background:var(--color-brand-200,#e3c9b3)}.ds-cta:focus-visible{outline:2px solid var(--color-brand-700,#755542);outline-offset:3px}"
+      "description": "WhatsApp confirmado de Michelle Morato; tamanho padrão.",
+      "html": "<a class=\"ds-cta\" href=\"https://wa.me/553125682738\">Fale pelo WhatsApp</a>",
+      "css": ".ds-cta{display:inline-flex;align-items:center;justify-content:center;min-height:44px;max-width:100%;padding:14px 24px;border:1px solid var(--color-brand-300,#cfa86e);border-radius:4px;background:var(--color-brand-300,#cfa86e);color:var(--color-ink,#172c27);font:600 14px/20px \"Source Sans 3\",sans-serif;text-align:center;text-decoration:none;transition:background-color 200ms,border-color 200ms}.ds-cta:hover{border-color:var(--color-brand-200,#e3c99e);background:var(--color-brand-200,#e3c99e)}.ds-cta:focus-visible{outline:2px solid var(--color-brand-700,#705223);outline-offset:3px}"
     },
     {
       "name": "Botão final",
       "kind": "button",
       "refersTo": "button-dark",
-      "description": "Ação grafite na faixa champanhe de encerramento.",
-      "html": "<div class=\"ds-final\"><a class=\"ds-dark\" href=\"https://wa.me/5534999089393\">Fale pelo WhatsApp</a></div>",
-      "css": ".ds-final{padding:24px;background:var(--color-brand-300,#d0b090)}.ds-dark{display:inline-flex;align-items:center;min-height:44px;padding:16px 24px;border-radius:4px;background:var(--color-brand-950,#242122);color:var(--color-brand-100,#eadcd0);font:600 14px/20px \"Source Sans 3\",sans-serif;text-decoration:none;transition:background-color 150ms}.ds-dark:hover{background:var(--color-brand-900,#342d2a)}.ds-dark:focus-visible{outline:2px solid var(--color-brand-700,#755542);outline-offset:4px}"
+      "description": "Ação verde profunda na faixa dourada de encerramento.",
+      "html": "<div class=\"ds-final\"><a class=\"ds-dark\" href=\"https://wa.me/553125682738\">Fale pelo WhatsApp</a></div>",
+      "css": ".ds-final{padding:24px;background:var(--color-brand-300,#cfa86e)}.ds-dark{display:inline-flex;align-items:center;min-height:44px;padding:16px 24px;border-radius:4px;background:var(--color-brand-950,#0b1715);color:var(--color-brand-100,#dce4da);font:600 14px/20px \"Source Sans 3\",sans-serif;text-decoration:none;transition:background-color 150ms}.ds-dark:hover{background:var(--color-brand-900,#1b302b)}.ds-dark:focus-visible{outline:2px solid var(--color-brand-700,#705223);outline-offset:4px}"
     },
     {
       "name": "Navegação",
       "kind": "nav",
-      "description": "Cabeçalho claro com links bronze no hover e sublinhado fino.",
+      "description": "Cabeçalho claro; bronze no hover e sublinhado fino.",
       "html": "<nav class=\"ds-nav\" aria-label=\"Navegação principal\"><a href=\"#inicio\">Início</a><a href=\"#atuacao\">Atendimento</a><a href=\"#sobre\">Sobre</a><a href=\"#avaliacoes\">Avaliações</a><a href=\"#contato\">Contato</a></nav>",
-      "css": ".ds-nav{display:flex;flex-wrap:wrap;gap:28px;padding:20px;background:var(--color-paper,#fffdfb)}.ds-nav a{position:relative;padding:12px 0;color:var(--color-ink-soft,#6b605c);font:600 15px/22.5px \"Source Sans 3\",sans-serif;text-decoration:none;transition:color 180ms ease}.ds-nav a::after{position:absolute;inset:auto 0 0;height:1px;background:var(--color-brand-700,#755542);content:\"\";transform:scaleX(0);transform-origin:left;transition:transform 180ms ease}.ds-nav a:hover{color:var(--color-brand-700,#755542)}.ds-nav a:hover::after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:2px solid var(--color-brand-700,#755542);outline-offset:4px}"
+      "css": ".ds-nav{display:flex;flex-wrap:wrap;gap:28px;padding:20px;background:var(--color-paper,#fbfbf7)}.ds-nav a{position:relative;padding:12px 0;color:var(--color-ink-soft,#59665f);font:600 15px/22.5px \"Source Sans 3\",sans-serif;text-decoration:none;transition:color 180ms ease}.ds-nav a::after{position:absolute;inset:auto 0 0;height:1px;background:var(--color-brand-700,#705223);content:\"\";transform:scaleX(0);transform-origin:left;transition:transform 180ms ease}.ds-nav a:hover{color:var(--color-brand-700,#705223)}.ds-nav a:hover::after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:2px solid var(--color-brand-700,#705223);outline-offset:4px}"
     },
     {
       "name": "Tema de atendimento",
       "kind": "custom",
-      "description": "Linha previdenciária; trecho visual do acionador cujo diálogo é gerenciado pela aplicação.",
-      "html": "<article class=\"ds-service\"><h3>Aposentadorias</h3><p>Entenda sua trajetória de contribuição e os caminhos para solicitar sua aposentadoria.</p><button type=\"button\" aria-haspopup=\"dialog\">Saiba mais</button></article>",
-      "css": ".ds-service{padding:32px 0;border-block:1px solid rgb(48 44 44 / 15%);background:var(--color-ivory,#f8f4ef)}.ds-service h3{margin:0;color:var(--color-ink,#302c2c);font:400 1.55rem/1.25 \"Bodoni Moda\",Georgia,serif;letter-spacing:-.025em}.ds-service p{max-width:36rem;color:var(--color-ink-soft,#6b605c);font:400 16px/28px \"Source Sans 3\",sans-serif}.ds-service button{display:inline-flex;align-items:center;min-height:44px;padding:0;border:0;background:transparent;color:var(--color-brand-800,#594032);font:600 12px/16px \"Source Sans 3\",sans-serif;cursor:pointer}.ds-service button:hover{color:var(--color-brand-700,#755542)}.ds-service button:focus-visible{outline:2px solid var(--color-brand-700,#755542);outline-offset:4px}@media(min-width:640px){.ds-service{padding:36px 0}.ds-service h3{font-size:1.8rem}}"
+      "description": "Trecho visual de Divórcio e partilha; o diálogo é gerenciado pela aplicação, não pelo snippet.",
+      "html": "<article class=\"ds-service\"><h3>Divórcio e partilha</h3><p>Clareza para encerrar um ciclo e compreender as decisões sobre o patrimônio construído em conjunto.</p><button type=\"button\" aria-haspopup=\"dialog\">Saiba mais</button></article>",
+      "css": ".ds-service{padding:32px 0;border-block:1px solid rgb(16 45 39 / 15%);background:var(--color-ivory,#f0f1ea)}.ds-service h3{margin:0;color:var(--color-ink,#172c27);font:400 1.55rem/1.25 \"Libre Caslon Display\",Georgia,serif;letter-spacing:-.025em}.ds-service p{max-width:36rem;color:var(--color-ink-soft,#59665f);font:400 16px/28px \"Source Sans 3\",sans-serif}.ds-service button{display:inline-flex;align-items:center;min-height:44px;padding:0;border:0;background:transparent;color:var(--color-brand-800,#29453f);font:600 12px/16px \"Source Sans 3\",sans-serif;cursor:pointer}.ds-service button:hover{color:var(--color-brand-700,#705223)}.ds-service button:focus-visible{outline:2px solid var(--color-brand-700,#705223);outline-offset:4px}@media(min-width:640px){.ds-service{padding:36px 0}.ds-service h3{font-size:1.8rem}}"
     },
     {
       "name": "FAQ",
       "kind": "custom",
       "description": "Expansão nativa com pergunta e orientação documental da página.",
       "html": "<details class=\"ds-faq\"><summary>Quais documentos devo separar?</summary><p>Os documentos variam conforme o assunto. Durante o agendamento, informe brevemente sua dúvida para receber orientação sobre os documentos pertinentes à consulta.</p></details>",
-      "css": ".ds-faq{padding:24px 0;border-block:1px solid rgb(48 44 44 / 15%);background:var(--color-brand-50,#f1e8df);color:var(--color-ink,#302c2c);font:400 14px/28px \"Source Sans 3\",sans-serif}.ds-faq summary{cursor:pointer;font-size:16px;font-weight:600;line-height:24px}.ds-faq summary::marker{color:var(--color-brand-700,#755542)}.ds-faq p{margin-top:16px;max-width:36rem;color:var(--color-ink-soft,#6b605c)}.ds-faq summary:focus-visible{outline:2px solid var(--color-brand-700,#755542);outline-offset:4px}"
+      "css": ".ds-faq{padding:24px 0;border-block:1px solid rgb(16 45 39 / 15%);background:var(--color-brand-50,#eaf0e8);color:var(--color-ink,#172c27);font:400 14px/28px \"Source Sans 3\",sans-serif}.ds-faq summary{cursor:pointer;font-size:16px;font-weight:600;line-height:24px}.ds-faq summary::marker{color:var(--color-brand-700,#705223)}.ds-faq p{margin-top:16px;max-width:36rem;color:var(--color-ink-soft,#59665f)}.ds-faq summary:focus-visible{outline:2px solid var(--color-brand-700,#705223);outline-offset:4px}"
     },
     {
       "name": "Contato secundário",
       "kind": "button",
-      "description": "Telefone fornecido; Instagram @daniellemariaadvocacia na mesma família de links.",
-      "html": "<a class=\"ds-contact\" href=\"tel:+5534999089393\">Ligue: (34) 99908-9393</a>",
-      "css": ".ds-contact{display:inline-flex;align-items:center;min-height:44px;color:var(--color-brand-700,#755542);font:400 14px/20px \"Source Sans 3\",sans-serif;text-decoration:none}.ds-contact:hover{color:var(--color-brand-800,#594032)}.ds-contact:focus-visible{outline:2px solid var(--color-brand-700,#755542);outline-offset:4px}"
+      "description": "Telefone fornecido; Instagram @michellemoratoadvogada na mesma família de links.",
+      "html": "<a class=\"ds-contact\" href=\"tel:+553125682738\">Ligue: (31) 2568-2738</a>",
+      "css": ".ds-contact{display:inline-flex;align-items:center;min-height:44px;color:var(--color-brand-700,#705223);font:400 14px/20px \"Source Sans 3\",sans-serif;text-decoration:none}.ds-contact:hover{color:var(--color-brand-800,#29453f)}.ds-contact:focus-visible{outline:2px solid var(--color-brand-700,#705223);outline-offset:4px}"
     },
     {
       "name": "Relato",
       "kind": "card",
-      "description": "Transcrição fornecida por Andrea Cristine; link para o perfil do escritório, sem avaliação individual.",
-      "html": "<figure class=\"ds-review\"><blockquote><p>“Excelente trabalho, sempre nos auxiliando com paciência e prestatividade.”</p></blockquote><figcaption><strong>Andrea Cristine</strong><a href=\"https://www.google.com/maps?cid=6512141540918169075\">Ver perfil no Google</a></figcaption></figure>",
-      "css": ".ds-review{display:flex;flex-direction:column;justify-content:space-between;gap:32px;margin:0;padding:32px 24px;background:var(--color-brand-900,#342d2a);color:var(--color-brand-100,#eadcd0);font-family:\"Source Sans 3\",sans-serif}.ds-review blockquote{margin:24px 0 0;font-size:16px;line-height:32px}.ds-review blockquote p{margin:0}.ds-review figcaption{border-top:1px solid rgb(208 176 144 / 15%);padding-top:20px}.ds-review strong{display:block;color:white;font-size:14px;line-height:20px;font-weight:600}.ds-review a{display:inline-flex;align-items:center;min-height:44px;margin-top:4px;color:var(--color-brand-200,#e3c9b3);font-size:12px;line-height:16px;text-decoration:none;text-underline-offset:4px}.ds-review a:hover{text-decoration:underline}.ds-review a:focus-visible{outline:2px solid var(--color-brand-300,#d0b090);outline-offset:4px}@media(min-width:640px){.ds-review{padding:40px 32px}}"
+      "description": "Transcrição integral fornecida por frederico luiz; link ao perfil do escritório.",
+      "html": "<figure class=\"ds-review\"><blockquote><p>“Excelente escritório de advocacia. Está conduzindo o caso do meu irmão e também o meu com transparência, responsabilidade e profissionalismo. Atendimento claro e seguro. Recomendo.”</p></blockquote><figcaption><strong>frederico luiz</strong><a href=\"https://www.google.com/maps?cid=16209826547785592380\">Ver perfil no Google</a></figcaption></figure>",
+      "css": ".ds-review{display:flex;flex-direction:column;justify-content:space-between;gap:32px;margin:0;padding:32px 24px;background:var(--color-brand-900,#1b302b);color:var(--color-brand-100,#dce4da);font-family:\"Source Sans 3\",sans-serif}.ds-review blockquote{margin:24px 0 0;font-size:16px;line-height:32px}.ds-review blockquote p{margin:0}.ds-review figcaption{border-top:1px solid rgb(223 184 121 / 15%);padding-top:20px}.ds-review strong{display:block;color:white;font-size:14px;line-height:20px;font-weight:600}.ds-review a{display:inline-flex;align-items:center;min-height:44px;margin-top:4px;color:var(--color-brand-200,#e3c99e);font-size:12px;line-height:16px;text-decoration:none;text-underline-offset:4px}.ds-review a:hover{text-decoration:underline}.ds-review a:focus-visible{outline:2px solid var(--color-brand-300,#cfa86e);outline-offset:4px}@media(min-width:640px){.ds-review{padding:40px 32px}}"
     },
     {
       "name": "Avaliações no Google",
       "kind": "custom",
-      "description": "Nota informada 5,0 e 72 avaliações no material de 18/10/2026; sem atualização automática.",
-      "html": "<a class=\"ds-reviews\" href=\"https://www.google.com/maps?cid=6512141540918169075\"><span>5,0 no Google</span><small>72 avaliações no Google</small></a>",
-      "css": ".ds-reviews{display:inline-flex;flex-direction:column;align-items:flex-start;gap:12px;min-height:44px;padding:20px 20px 16px;border-bottom:1px solid rgb(208 176 144 / 30%);background:var(--color-brand-900,#342d2a);color:var(--color-brand-100,#eadcd0);text-decoration:none;transition:color 150ms}.ds-reviews span{font:400 24px/32px \"Bodoni Moda\",Georgia,serif;letter-spacing:-.025em}.ds-reviews small{font:400 14px/20px \"Source Sans 3\",sans-serif}.ds-reviews:hover{color:var(--color-brand-300,#d0b090)}.ds-reviews:focus-visible{outline:2px solid var(--color-brand-300,#d0b090);outline-offset:4px}"
+      "description": "Nota informada 5,0 e 40 avaliações no material de 18/10/2026; sem atualização automática.",
+      "html": "<a class=\"ds-reviews\" href=\"https://www.google.com/maps?cid=16209826547785592380\"><span>5,0 no Google</span><small>40 avaliações no Google</small></a>",
+      "css": ".ds-reviews{display:inline-flex;flex-direction:column;align-items:flex-start;gap:12px;min-height:44px;padding:0 0 16px;border-bottom:1px solid rgb(223 184 121 / 30%);background:var(--color-brand-900,#1b302b);color:var(--color-brand-100,#dce4da);text-decoration:none;transition:color 150ms}.ds-reviews span{font:400 24px/32px \"Libre Caslon Display\",Georgia,serif;letter-spacing:-.025em}.ds-reviews small{font:400 14px/20px \"Source Sans 3\",sans-serif}.ds-reviews:hover{color:var(--color-brand-300,#cfa86e)}.ds-reviews:focus-visible{outline:2px solid var(--color-brand-300,#cfa86e);outline-offset:4px}"
     }
   ],
   "narrative": {
-    "northStar": "Escuta com presença",
-    "overview": "A identidade de Danielle Maria combina logo original transparente, superfícies grafite e áreas de leitura em marfim. O cabeçalho claro recebe a marca íntegra; o contraste editorial acompanha uma apresentação próxima e direta da advocacia previdenciária.\n\nBodoni Moda mantém a relação entre serifas de alto contraste e o desenho do logo. Source Sans 3 organiza a leitura e os controles. A fotografia institucional fornecida aparece integralmente, sem atribuir identidades às duas mulheres retratadas.",
+    "northStar": "Estratégia jurídica com acolhimento",
+    "overview": "A identidade de Morato Advocacia combina o verde profundo da marca, dourado e bronze dos detalhes metálicos e áreas de leitura em marfim. O logo original permanece íntegro sobre superfícies claras; a alternância tonal organiza uma apresentação sóbria e próxima.\n\nLibre Caslon Display aproxima os títulos das serifas clássicas do logo. Source Sans 3 sustenta textos e controles. O retrato fornecido de Michelle Morato mantém proporção e conteúdo integrais, dentro de uma moldura fina.",
     "keyCharacteristics": [
-      "Bodoni Moda nos títulos e Source Sans 3 na leitura e nos controles.",
-      "Champanhe nas ações sobre grafite; bronze profundo nos destaques sobre claro.",
-      "Logo íntegro em superfícies claras e fotografia institucional sem corte."
+      "Libre Caslon Display nos títulos e Source Sans 3 na leitura e nos controles.",
+      "Dourado nas ações sobre verde profundo; bronze legível nos destaques sobre claro.",
+      "Logo íntegro sobre claro e retrato integral com moldura fina."
     ],
     "rules": [
       {
         "section": "colors",
         "name": "The Contrast Rule",
-        "body": "Usar bronze profundo sobre claro e champanhe sobre grafite; preservar foco visível em cada superfície."
+        "body": "Usar bronze sobre claro e dourado sobre verde profundo; preservar foco visível em cada superfície."
+      },
+      {
+        "section": "typography",
+        "name": "The Two Voices Rule",
+        "body": "Reservar Libre Caslon Display para títulos e Source Sans 3 para leitura e controles."
       }
     ],
     "dos": [
-      "Do preservar o logo original transparente e a fotografia institucional integral.",
-      "Do manter leitura responsiva, foco visível e movimento reduzido.",
-      "Do usar apenas fatos, contatos e relatos fornecidos, com data e origem."
+      "Do preservar o logo original transparente e o retrato integral de Michelle Morato.",
+      "Do manter foco visível, leitura responsiva e respeito à preferência por movimento reduzido.",
+      "Do usar os tokens registrados e manter textos de atuação coerentes com o conteúdo fornecido."
     ],
     "donts": [
-      "Don't distorcer, recortar ou recolorir o logo original.",
-      "Don't atribuir identidades às mulheres da foto sem informação fornecida.",
+      "Don't distorcer, recortar ou recolorir os assets originais.",
+      "Don't inferir novas áreas de atuação a partir do subtítulo preservado no logo.",
       "Don't inventar credenciais, resultados, contatos ou avaliações."
     ]
   }

@@ -1,53 +1,53 @@
-# Danielle Maria — Advogada Previdenciarista
+# Morato Advocacia — Michelle Morato
 
-Site institucional em pt-BR para advocacia previdenciária em Patos de Minas, MG. Estrutura preservada com três temas de atendimento, diálogos, FAQ, quatro relatos e contato direto. Bodoni Moda e Source Sans 3; grafite, champanhe, bronze e marfim.
+Site institucional em pt-BR de Direito de Família, com atendimento presencial em Contagem/MG e online. Estrutura preservada: três temas com diálogos, sobre, etapas, FAQ, quatro relatos e contato direto. Verde profundo, dourado, bronze e marfim; Libre Caslon Display e Source Sans 3.
 
 ## Executar
 
 Next.js 16.3.5, React 19.2.8 e Tailwind CSS 4, conforme package.json.
 
-- Instalar dependências: npm install
-- Desenvolvimento: npm run dev (prévia em http://localhost:3000)
-- Verificações disponíveis: npm run lint, npx tsc --noEmit e npm run build
+```sh
+npm install
+npm run dev
+```
 
-Os resultados das verificações executadas pelo agente principal estão registrados abaixo. Leia AGENTS.md e os guias em node_modules/next/dist/docs/ antes de alterar código Next.js. Configure NEXT_PUBLIC_SITE_URL somente com o domínio real informado; sem a variável, imagens sociais são omitidas.
+Prévia: [localhost:3000](http://localhost:3000). Para produção, execute npm run build e depois npm run start. Verificações disponíveis: npm run lint e npx tsc --noEmit. Leia AGENTS.md e os guias em node_modules/next/dist/docs/ antes de alterar código Next.js.
+
+## Domínio e metadados
+
+O domínio ainda não foi fornecido. Quando confirmado, configure NEXT_PUBLIC_SITE_URL em .env.local ou no ambiente de hospedagem com a URL absoluta real, incluindo https://, e gere novamente o build. app/layout.tsx usa new URL: um valor inválido causa erro; não usar domínio inventado. Sem a variável, metadataBase e imagens sociais explícitas são omitidos e o cartão Twitter usa summary. Com a variável válida, o retrato fornecido compõe as imagens sociais e o cartão usa summary_large_image. O favicon usa o logo original.
 
 ## Estrutura
 
-- app/page.tsx: seções, três diálogos, menu móvel e FAQ.
-- app/lib/brand.ts: identidade, contatos, nota, total de avaliações e quatro transcrições fornecidas.
-- app/globals.css: tokens, tipografia, foco e movimento reduzido.
-- app/layout.tsx: fontes, metadados e referência ao favicon.
+- app/page.tsx: composição, três diálogos, menu móvel e FAQ.
+- app/lib/brand.ts: identidade, contatos, nota/contagem e quatro transcrições completas; mensagens de WhatsApp contextualizadas.
+- app/globals.css: tokens Tailwind CSS 4, foco, tipografia e movimento reduzido.
+- app/layout.tsx: fontes, metadados e ícone.
 - app/components/: assinatura com o logo original e botão de contato.
-- public/danielle-maria-logo.png: logo transparente integral, 2172 × 724; cabeçalho claro, sobre em marfim e placa marfim no rodapé.
-- public/danielle-maria-institucional.png: fotografia integral, 661 × 849; duas mulheres em um auditório, sem atribuição de identidades.
-- PRODUCT.md: fatos e limites.
-- DESIGN.md e .impeccable/design.json: sistema visual extraído da implementação.
-- .impeccable/danielle-maria-direction.md: direção e critérios de verificação.
-- .impeccable/asset-origins.json: fontes e hashes somente dos dois novos assets.
+- public/morato-advocacia-logo.png: logo integral transparente, 2172 × 724.
+- public/michelle-morato.png: retrato integral de Michelle Morato, 667 × 828.
+- PRODUCT.md: fatos, fontes e limites; DESIGN.md e .impeccable/design.json: tokens reais e extensões visuais schemaVersion 2.
+- .impeccable/morato-direction.md: contrato da direção aprovada.
+- .impeccable/asset-origins.json: origens e hashes dos dois assets originais, registrados como idênticos às fontes.
 
 ## Contatos e conteúdo
 
-- WhatsApp: https://wa.me/5534999089393
-- Telefone: (34) 99908-9393
-- Instagram: https://www.instagram.com/daniellemariaadvocacia/
-- Endereço: Rua José de Santana, 1306, sala 509, Centro, Patos de Minas — MG, CEP 38700-052.
-- Perfil no Google: https://www.google.com/maps?cid=6512141540918169075
+- [WhatsApp confirmado](https://wa.me/553125682738): (31) 2568-2738; [telefone](tel:+553125682738).
+- [Instagram @michellemoratoadvogada](https://www.instagram.com/michellemoratoadvogada/).
+- Endereço: Av. João César de Oliveira, 1730, sala 104, Eldorado, Contagem — MG, CEP 32310-000.
+- [Perfil no Google](https://www.google.com/maps?cid=16209826547785592380): nota informada 5,0 e 40 avaliações no material de 18/10/2026; sem verificação ao vivo ou atualização automática.
 
-Atuação apresentada: aposentadorias, BPC, benefícios por incapacidade, pensão por morte, auxílio-acidente e salário-maternidade. Nota informada 5,0 e total de 72 avaliações no material de 18/10/2026, sem atualização automática. As quatro transcrições em app/lib/brand.ts preservam texto e autoria; seus links apontam para o perfil do escritório.
+Atuação: divórcio, alimentos, guarda, visitas/convivência e partilha. Atendimento presencial e online confirmado pela bio original fornecida pelo usuário: “📍Atendimento presencial e online.” A arte do logo preserva Previdenciário e Trabalhista; o conteúdo institucional segue a atuação familiar enviada. E-mail, OAB, formação e domínio não informados.
 
-OAB, e-mail, formação e domínio não informados. Não inventar contatos, credenciais ou promessas de resultado.
+Quatro relatos integrais preservados em app/lib/brand.ts: frederico luiz, Felipe Couto, Jessica Fontoura e Leonardo Patrick Nutricionista. Links levam ao perfil do escritório, sem presumir links individuais. Não alterar transcrições, inventar credenciais ou prometer resultados.
 
-## Estado da verificação
+## Evidências e revisão
 
-Evidência do agente principal em [.impeccable/review/danielle/validation.md](.impeccable/review/danielle/validation.md):
+Registros fornecidos pelo agente principal em .impeccable/review/morato/validation.md, functional-checks.json e contrast.json: lint/tipos/build aprovados; quatro imagens e fontes carregadas; sem overflow horizontal em 320/390/518/768/1024/1440px; menu, três diálogos com WhatsApp contextual/teclado/foco/rolagem e FAQ online conferidos. Os cinco contrastes medidos variam de 5,76:1 a 9,90:1.
 
-- npm run lint, npx tsc --noEmit e npm run build concluídos com exit 0; página estática gerada.
-- Browser CUA: quatro instâncias de imagem carregadas; sem rolagem horizontal em 320, 390, 527, 768, 1024 e 1440px.
-- Três diálogos com WhatsApp contextual correto; Tab ciclando entre fechar e link, Escape, retorno ao acionador e restauração da rolagem conferidos.
-- Menu móvel: abertura, seleção de link e fechamento conferidos.
-- Logo e foto idênticos aos originais por SHA-256. Contrastes medidos registrados no arquivo de validação.
+Parecer em .impeccable/review/morato/finish-review.md: disposition ship, sem correções materiais remanescentes no escopo. A avaliação visual examinou capturas integrais corrigidas em 1440/390/518px até o rodapé e primeiras telas desktop/mobile. As larguras úteis excluem a barra de 9px; os recortes superiores são nativos e sem preenchimento. A captura inicial inconsistente foi substituída. O passe final resolveu somente a comprovação do online pela bio original e reteve a avaliação completa anterior; não reexecutou auditoria visual ou funcional. Não houve edição de implementação após o build testado.
 
-Esta etapa documental incorporou as evidências do agente principal, sem repetir os testes ou executar novamente o detector.
+Esta atualização documental conferiu consistência com o código e os registros fornecidos; não executou testes, capturas ou detector. O único aviso consultivo do detector já fornecido era a divisória do rodapé, agora registrada em DESIGN.md.
 
-Conforme conclusão do revisor independente, disposition: ship, sem material_fixes. Escopo da revisão: 11 capturas de viewports segmentadas em .impeccable/review/danielle/, leitura de código e verificação de dados/metadados. O parecer se limita às capturas e às verificações descritas; não abrange capturas full page.
+
+Paleta refinada em19/10/2026 para harmonizar logo e retrato do hero. Valores atuais em DESIGN.md e app/globals.css; build, contrastes e inspeção desktop/mobile registrados na seção final de PRODUCT.md.

@@ -1,93 +1,93 @@
 ---
-name: "Danielle Maria — Advogada Previdenciarista"
-description: "Grafite, champanhe e marfim; logo íntegro, presença e clareza."
+name: "Morato Advocacia — Michelle Morato"
+description: "Verde profundo, dourado e marfim; serifas clássicas, clareza e acolhimento."
 colors:
-  ink: "#302c2c"
-  ink-soft: "#6b605c"
-  paper: "#fffdfb"
-  ivory: "#f8f4ef"
-  linen: "#e0d4ca"
-  brand-50: "#f1e8df"
-  brand-100: "#eadcd0"
-  brand-200: "#e3c9b3"
-  brand-300: "#d0b090"
-  brand-400: "#c0a080"
-  brand-500: "#b09070"
-  brand-600: "#95765e"
-  brand-700: "#755542"
-  brand-800: "#594032"
-  brand-900: "#342d2a"
-  brand-950: "#242122"
-  champagne-divider: "rgb(208 176 144 / 25%)"
+  ink: "#172c27"
+  ink-soft: "#59665f"
+  paper: "#fbfbf7"
+  ivory: "#f0f1ea"
+  linen: "#d5d9cf"
+  brand-50: "#eaf0e8"
+  brand-100: "#dce4da"
+  brand-200: "#e3c99e"
+  brand-300: "#cfa86e"
+  brand-400: "#c29a5e"
+  brand-500: "#b58949"
+  brand-600: "#926c32"
+  brand-700: "#705223"
+  brand-800: "#29453f"
+  brand-900: "#1b302b"
+  brand-950: "#0b1715"
+  gold-divider: "rgb(207 168 110 / 25%)"
 typography:
   display:
-    fontFamily: "Bodoni Moda, Georgia, serif"
+    fontFamily: "Libre Caslon Display, Georgia, serif"
     fontSize: "4.2rem"
     fontWeight: 400
     lineHeight: 1.1
     letterSpacing: "-0.025em"
   display-tablet:
-    fontFamily: "Bodoni Moda, Georgia, serif"
+    fontFamily: "Libre Caslon Display, Georgia, serif"
     fontSize: "3.6rem"
     fontWeight: 400
     lineHeight: 1.1
     letterSpacing: "-0.025em"
   display-mobile:
-    fontFamily: "Bodoni Moda, Georgia, serif"
+    fontFamily: "Libre Caslon Display, Georgia, serif"
     fontSize: "2.75rem"
     fontWeight: 400
     lineHeight: 1.1
     letterSpacing: "-0.025em"
   headline:
-    fontFamily: "Bodoni Moda, Georgia, serif"
+    fontFamily: "Libre Caslon Display, Georgia, serif"
     fontSize: "3.55rem"
     fontWeight: 400
     lineHeight: 1.07
     letterSpacing: "-0.035em"
   headline-tablet:
-    fontFamily: "Bodoni Moda, Georgia, serif"
+    fontFamily: "Libre Caslon Display, Georgia, serif"
     fontSize: "3rem"
     fontWeight: 400
     lineHeight: 1.07
     letterSpacing: "-0.035em"
   headline-mobile:
-    fontFamily: "Bodoni Moda, Georgia, serif"
+    fontFamily: "Libre Caslon Display, Georgia, serif"
     fontSize: "2.25rem"
     fontWeight: 400
     lineHeight: 1.07
     letterSpacing: "-0.035em"
   title:
-    fontFamily: "Bodoni Moda, Georgia, serif"
+    fontFamily: "Libre Caslon Display, Georgia, serif"
     fontSize: "1.8rem"
     fontWeight: 400
     lineHeight: 1.25
     letterSpacing: "-0.025em"
   title-mobile:
-    fontFamily: "Bodoni Moda, Georgia, serif"
+    fontFamily: "Libre Caslon Display, Georgia, serif"
     fontSize: "1.55rem"
     fontWeight: 400
     lineHeight: 1.25
     letterSpacing: "-0.025em"
   dialog-mobile:
-    fontFamily: "Bodoni Moda, Georgia, serif"
+    fontFamily: "Libre Caslon Display, Georgia, serif"
     fontSize: "1.7rem"
     fontWeight: 400
     lineHeight: 1.25
     letterSpacing: "-0.025em"
   dialog-tablet:
-    fontFamily: "Bodoni Moda, Georgia, serif"
+    fontFamily: "Libre Caslon Display, Georgia, serif"
     fontSize: "1.875rem"
     fontWeight: 400
     lineHeight: 1.25
     letterSpacing: "-0.025em"
   value-mobile:
-    fontFamily: "Bodoni Moda, Georgia, serif"
+    fontFamily: "Libre Caslon Display, Georgia, serif"
     fontSize: "1.5rem"
     fontWeight: 400
     lineHeight: "2rem"
     letterSpacing: "-0.025em"
   value-tablet:
-    fontFamily: "Bodoni Moda, Georgia, serif"
+    fontFamily: "Libre Caslon Display, Georgia, serif"
     fontSize: "1.7rem"
     fontWeight: 400
     letterSpacing: "-0.025em"
@@ -111,20 +111,25 @@ typography:
     fontSize: "12px"
     fontWeight: 400
     lineHeight: "24px"
-  metadata:
-    fontFamily: "Source Sans 3, system-ui, sans-serif"
-    fontSize: "10px"
-    fontWeight: 400
-    lineHeight: "15px"
   label:
     fontFamily: "Source Sans 3, system-ui, sans-serif"
     fontSize: "14px"
     fontWeight: 600
     lineHeight: "20px"
+  navigation:
+    fontFamily: "Source Sans 3, system-ui, sans-serif"
+    fontSize: "15px"
+    fontWeight: 600
+    lineHeight: "22.5px"
+  label-large:
+    fontFamily: "Source Sans 3, system-ui, sans-serif"
+    fontSize: "16px"
+    fontWeight: 600
+    lineHeight: "24px"
 rounded:
   sm: "0.25rem"
   modal-mobile: "1rem"
-  full: "9999px"
+  full: "calc(infinity * 1px)"
 spacing:
   gutter-mobile: "1.25rem"
   gutter-tablet: "2rem"
@@ -147,6 +152,7 @@ components:
     textColor: "{colors.ink}"
     rounded: "{rounded.sm}"
     padding: "1rem 1.75rem"
+    typography: "{typography.label-large}"
   button-dark:
     backgroundColor: "{colors.brand-950}"
     textColor: "{colors.brand-100}"
@@ -156,94 +162,120 @@ components:
   button-dark-hover:
     backgroundColor: "{colors.brand-900}"
     textColor: "{colors.brand-100}"
+  button-small:
+    backgroundColor: "{colors.brand-300}"
+    textColor: "{colors.ink}"
+    typography: "{typography.label}"
+    rounded: "{rounded.sm}"
+    padding: "0.75rem 1.25rem"
 ---
 
-# Design System: Danielle Maria
+# Design System: Morato Advocacia
 
 ## Overview
 
-**Creative North Star: "Escuta com presença"**
+**Creative North Star: "Estratégia jurídica com acolhimento"**
 
-A identidade de Danielle Maria combina logo original transparente, superfícies grafite e áreas de leitura em marfim. O cabeçalho claro recebe a marca íntegra; o contraste editorial acompanha uma apresentação próxima e direta da advocacia previdenciária.
+A identidade de Morato Advocacia combina o verde profundo da marca, dourado e bronze dos detalhes metálicos e áreas de leitura em marfim. O logo original permanece íntegro sobre superfícies claras; a alternância tonal organiza uma apresentação sóbria e próxima.
 
-Bodoni Moda mantém a relação entre serifas de alto contraste e o desenho do logo. Source Sans 3 organiza a leitura e os controles. A fotografia institucional fornecida aparece integralmente, sem atribuir identidades às duas mulheres retratadas.
+Libre Caslon Display aproxima os títulos das serifas clássicas do logo. Source Sans 3 sustenta textos e controles. O retrato fornecido de Michelle Morato mantém proporção e conteúdo integrais, dentro de uma moldura fina.
 
 **Key Characteristics:**
 
-- Bodoni Moda nos títulos e Source Sans 3 na leitura e nos controles.
-- Champanhe nas ações sobre grafite; bronze profundo nos destaques sobre claro.
-- Logo íntegro em superfícies claras e fotografia institucional sem corte.
+- Libre Caslon Display nos títulos e Source Sans 3 na leitura e nos controles.
+- Dourado nas ações sobre verde profundo; bronze legível nos destaques sobre claro.
+- Logo íntegro sobre claro e retrato integral com moldura fina.
+
+
+
+Refinamento cromático de 19/10/2026: verde quase preto (#0b1715) aproxima as superfícies escuras das letras e do aro da marca; dourado suave (#cfa86e) acompanha o metal do logo e a madeira na fotografia; claros e textos com um leve tom de sálvia retomam os cinzas esverdeados do escritório e equilibram o azul acinzentado da roupa. Retrato integral mantido no hero. As amostras originais do logo permanecem registradas em PRODUCT.md; os tokens são variações de aplicação, não novas amostras extraídas.
 
 ## Colors
 
-Paleta de grafite, champanhe, bronze e marfim, aplicada pelos tokens de app/globals.css.
+Verde profundo, ouro, bronze e marfim extraídos da identidade fornecida e ajustados no CSS para leitura. O frontmatter registra os valores normativos; amostras quantizadas do logo são evidência de origem em PRODUCT.md, não substitutos dos tokens.
 
 ### Primary
 
-brand-300 nas ações e destaques sobre escuro; brand-200 no hover. brand-400 e brand-500 integram a escala derivada do logo; brand-50 e brand-100 sustentam áreas tonais e leitura sobre escuro.
+brand-950 sustenta hero, etapas e rodapé; brand-900, a área de avaliações; brand-800 é um verde de apoio usado em títulos e ações. A escala numérica mistura verdes e metais: não interpretar todos os passos como uma única rampa de matiz.
 
 ### Secondary
 
-brand-600, brand-700 e brand-800 compõem o bronze. brand-700 aparece nos links, ícones e foco sobre claro; brand-800 nos textos de ação e títulos de apoio.
+brand-300 é o dourado das ações e dos destaques sobre escuro; brand-200 aparece no hover e em textos secundários sobre verde. brand-400 a brand-600 preservam a progressão metálica derivada do logo. brand-700 é o bronze legível dos links, ícones e foco sobre claro. brand-50 e brand-100 oferecem tons claros para painéis e textos.
 
 ### Neutral
 
-brand-950 no hero, etapas e rodapé; brand-900 nas avaliações. paper no cabeçalho e no sobre; ivory nas áreas de leitura e nas placas de logo; linen nas bordas claras. ink e ink-soft organizam a hierarquia textual. A variável de base --brand-paper usa o valor de ivory; o token --color-paper tem valor próprio, conforme frontmatter.
+paper recebe cabeçalho, sobre e endereço; ivory sustenta leitura e placas do logo; linen delimita superfícies claras. ink e ink-soft formam a hierarquia de texto. As variáveis de base --brand-paper, --brand-ink e --brand-ink-soft coincidem, respectivamente, com ivory, ink e ink-soft.
 
-champagne-divider registra a divisória do rodapé exatamente como escrita no CSS. As bordas translúcidas da página também usam brand-300 a 15%, 20% e 30%; não são novas cores de marca.
+gold-divider registra exatamente a borda do rodapé declarada no CSS, e não uma correção visual. Outras linhas usam ink a 10%/15%, branco a 15% e brand-300 a 15%/20%/30%. O cabeçalho preserva as cores claras também no menu móvel.
 
-A extração fornecida do logo conta pixels opacos quantizados em passos de 16: #303030 (49.726), #c0a080 (5.293), #d0b090 (4.733), #b09070 (3.742), #f0e0d0 (3.159). Amostras de origem não substituem os tokens aplicados.
-
-**The Contrast Rule.** Usar bronze profundo sobre claro e champanhe sobre grafite; preservar foco visível em cada superfície.
+**The Contrast Rule.** Usar bronze sobre claro e dourado sobre verde profundo; preservar foco visível em cada superfície.
 
 ## Typography
 
-Bodoni Moda 400/500 e Source Sans 3 400/500/600/700, carregadas por next/font com display swap. A classe de títulos fixa peso 400 e tracking de -0.025em; H2 de seção usa -0.035em. A escolha de Bodoni preserva serifas de alto contraste afinadas ao logo; Source Sans 3 atende leitura e controles.
+**Display Font:** Libre Caslon Display, Georgia, serif (400). **Body Font:** Source Sans 3, system-ui, sans-serif (400/500/600/700). Carregamento por next/font com display swap. A aproximação ao logo é tipográfica; sua arte original não é reconstruída como texto.
 
-H1 usa display-mobile, display-tablet em 640px e display em 1024px. H2 de seção usa headline-mobile, headline-tablet e headline nos mesmos marcos. Títulos dos temas usam title-mobile até 640px e title depois. O diálogo usa dialog-mobile e dialog-tablet. A faixa de valores usa value-mobile e value-tablet; no tamanho arbitrário de 1.7rem, a faixa mantém a entrelinha da utilidade text-2xl (calc(2 / 1.5), conforme node_modules/tailwindcss/theme.css), enquanto o diálogo usa 1.25.
+O H1 passa de display-mobile a display-tablet em 640px e display em 1024px. O H2 de seção usa headline-mobile, headline-tablet e headline nos mesmos marcos. Títulos dos temas passam de title-mobile a title em 640px; os diálogos usam dialog-mobile e dialog-tablet. A classe de display aplica peso 400 e tracking de -0.025em; o H2 de seção tem tracking de -0.035em.
 
-Corpo em body; apresentação passa de intro a body-spacious em 640px. Relatos e texto sobre usam body-spacious. FAQ usa pergunta em 16px/24px e resposta em 14px/28px. Navegação em 15px/22.5px, peso 600. Botões compactos e padrão usam label; botões amplos usam 16px/24px, peso 600. Rodapé inclui metadados em 10px, com títulos de peso 600, caixa alta e tracking 0.18em.
+Textos de leitura usam body ou body-spacious; o texto do hero passa de intro a body-spacious em 640px. Parágrafos recorrentes têm largura máxima de 36rem. FAQ: perguntas em 16px/24px e respostas em 14px/28px. Navegação usa o papel navigation; botões compactos e padrão usam label; amplos usam label-large.
 
-Os tamanhos 1.55rem e 1.7rem são usos existentes identificados nos avisos fornecidos. Seu registro descreve a implementação, sem constituir exceção ao detector. A validação técnica e a revisão das capturas têm o escopo registrado abaixo.
+A faixa de atendimento usa value-mobile e value-tablet; a entrelinha do tamanho arbitrário de 1.7rem mantém a razão da utilidade text-2xl (2/1.5), enquanto o diálogo usa 1.25. Os tamanhos descrevem a implementação existente. Metadados do rodapé usam 10px; seus títulos locais usam peso 600, caixa alta e tracking de 0.18em, sem criar um padrão de chamada acima de títulos.
+
+**The Two Voices Rule.** Reservar Libre Caslon Display para títulos e Source Sans 3 para leitura e controles.
 
 ## Layout
 
-Contêiner de 80rem, gutters e respiros de seção do frontmatter. Breakpoints usados: 640px, 768px e 1024px. Cabeçalho sticky de 104px, passando a 112px em 640px; navegação desktop em 1024px. Logo compartilhado com largura de 210px no celular e 260px a partir de 640px, mantendo a proporção 3:1.
+Contêiner de 80rem, com gutters e respiros recorrentes no frontmatter. Breakpoints usados: 640px, 768px e 1024px. Cabeçalho sticky de 104px, passando a 112px em 640px; navegação desktop em 1024px. Logo compartilhado de 210px no celular e 260px a partir de 640px, com proporção original 3:1.
 
-Hero empilhado até 1024px, depois em colunas 1.2fr/0.8fr; altura mínima desktop de 650px. Foto de até 360px, passando a 390px em 640px, com altura automática. Sobre em colunas 0.85fr/1.15fr no desktop, placa de logo de até 420px. Rodapé em duas colunas a partir de 640px e três em 1024px. Relatos em uma coluna e duas a partir de 768px, sem expansão adicional.
+A composição existente foi preservada por solicitação: cabeçalho, hero, informações de atendimento, três temas, sobre, etapas, FAQ, quatro relatos, contato, ação final e rodapé. Hero empilhado até 1024px, depois em colunas 1.2fr/0.8fr, com altura mínima desktop de 650px. Retrato de até 360px, passando a 390px em 640px, altura automática. Sobre em colunas 0.85fr/1.15fr no desktop, placa de logo de até 420px. Contato em 0.9fr/1.1fr no desktop; relatos em uma coluna e duas a partir de 768px. Rodapé passa a duas colunas em 640px e três em 1024px.
+
+A barra de rolagem personalizada tem 9px. As capturas de página inteira registram a largura útil de conteúdo, descontando essa barra; isso não muda os breakpoints CSS.
 
 ## Elevation & Depth
 
-Hierarquia por alternância tonal e bordas finas. Sombra do diálogo: 0 18px 48px rgb(48 44 44 / 18%), definida em --shadow-card. Fundo do diálogo em ink/55 com desfoque; sem sombra nos temas ou relatos.
+Profundidade por alternância tonal e bordas finas; temas e relatos não recebem sombra. O diálogo usa --shadow-card (0 18px 48px rgb(11 23 21 / 18%)); o fundo é ink a 55% com desfoque. A sombra pertence à sobreposição, sem imitar material metálico na página.
 
 ## Shapes
 
-Botões com cantos sm; ícones e controles circulares. Diálogo móvel com cantos superiores de 1rem, raio sm em 640px, altura máxima de 90dvh e rolagem interna. Logo com transparência preservada, sem recorte ou distorção. Foto retangular integral com moldura fina; rodapé usa placa marfim retangular.
+Botões com cantos sm; controles de ícone e marcadores circulares usam full. Diálogo móvel com cantos superiores modal-mobile, raio sm a partir de 640px, altura máxima de 90dvh e rolagem interna. Logo transparente e retrato retangular preservam proporção e conteúdo. Placas de logo, linhas de atendimento e painéis de relatos permanecem retangulares.
 
 ## Components
 
-- WhatsApp: altura mínima de 44px; padding compacto 12px 20px, padrão 14px 24px e amplo 16px 28px. Champanhe com texto ink e hover brand-200. Botão final grafite sobre champanhe, hover brand-900. Transição de 200ms.
-- Navegação clara: links ink-soft, hover e sublinhado bronze em 180ms. Menu móvel marfim com abertura de 220ms; fecha por seleção ou Escape. Botão informa aria-expanded e aria-controls.
-- Foco: contorno de 2px com afastamento global de 4px; botão compartilhado usa afastamento de 3px. Bronze sobre claro; hero e avaliações usam champanhe; rodapé e seções brand-950 usam branco.
-- Três temas previdenciários em linhas com ícones SVG e ação de detalhes. Diálogos nomeados com Escape, ciclo e retorno de foco, fundo inert, bloqueio de rolagem, fechamento pelo fundo e WhatsApp contextual previstos no código.
-- FAQ com details/summary. Quatro relatos fornecidos com autoria e links ao perfil do escritório. Nota 5,0/72 avaliações enviada em 18/10/2026, sem atualização automática.
-- Contato direto, telefone, Instagram e mapa, centralizados em app/lib/brand.ts. Placa do endereço em paper com borda fina.
-- Foto com revelação por clip-path de 1s cubic-bezier(0.16, 1, 0.3, 1). Variantes de conteúdo em 680ms, sequenciamento de 100ms e atraso de 40ms; diálogo em 240ms. Conteúdo sem ocultação inicial por padrão. CSS e MotionConfig contemplam movimento reduzido.
+### Buttons
 
-Descrições baseadas no código e na evidência do agente principal em .impeccable/review/danielle/validation.md: lint, tipos e build com exit 0; quatro imagens carregadas; sem overflow horizontal em 320, 390, 527, 768, 1024 e 1440px; três diálogos com links contextuais, ciclo de foco, Escape, retorno ao acionador e restauração da rolagem; menu fechado por seleção. Esta etapa documental não repetiu esses testes. Conforme conclusão informada pelo usuário, o revisor independente emitiu disposition ship, sem material_fixes, após examinar 11 capturas de viewports segmentadas, ler código e verificar dados/metadados. O parecer não abrange full page nem áreas além das capturas.
+Ação direta em dourado, texto ink, hover brand-200 e borda correspondente. Altura mínima de 44px; padding compacto 12px 20px, padrão 14px 24px e amplo 16px 28px. Transição de cor/borda em 200ms. A ação final inverte para verde profundo sobre a faixa dourada, com hover brand-900.
+
+Foco global com contorno de 2px e afastamento de 4px; botão compartilhado usa afastamento de 3px. Bronze sobre claro; hero e avaliações usam dourado; rodapé e superfícies brand-950 usam branco, conforme os seletores contextuais do CSS.
+
+### Navigation
+
+Cabeçalho claro, links ink-soft com hover bronze e sublinhado fino em 180ms. Menu móvel marfim abre em 220ms, informa aria-expanded/aria-controls e fecha por seleção ou Escape. O link de salto aparece ao receber foco.
+
+### Practice rows and dialogs
+
+Três linhas de atendimento: Divórcio e partilha, Alimentos, Guarda e convivência. Ícones SVG, títulos serifados, divisões finas e botão de detalhes. Diálogos nomeados, fechados pelo controle, Escape ou fundo; código com foco inicial, ciclo nos dois sentidos, fundo inert, bloqueio de rolagem e retorno do foco/rolagem. O WhatsApp contextual recebe o assunto selecionado.
+
+### FAQ, reviews and contact
+
+FAQ nativo em details/summary. Quatro transcrições integrais em painéis verdes, com autoria e links ao perfil do escritório. Origem e data da nota/contagem ficam explícitas; fonte factual em PRODUCT.md e app/lib/brand.ts. Contato direto sem formulário, com WhatsApp, telefone, Instagram e endereço em painel paper com borda fina.
+
+### Motion
+
+Retrato com revelação por clip-path em 1s cubic-bezier(0.16, 1, 0.3, 1). Variantes de conteúdo em 680ms cubic-bezier(0.22, 1, 0.36, 1), sequenciamento de 100ms e atraso de 40ms; diálogo em 240ms. Conteúdo usa initial=false; não tratar variantes declaradas como ocultação inicial obrigatória. CSS e MotionConfig respeitam movimento reduzido.
+
+Registro extraído de app/page.tsx, app/globals.css, app/layout.tsx e componentes. Validação e parecer fornecidos estão em .impeccable/review/morato/: lint/tipos/build aprovados e disposition ship no escopo descrito em finish-review.md. Esta etapa documental não executou testes, captura ou detector.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- Do preservar o logo original transparente e a fotografia institucional integral.
-- Do manter leitura responsiva, foco visível e movimento reduzido.
-- Do usar apenas fatos, contatos e relatos fornecidos, com data e origem.
+- Do preservar o logo original transparente e o retrato integral de Michelle Morato.
+- Do manter foco visível, leitura responsiva e respeito à preferência por movimento reduzido.
+- Do usar os tokens registrados e manter textos de atuação coerentes com o conteúdo fornecido.
 
 ### Don't:
 
-- Don't distorcer, recortar ou recolorir o logo original.
-- Don't atribuir identidades às mulheres da foto sem informação fornecida.
+- Don't distorcer, recortar ou recolorir os assets originais.
+- Don't inferir novas áreas de atuação a partir do subtítulo preservado no logo.
 - Don't inventar credenciais, resultados, contatos ou avaliações.
 
-Não canonizado nem reparado: títulos de navegação do rodapé em 10px, caixa alta e tracking 0.18em são tratados como metadados locais, sem promover o padrão a kicker/eyebrow reutilizável. Os três avisos fornecidos sobre 1.7rem, 1.55rem e a divisória translúcida permanecem registrados; não houve nova execução do detector nem mudança de código ou da skill.
+Não canonizado nem reparado: os títulos de grupo do rodapé em 10px/caixa alta permanecem locais, sem virar um padrão de kicker/eyebrow. O subtítulo Previdenciário e Trabalhista pertence à arte original preservada; não redefine o conteúdo de Direito de Família. A divisória registrada resolve a lacuna documental apontada pelo detector, sem nova execução ou mudança de UI.
