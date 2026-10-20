@@ -1,4 +1,4 @@
-# Morato Advocacia — Michelle Morato
+# Campos Costa Assessoria Jurídica
 
 <!-- impeccable:product-schema 1 -->
 
@@ -6,57 +6,52 @@
 web
 
 ## Users
-Pessoas e famílias em busca de orientação sobre divórcio, alimentos, guarda, visitas/convivência e partilha, com atendimento presencial em Contagem, Minas Gerais, e online.
+Pessoas que buscam orientação jurídica e contato com o escritório em Inhapim, Minas Gerais.
 
 ## Product Purpose
-Apresentar Michelle Morato e a Morato Advocacia, explicar os temas de Direito de Família e facilitar o agendamento por WhatsApp, telefone, Instagram e localização do escritório.
+Apresentar a Campos Costa e o Dr. Davi Oliveira Costa, esclarecer o atendimento e facilitar contato pelo WhatsApp, telefone, Instagram e localização.
 
 ## Positioning
-Estratégia jurídica com acolhimento, escuta e clareza em cada decisão familiar. Sem promessas de resultado ou credenciais não fornecidas.
+Atenção, clareza e responsabilidade no atendimento jurídico. Textos institucionais sem promessa de resultado nem especialidades não confirmadas.
 
 ## Operating Context
-Página pt-BR com estrutura e funções preservadas por autorização explícita: cabeçalho, hero, informações de atendimento, três temas com diálogos, sobre, etapas, FAQ, quatro relatos, contato, ação final e rodapé. Contato direto, sem formulário. Dados e relatos em app/lib/brand.ts; tokens em app/globals.css; fontes/metadados em app/layout.tsx; composição em app/page.tsx.
+Página pt-BR com cabeçalho, hero claro e retrato real do Dr. Davi, faixa de informações, apresentação com duas fotos editoriais, seis cartões de atendimento com diálogos, dois painéis de compromisso, três etapas, quinze relatos, FAQ, contato e rodapé. Contato direto sem formulário. Dados em app/lib/brand.ts, tokens em app/globals.css, fontes e metadados em app/layout.tsx, composição e interações em app/page.tsx.
+
+O usuário rejeitou o hero anterior e a página percebida como vazia. A captura editorial clara de Suellem Rodrigues enviada em 20/10/2026 orienta densidade, composição e qualidade visual; não fornece fatos, especialidades ou promessas para Campos Costa.
 
 ## Capabilities and Constraints
-Next.js 16.3.5, React 19.2.8, Tailwind CSS 4, Framer Motion e Lucide conforme package.json. Ler AGENTS.md e os guias locais em node_modules/next/dist/docs/ antes de alterar código Next.js.
+Next.js 16.3.5, React 19.2.8 e Tailwind CSS 4 conforme package.json. Tema Tailwind em @theme inline no CSS global, sem configuração legada separada. Ler AGENTS.md e os guias locais em node_modules/next/dist/docs/ antes de alterar código Next.js.
 
-Diálogos com WhatsApp contextual, Escape, ciclo de foco, fundo inert, bloqueio de rolagem e retorno do foco; menu fecha por seleção ou Escape. CSS e MotionConfig contemplam movimento reduzido. Evidências de execução fornecidas pelo agente principal em .impeccable/review/morato/; esta etapa documental não repetiu testes nem detector.
+Diálogos com WhatsApp contextual, Escape, ciclo e retorno de foco, fundo inert e bloqueio de rolagem. Menu móvel fecha por seleção ou Escape. Relatos longos expansíveis; FAQ nativo. CSS respeita movimento reduzido. Endereço, orientação de visita e link externo Maps são locais e não dependem de mapa incorporado.
 
-NEXT_PUBLIC_SITE_URL recebe somente a URL absoluta do domínio real confirmado. Sem a variável, metadataBase e imagens sociais explícitas são omitidos; não atribuir um domínio. E-mail, OAB, formação, experiência, horários e abrangência geográfica do atendimento online não foram informados.
+Os seis cartões são institucionais: Consulta e orientação; Análise de documentos; Orientação preventiva; Avaliação de alternativas; Organização da demanda; Acompanhamento jurídico. Não representam especialidades jurídicas confirmadas. Domínio, e-mail, horários, atendimento online, formação, tempo de experiência e áreas específicas não foram fornecidos.
+
+NEXT_PUBLIC_SITE_URL aceita o domínio absoluto real quando confirmado. Sem a variável, metadataBase e imagens sociais explícitas são omitidos. Com valor válido, o retrato compõe as imagens sociais.
 
 ## Brand Commitments
-Rebrand autorizado para Morato Advocacia/Michelle Morato, preservando estrutura e funcionalidades. Direção em .impeccable/morato-direction.md.
+Substituição da identidade e reconstrução visual autorizadas pelo usuário em 20/10/2026. Direção em .impeccable/campos-costa-direction.md. Logo e três fotografias originais preservados, sem recoloração; retrato do Dr. Davi integral no hero. O profissional das fotos editoriais não é identificado como Dr. Davi.
 
-Logo original transparente em public/morato-advocacia-logo.png (2172 × 724), íntegro no cabeçalho, sobre e placa marfim do rodapé. A arte mantém o subtítulo original Previdenciário e Trabalhista; o texto institucional segue Direito de Família conforme material fornecido. Não deduzir serviços adicionais da arte.
+Merriweather 600/700, somente normal, e Manrope 400/500/600/700 via next/font com display swap. Superfícies claras, bronze de leitura e grafite nas ações, ouro original da marca e carvão pontual. Tokens normativos em DESIGN.md e extensões em .impeccable/design.json.
 
-Retrato integral de Michelle Morato em public/michelle-morato.png (667 × 828), sem recorte, distorção ou recoloração. Proveniência e igualdade byte a byte com os originais registradas pelos hashes em .impeccable/asset-origins.json; não revalidadas nesta etapa documental.
-
-Paleta derivada dos pixels do logo e adaptada para superfícies e contraste em app/globals.css. Extração fornecida: alpha >= 220, quantização em passos de 16; principais amostras e contagens: #001010 (20053), #001000 (9225), #000000 (8006), #c09050 (5971), #002010 (5952), #d0a060 (5742), #a07030 (5439), #704010 (5032), #b08040 (5024), #e0b070 (4787), #f0d090 (4718). São amostras, não uma escala de tokens. DESIGN.md registra os valores aplicados.
-
-Libre Caslon Display 400 aproxima as serifas clássicas do logo; Source Sans 3 400/500/600/700 sustenta leitura e controles. Fontes por next/font com display swap.
+Amostras do logo com alpha >= 220 e quantização em passos de 16: #ffd060 (6566), #fff090 (6233), #f0a030 (5622), #402000 (5155). São cores de origem, não uma escala de tokens. Variações e neutros foram adaptados para contraste.
 
 ## Evidence on Hand
-Dados e relatos fornecidos em 18/10/2026, registrados em app/lib/brand.ts:
+Dados e relatos enviados pelo usuário em 20/10/2026:
 
-- Michelle Morato; Morato Advocacia; Direito de Família.
-- Temas: Divórcio e partilha; Alimentos; Guarda e convivência, incluindo visitas.
-- Telefone: (31) 2568-2738; tel:+553125682738. WhatsApp 553125682738 confirmado pelo usuário.
-- Endereço: Av. João César de Oliveira, 1730, sala 104, Eldorado, Contagem — MG, CEP 32310-000.
-- Instagram: https://www.instagram.com/michellemoratoadvogada/ — @michellemoratoadvogada.
-- Atendimento presencial e online confirmado pela bio original enviada pelo usuário: “📍Atendimento presencial e online.” Sem consulta ao vivo.
-- Google: nota informada 5,0, 40 avaliações, CID 16209826547785592380; referência do material em 18/10/2026, sem verificação ao vivo ou atualização automática.
-- Quatro transcrições completas em app/lib/brand.ts: frederico luiz, Felipe Couto, Jessica Fontoura e Leonardo Patrick Nutricionista. Preservar texto e autoria, inclusive grafia; os links apontam para o perfil do escritório, não para avaliações individuais.
+- Campos Costa Assessoria Jurídica; Dr. Davi Oliveira Costa.
+- OAB/MG 171.888, identificada no retrato profissional fornecido.
+- Telefone/WhatsApp (33) 99811-0480; tel:+5533998110480; https://wa.me/5533998110480.
+- R. Geraldo Contador, 119, sala 101, Centro, Inhapim — MG, CEP 35330-000.
+- Instagram https://www.instagram.com/camposcosta.adv/ — @camposcosta.adv. Sem inferências a partir de bio não verificada.
+- Nota Google informada 5,0 e total de 19 avaliações, sem consulta ao vivo nem atualização automática.
+- Quinze transcrições literais em app/lib/brand.ts: Bernardo Santana, Bruno Coutinho, Rodrigo Araújo, Vitória Dafne Vieira Inácio, Maria Alice Carvalho, Gisele Muniz de Andrade, Lídia Fernandes Miranda, Breno Arêdes, Isadora Souza, Caio Coutinho, Aline Paula Alves, Mysson, Marlon Fernandes, Viviane Reis e Cleber Penini. Links levam à busca do escritório no Google Maps; não há URL individual confirmada.
 
-Evidência do agente principal em .impeccable/review/morato/validation.md e functional-checks.json: lint, TypeScript e build com saída 0; quatro elementos de imagem e fontes carregados; sem overflow horizontal em 320, 390, 518, 768, 1024 e 1440px; menu fecha ao selecionar; três diálogos com WhatsApp contextual, ciclo de foco, Escape, retorno ao acionador e restauração da rolagem; FAQ sobre online expandido. O teste de troca entre diálogos foi repetido após aguardar o fim da animação de saída.
+Assets originais em public: campos-costa-logo.png (1944 × 809); campos-costa-atendimento.png, campos-costa-pesquisa.png e davi-oliveira-costa.png (1254 × 1254 cada). Origens e hashes SHA-256 preservados em .impeccable/asset-origins.json.
 
-Contrastes fornecidos em contrast.json: secundário/marfim 5,76:1; bronze/claro 6,61:1; texto/botão 7,90:1; dourado/verde profundo 9,21:1; secundário/verde 9,90:1.
-
-Parecer independente em .impeccable/review/morato/finish-review.md: disposition ship, sem material_fixes remanescentes. Revisão visual completa de desktop 1440px, celular 390px e largura 518px em capturas integrais corrigidas, inspecionadas por recortes nativos até o rodapé, mais primeiras telas desktop/mobile; sem defeitos visuais ou responsivos materiais no escopo. Capturas de conteúdo excluem a barra de 9px. A primeira evidência de viewport foi substituída por capturas corrigidas e recortes superiores sem escala/preenchimento. O passe final resolveu apenas a comprovação do atendimento online pela bio fornecida; manteve a análise anterior e não refez testes ou auditoria visual. Não houve mudança de implementação após o build testado. Esta documentação incorpora essas evidências, sem executar novos testes.
+Evidências da versão orientada pela referência em .impeccable/review/campos-costa-reference/. O agente principal informou lint, TypeScript e build concluídos. Consulte validation.json, capturas e parecer final vigentes; registros da pasta anterior campos-costa não certificam esta versão. A etapa documental leu código e arquivos de sistema, sem executar browser, testes ou detector, e não presume aprovação de revisão visual.
 
 ## Product Principles
-Preservar estrutura e funções ao substituir a identidade. Usar somente contatos, áreas e relatos fornecidos, mantendo origem e data da nota e dos relatos. Não inventar e-mail, OAB, formação, domínio, resultados ou disponibilidade. Conteúdo institucional; situações concretas dependem de análise individual.
+Preservar funções e responsividade. Usar somente fatos fornecidos; explicitar origem temporal das avaliações. Manter relatos literais e autoria. Não inventar especialidades, e-mail, domínio, formação, disponibilidade ou resultados. Situações concretas dependem de análise individual.
 
-
-## Refinamento de cores — 19/10/2026
-
-Paleta ajustada a pedido do usuário para aproximar o site da logo e da fotografia sentada no hero: verde quase preto #0b1715, dourado suave #cfa86e, superfícies claras #fbfbf7/#f0f1ea e neutros com sálvia. Retrato original mantido integralmente. Tokens em app/globals.css, cor do navegador em app/layout.tsx e documentação visual sincronizados. Build de produção concluído sem erros; hero observado em1440 e390px, sem overflow e com retrato carregado. Contrastes atuais em .impeccable/review/morato/palette-contrast.json: texto/claro5,29:1, bronze/claro6,93:1, botão6,65:1, dourado/hero8,26:1 e texto/verde10,74:1. Capturas palette-desktop.jpg e palette-mobile.jpg; primeira tela nativa em palette-hero.png. Revisão independente e medições anteriores correspondem à versão anterior; este refinamento teve verificação direta, sem nova revisão independente. Detector desta etapa: apenas aviso consultivo sobre raio de999px já existente na barra de rolagem; não relacionado à alteração cromática.
+## Refinamento de presença visual
+Pedido do usuário: aparência mais masculina. Aplicação: Merriweather 600/700 sem itálicos, ações em grafite, bronze contido, superfícies minerais e cantos retos. Conteúdo, fotos, contatos e logo transparente preservados. Evidências responsivas e funcionais em .impeccable/review/campos-costa-sobrio/.

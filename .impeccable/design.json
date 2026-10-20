@@ -1,496 +1,195 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-19T06:13:33.860Z",
-  "title": "Design System: Morato Advocacia",
+  "generatedAt": "2026-10-20T13:44:19.654Z",
+  "title": "Design System: Campos Costa Assessoria Jurídica",
   "extensions": {
     "colorMeta": {
-      "ink": {
-        "role": "neutral",
-        "displayName": "Verde de leitura",
-        "canonical": "#172c27",
+      "brand-700": {
+        "role": "primary",
+        "displayName": "Bronze de leitura",
+        "canonical": "#805b25",
         "tonalRamp": [
-          "#0b1715",
-          "#172c27",
-          "#1b302b",
-          "#29453f",
-          "#59665f",
-          "#d5d9cf",
-          "#f0f1ea",
-          "#fbfbf7"
+          "#263033",
+          "#62471f",
+          "#805b25",
+          "#95691d",
+          "#b78a31",
+          "#d4ab55",
+          "#ffd060",
+          "#ffe6a0"
         ]
       },
-      "ink-soft": {
-        "role": "neutral",
-        "displayName": "Verde de leitura secundária",
-        "canonical": "#59665f",
+      "brand-300": {
+        "role": "primary",
+        "displayName": "Ouro do emblema",
+        "canonical": "#ffd060",
         "tonalRamp": [
-          "#0b1715",
-          "#172c27",
-          "#1b302b",
-          "#29453f",
-          "#59665f",
-          "#d5d9cf",
-          "#f0f1ea",
-          "#fbfbf7"
-        ]
-      },
-      "paper": {
-        "role": "neutral",
-        "displayName": "Papel claro",
-        "canonical": "#fbfbf7",
-        "tonalRamp": [
-          "#0b1715",
-          "#172c27",
-          "#1b302b",
-          "#29453f",
-          "#59665f",
-          "#d5d9cf",
-          "#f0f1ea",
-          "#fbfbf7"
+          "#263033",
+          "#62471f",
+          "#805b25",
+          "#95691d",
+          "#b78a31",
+          "#d4ab55",
+          "#ffd060",
+          "#ffe6a0"
         ]
       },
       "ivory": {
         "role": "neutral",
-        "displayName": "Marfim",
-        "canonical": "#f0f1ea",
+        "displayName": "Cinza mineral",
+        "canonical": "#f6f7f6",
         "tonalRamp": [
-          "#0b1715",
-          "#172c27",
-          "#1b302b",
-          "#29453f",
-          "#59665f",
-          "#d5d9cf",
-          "#f0f1ea",
-          "#fbfbf7"
-        ]
-      },
-      "linen": {
-        "role": "neutral",
-        "displayName": "Linho",
-        "canonical": "#d5d9cf",
-        "tonalRamp": [
-          "#0b1715",
-          "#172c27",
-          "#1b302b",
-          "#29453f",
-          "#59665f",
-          "#d5d9cf",
-          "#f0f1ea",
-          "#fbfbf7"
-        ]
-      },
-      "brand-50": {
-        "role": "secondary",
-        "displayName": "Marfim dourado",
-        "canonical": "#eaf0e8",
-        "tonalRamp": [
-          "#705223",
-          "#926c32",
-          "#b58949",
-          "#c29a5e",
-          "#cfa86e",
-          "#e3c99e",
-          "#dce4da",
-          "#eaf0e8"
-        ]
-      },
-      "brand-100": {
-        "role": "secondary",
-        "displayName": "Dourado de leitura",
-        "canonical": "#dce4da",
-        "tonalRamp": [
-          "#705223",
-          "#926c32",
-          "#b58949",
-          "#c29a5e",
-          "#cfa86e",
-          "#e3c99e",
-          "#dce4da",
-          "#eaf0e8"
-        ]
-      },
-      "brand-200": {
-        "role": "secondary",
-        "displayName": "Ouro claro",
-        "canonical": "#e3c99e",
-        "tonalRamp": [
-          "#705223",
-          "#926c32",
-          "#b58949",
-          "#c29a5e",
-          "#cfa86e",
-          "#e3c99e",
-          "#dce4da",
-          "#eaf0e8"
-        ]
-      },
-      "brand-300": {
-        "role": "secondary",
-        "displayName": "Dourado de ação",
-        "canonical": "#cfa86e",
-        "tonalRamp": [
-          "#705223",
-          "#926c32",
-          "#b58949",
-          "#c29a5e",
-          "#cfa86e",
-          "#e3c99e",
-          "#dce4da",
-          "#eaf0e8"
-        ]
-      },
-      "brand-400": {
-        "role": "secondary",
-        "displayName": "Ouro médio",
-        "canonical": "#c29a5e",
-        "tonalRamp": [
-          "#705223",
-          "#926c32",
-          "#b58949",
-          "#c29a5e",
-          "#cfa86e",
-          "#e3c99e",
-          "#dce4da",
-          "#eaf0e8"
-        ]
-      },
-      "brand-500": {
-        "role": "secondary",
-        "displayName": "Ouro do logo",
-        "canonical": "#b58949",
-        "tonalRamp": [
-          "#705223",
-          "#926c32",
-          "#b58949",
-          "#c29a5e",
-          "#cfa86e",
-          "#e3c99e",
-          "#dce4da",
-          "#eaf0e8"
-        ]
-      },
-      "brand-600": {
-        "role": "secondary",
-        "displayName": "Bronze do logo",
-        "canonical": "#926c32",
-        "tonalRamp": [
-          "#705223",
-          "#926c32",
-          "#b58949",
-          "#c29a5e",
-          "#cfa86e",
-          "#e3c99e",
-          "#dce4da",
-          "#eaf0e8"
-        ]
-      },
-      "brand-700": {
-        "role": "secondary",
-        "displayName": "Bronze legível",
-        "canonical": "#705223",
-        "tonalRamp": [
-          "#705223",
-          "#926c32",
-          "#b58949",
-          "#c29a5e",
-          "#cfa86e",
-          "#e3c99e",
-          "#dce4da",
-          "#eaf0e8"
-        ]
-      },
-      "brand-800": {
-        "role": "primary",
-        "displayName": "Verde de apoio",
-        "canonical": "#29453f",
-        "tonalRamp": [
-          "#0b1715",
-          "#172c27",
-          "#1b302b",
-          "#29453f",
-          "#59665f",
-          "#d5d9cf",
-          "#f0f1ea",
-          "#fbfbf7"
-        ]
-      },
-      "brand-900": {
-        "role": "primary",
-        "displayName": "Verde das avaliações",
-        "canonical": "#1b302b",
-        "tonalRamp": [
-          "#0b1715",
-          "#172c27",
-          "#1b302b",
-          "#29453f",
-          "#59665f",
-          "#d5d9cf",
-          "#f0f1ea",
-          "#fbfbf7"
-        ]
-      },
-      "brand-950": {
-        "role": "primary",
-        "displayName": "Verde profundo",
-        "canonical": "#0b1715",
-        "tonalRamp": [
-          "#0b1715",
-          "#172c27",
-          "#1b302b",
-          "#29453f",
-          "#59665f",
-          "#d5d9cf",
-          "#f0f1ea",
-          "#fbfbf7"
-        ]
-      },
-      "gold-divider": {
-        "role": "secondary",
-        "displayName": "Divisória dourada do rodapé",
-        "canonical": "rgb(207 168 110 / 25%)",
-        "tonalRamp": [
-          "rgb(122 85 31 / 25%)",
-          "rgb(160 112 48 / 25%)",
-          "rgb(192 144 80 / 25%)",
-          "rgb(208 160 96 / 25%)",
-          "rgb(207 168 110 / 25%)",
-          "rgb(238 211 160 / 25%)",
-          "rgb(234 224 196 / 25%)",
-          "rgb(242 235 217 / 25%)"
+          "#172023",
+          "#202729",
+          "#263033",
+          "#505b5e",
+          "#d6dcda",
+          "#eef1ef",
+          "#f6f7f6",
+          "#ffffff"
         ]
       }
     },
     "typographyMeta": {
       "display": {
-        "displayName": "display",
-        "purpose": "Título principal"
-      },
-      "display-tablet": {
-        "displayName": "display-tablet",
-        "purpose": "Título principal"
-      },
-      "display-mobile": {
-        "displayName": "display-mobile",
-        "purpose": "Título principal"
+        "displayName": "Serifa editorial",
+        "purpose": "H1 e ênfase bronze sem itálico."
       },
       "headline": {
-        "displayName": "headline",
-        "purpose": "Títulos de seção"
-      },
-      "headline-tablet": {
-        "displayName": "headline-tablet",
-        "purpose": "Títulos de seção"
-      },
-      "headline-mobile": {
-        "displayName": "headline-mobile",
-        "purpose": "Títulos de seção"
-      },
-      "title": {
-        "displayName": "title",
-        "purpose": "Títulos dos temas"
-      },
-      "title-mobile": {
-        "displayName": "title-mobile",
-        "purpose": "Títulos dos temas"
-      },
-      "dialog-mobile": {
-        "displayName": "dialog-mobile",
-        "purpose": "Título do diálogo"
-      },
-      "dialog-tablet": {
-        "displayName": "dialog-tablet",
-        "purpose": "Título do diálogo"
-      },
-      "value-mobile": {
-        "displayName": "value-mobile",
-        "purpose": "Faixa de atendimento"
-      },
-      "value-tablet": {
-        "displayName": "value-tablet",
-        "purpose": "Faixa de atendimento"
+        "displayName": "Títulos de seção",
+        "purpose": "Hierarquia e introdução das seções."
       },
       "body": {
-        "displayName": "body",
-        "purpose": "Leitura"
-      },
-      "body-spacious": {
-        "displayName": "body-spacious",
-        "purpose": "Leitura"
-      },
-      "intro": {
-        "displayName": "intro",
-        "purpose": "Leitura"
-      },
-      "small": {
-        "displayName": "small",
-        "purpose": "Leitura"
-      },
-      "label": {
-        "displayName": "label",
-        "purpose": "Botões e controles"
-      },
-      "navigation": {
-        "displayName": "navigation",
-        "purpose": "Links do cabeçalho"
-      },
-      "label-large": {
-        "displayName": "label-large",
-        "purpose": "Botões e controles"
+        "displayName": "Leitura Manrope",
+        "purpose": "Explicações, controles e textos."
       }
     },
     "shadows": [
       {
+        "name": "card",
+        "value": "0 14px 38px rgb(48 41 30 / 12%)",
+        "purpose": "Fotografia editorial."
+      },
+      {
+        "name": "portrait",
+        "value": "0 12px 28px rgb(23 32 35 / 12%)",
+        "purpose": "Retrato do hero."
+      },
+      {
         "name": "dialog",
-        "value": "0 18px 48px rgb(11 23 21 / 18%)",
-        "purpose": "Diálogo de detalhes"
+        "value": "0 20px 60px rgb(25 23 17 / 25%)",
+        "purpose": "Diálogo sobreposto."
       }
     ],
     "motion": [
       {
-        "value": "1s cubic-bezier(0.16, 1, 0.3, 1)",
-        "name": "signature",
-        "purpose": "Revelação da fotografia institucional por clip-path"
+        "name": "portrait-reveal",
+        "value": ".8s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Revelação curta por clip-path, desativada com prefers-reduced-motion."
       },
       {
-        "value": "180ms ease",
-        "name": "navigation",
-        "purpose": "Cor e sublinhado da navegação"
-      },
-      {
-        "value": "200ms",
-        "name": "button",
-        "purpose": "Cor e borda do botão compartilhado"
-      },
-      {
-        "value": "220ms",
-        "name": "mobile-menu",
-        "purpose": "Abertura e fechamento do menu móvel"
-      },
-      {
-        "value": "240ms",
-        "name": "dialog",
-        "purpose": "Abertura e fechamento do diálogo"
-      },
-      {
-        "value": "680ms cubic-bezier(0.22, 1, 0.36, 1)",
-        "name": "content",
-        "purpose": "Variantes de revelação do conteúdo"
-      },
-      {
-        "value": "staggerChildren:0.1s; delayChildren:0.04s",
-        "name": "stagger",
-        "purpose": "Sequenciamento dos grupos"
-      },
-      {
-        "value": "animation:none; transition-duration:0.01ms; reducedMotion:user",
-        "name": "reduced-motion",
-        "purpose": "Preferência de movimento prevista em CSS e MotionConfig"
+        "name": "control-transition",
+        "value": ".2s",
+        "purpose": "Alterações de fundo, cor e borda; desativadas com movimento reduzido."
       }
     ],
     "breakpoints": [
       {
-        "value": "640px",
-        "name": "sm"
+        "name": "small-mobile",
+        "value": "479px"
       },
       {
-        "value": "768px",
-        "name": "md"
+        "name": "mobile",
+        "value": "767px"
       },
       {
-        "value": "1024px",
-        "name": "lg"
+        "name": "tablet",
+        "value": "1023px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1199px"
+      },
+      {
+        "name": "wide-desktop",
+        "value": "1500px"
       }
     ]
   },
   "components": [
     {
-      "name": "Botão principal",
+      "name": "Contato principal",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "WhatsApp confirmado de Michelle Morato; tamanho padrão.",
-      "html": "<a class=\"ds-cta\" href=\"https://wa.me/553125682738\">Fale pelo WhatsApp</a>",
-      "css": ".ds-cta{display:inline-flex;align-items:center;justify-content:center;min-height:44px;max-width:100%;padding:14px 24px;border:1px solid var(--color-brand-300,#cfa86e);border-radius:4px;background:var(--color-brand-300,#cfa86e);color:var(--color-ink,#172c27);font:600 14px/20px \"Source Sans 3\",sans-serif;text-align:center;text-decoration:none;transition:background-color 200ms,border-color 200ms}.ds-cta:hover{border-color:var(--color-brand-200,#e3c99e);background:var(--color-brand-200,#e3c99e)}.ds-cta:focus-visible{outline:2px solid var(--color-brand-700,#705223);outline-offset:3px}"
+      "description": "Contato direto pelo WhatsApp.",
+      "html": "<a class=\"ds-primary\" href=\"https://wa.me/5533998110480\">Fale com a Campos Costa</a>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:13px 20px;border:1px solid transparent;border-radius:2px;background:var(--color-brand-950,#172023);color:var(--color-paper,#fff);font:700 12px/1.6 var(--font-sans,Manrope,sans-serif);text-decoration:none;transition:background .2s}.ds-primary:hover{background:var(--color-brand-900,#263033)}.ds-primary:focus-visible{outline:2px solid var(--color-brand-700,#805b25);outline-offset:5px}"
     },
     {
-      "name": "Botão final",
+      "name": "Ação secundária",
       "kind": "button",
-      "refersTo": "button-dark",
-      "description": "Ação verde profunda na faixa dourada de encerramento.",
-      "html": "<div class=\"ds-final\"><a class=\"ds-dark\" href=\"https://wa.me/553125682738\">Fale pelo WhatsApp</a></div>",
-      "css": ".ds-final{padding:24px;background:var(--color-brand-300,#cfa86e)}.ds-dark{display:inline-flex;align-items:center;min-height:44px;padding:16px 24px;border-radius:4px;background:var(--color-brand-950,#0b1715);color:var(--color-brand-100,#dce4da);font:600 14px/20px \"Source Sans 3\",sans-serif;text-decoration:none;transition:background-color 150ms}.ds-dark:hover{background:var(--color-brand-900,#1b302b)}.ds-dark:focus-visible{outline:2px solid var(--color-brand-700,#705223);outline-offset:4px}"
+      "refersTo": "button-secondary",
+      "description": "Navegação para o atendimento.",
+      "html": "<a class=\"ds-secondary\" href=\"#atendimento\">Conheça o atendimento</a>",
+      "css": ".ds-secondary{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:13px 20px;border:1px solid var(--color-linen,#d6dcda);border-radius:2px;background:var(--color-paper,#fff);color:var(--color-ink,#202729);font:700 12px/1.6 var(--font-sans,Manrope,sans-serif);text-decoration:none;transition:color .2s,border-color .2s}.ds-secondary:hover{border-color:var(--color-brand-600,#95691d);color:var(--color-brand-700,#805b25)}.ds-secondary:focus-visible{outline:2px solid var(--color-brand-700,#805b25);outline-offset:5px}"
     },
     {
       "name": "Navegação",
       "kind": "nav",
-      "description": "Cabeçalho claro; bronze no hover e sublinhado fino.",
-      "html": "<nav class=\"ds-nav\" aria-label=\"Navegação principal\"><a href=\"#inicio\">Início</a><a href=\"#atuacao\">Atendimento</a><a href=\"#sobre\">Sobre</a><a href=\"#avaliacoes\">Avaliações</a><a href=\"#contato\">Contato</a></nav>",
-      "css": ".ds-nav{display:flex;flex-wrap:wrap;gap:28px;padding:20px;background:var(--color-paper,#fbfbf7)}.ds-nav a{position:relative;padding:12px 0;color:var(--color-ink-soft,#59665f);font:600 15px/22.5px \"Source Sans 3\",sans-serif;text-decoration:none;transition:color 180ms ease}.ds-nav a::after{position:absolute;inset:auto 0 0;height:1px;background:var(--color-brand-700,#705223);content:\"\";transform:scaleX(0);transform-origin:left;transition:transform 180ms ease}.ds-nav a:hover{color:var(--color-brand-700,#705223)}.ds-nav a:hover::after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:2px solid var(--color-brand-700,#705223);outline-offset:4px}"
+      "description": "Links sobre cabeçalho branco.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#sobre\">O escritório</a><a href=\"#atendimento\">Atendimento</a><a href=\"#contato\">Contato</a></nav>",
+      "css": ".ds-nav{display:flex;flex-wrap:wrap;gap:24px;padding:16px;background:var(--color-paper,#fff);font:650 11px/1.5 var(--font-sans,Manrope,sans-serif)}.ds-nav a{padding-block:15px;color:var(--color-ink-soft,#505b5e);text-decoration:none}.ds-nav a:hover{color:var(--color-brand-700,#805b25)}.ds-nav a:focus-visible{outline:2px solid var(--color-brand-700,#805b25);outline-offset:5px}"
     },
     {
-      "name": "Tema de atendimento",
-      "kind": "custom",
-      "description": "Trecho visual de Divórcio e partilha; o diálogo é gerenciado pela aplicação, não pelo snippet.",
-      "html": "<article class=\"ds-service\"><h3>Divórcio e partilha</h3><p>Clareza para encerrar um ciclo e compreender as decisões sobre o patrimônio construído em conjunto.</p><button type=\"button\" aria-haspopup=\"dialog\">Saiba mais</button></article>",
-      "css": ".ds-service{padding:32px 0;border-block:1px solid rgb(16 45 39 / 15%);background:var(--color-ivory,#f0f1ea)}.ds-service h3{margin:0;color:var(--color-ink,#172c27);font:400 1.55rem/1.25 \"Libre Caslon Display\",Georgia,serif;letter-spacing:-.025em}.ds-service p{max-width:36rem;color:var(--color-ink-soft,#59665f);font:400 16px/28px \"Source Sans 3\",sans-serif}.ds-service button{display:inline-flex;align-items:center;min-height:44px;padding:0;border:0;background:transparent;color:var(--color-brand-800,#29453f);font:600 12px/16px \"Source Sans 3\",sans-serif;cursor:pointer}.ds-service button:hover{color:var(--color-brand-700,#705223)}.ds-service button:focus-visible{outline:2px solid var(--color-brand-700,#705223);outline-offset:4px}@media(min-width:640px){.ds-service{padding:36px 0}.ds-service h3{font-size:1.8rem}}"
-    },
-    {
-      "name": "FAQ",
-      "kind": "custom",
-      "description": "Expansão nativa com pergunta e orientação documental da página.",
-      "html": "<details class=\"ds-faq\"><summary>Quais documentos devo separar?</summary><p>Os documentos variam conforme o assunto. Durante o agendamento, informe brevemente sua dúvida para receber orientação sobre os documentos pertinentes à consulta.</p></details>",
-      "css": ".ds-faq{padding:24px 0;border-block:1px solid rgb(16 45 39 / 15%);background:var(--color-brand-50,#eaf0e8);color:var(--color-ink,#172c27);font:400 14px/28px \"Source Sans 3\",sans-serif}.ds-faq summary{cursor:pointer;font-size:16px;font-weight:600;line-height:24px}.ds-faq summary::marker{color:var(--color-brand-700,#705223)}.ds-faq p{margin-top:16px;max-width:36rem;color:var(--color-ink-soft,#59665f)}.ds-faq summary:focus-visible{outline:2px solid var(--color-brand-700,#705223);outline-offset:4px}"
-    },
-    {
-      "name": "Contato secundário",
-      "kind": "button",
-      "description": "Telefone fornecido; Instagram @michellemoratoadvogada na mesma família de links.",
-      "html": "<a class=\"ds-contact\" href=\"tel:+553125682738\">Ligue: (31) 2568-2738</a>",
-      "css": ".ds-contact{display:inline-flex;align-items:center;min-height:44px;color:var(--color-brand-700,#705223);font:400 14px/20px \"Source Sans 3\",sans-serif;text-decoration:none}.ds-contact:hover{color:var(--color-brand-800,#29453f)}.ds-contact:focus-visible{outline:2px solid var(--color-brand-700,#705223);outline-offset:4px}"
+      "name": "Atendimento",
+      "kind": "card",
+      "description": "Cartão institucional com ação de detalhe.",
+      "html": "<article class=\"ds-service\"><h3>Consulta e orientação</h3><p>Um espaço para apresentar sua situação, esclarecer dúvidas e compreender os próximos passos.</p><button type=\"button\">Saiba mais</button></article>",
+      "css": ".ds-service{padding:28px;border:1px solid var(--color-linen,#d6dcda);border-radius:2px;background:var(--color-paper,#fff);color:var(--color-ink,#202729);font-family:var(--font-sans,Manrope,sans-serif);transition:border-color .2s}.ds-service:hover{border-color:var(--color-brand-500,#b78a31)}.ds-service h3{font:400 23px/1.3 var(--font-display,\"Merriweather\",serif);letter-spacing:-.035em;margin:0 0 13px}.ds-service p{font-size:13px;line-height:1.95;color:var(--color-ink-soft,#505b5e);margin:0 0 21px}.ds-service button{border:0;background:transparent;min-height:40px;padding:8px 0 0;color:var(--color-brand-700,#805b25);font:650 11px var(--font-sans,Manrope,sans-serif);cursor:pointer}.ds-service button:hover{color:var(--color-brand-800,#62471f);text-decoration:underline;text-underline-offset:4px}.ds-service button:focus-visible{outline:2px solid var(--color-brand-700,#805b25);outline-offset:5px}"
     },
     {
       "name": "Relato",
       "kind": "card",
-      "description": "Transcrição integral fornecida por frederico luiz; link ao perfil do escritório.",
-      "html": "<figure class=\"ds-review\"><blockquote><p>“Excelente escritório de advocacia. Está conduzindo o caso do meu irmão e também o meu com transparência, responsabilidade e profissionalismo. Atendimento claro e seguro. Recomendo.”</p></blockquote><figcaption><strong>frederico luiz</strong><a href=\"https://www.google.com/maps?cid=16209826547785592380\">Ver perfil no Google</a></figcaption></figure>",
-      "css": ".ds-review{display:flex;flex-direction:column;justify-content:space-between;gap:32px;margin:0;padding:32px 24px;background:var(--color-brand-900,#1b302b);color:var(--color-brand-100,#dce4da);font-family:\"Source Sans 3\",sans-serif}.ds-review blockquote{margin:24px 0 0;font-size:16px;line-height:32px}.ds-review blockquote p{margin:0}.ds-review figcaption{border-top:1px solid rgb(223 184 121 / 15%);padding-top:20px}.ds-review strong{display:block;color:white;font-size:14px;line-height:20px;font-weight:600}.ds-review a{display:inline-flex;align-items:center;min-height:44px;margin-top:4px;color:var(--color-brand-200,#e3c99e);font-size:12px;line-height:16px;text-decoration:none;text-underline-offset:4px}.ds-review a:hover{text-decoration:underline}.ds-review a:focus-visible{outline:2px solid var(--color-brand-300,#cfa86e);outline-offset:4px}@media(min-width:640px){.ds-review{padding:40px 32px}}"
+      "description": "Transcrição fornecida, com autoria.",
+      "html": "<figure class=\"ds-review\"><blockquote>Ótimo atendimento, profissionalismo excepcional, comunicação transparente e objetiva. Recomendo.</blockquote><figcaption>Breno Arêdes</figcaption></figure>",
+      "css": ".ds-review{margin:0;padding:22px;border:1px solid #e8dfd1;border-radius:2px;background:var(--color-paper,#fff);color:var(--color-ink,#202729);font-family:var(--font-sans,Manrope,sans-serif)}.ds-review blockquote{margin:14px 0 0;font-size:13px;line-height:1.95}.ds-review figcaption{margin-top:19px;padding-top:14px;border-top:1px solid var(--color-linen,#d6dcda);font-size:11px;font-weight:650}"
     },
     {
-      "name": "Avaliações no Google",
+      "name": "Pergunta frequente",
       "kind": "custom",
-      "description": "Nota informada 5,0 e 40 avaliações no material de 18/10/2026; sem atualização automática.",
-      "html": "<a class=\"ds-reviews\" href=\"https://www.google.com/maps?cid=16209826547785592380\"><span>5,0 no Google</span><small>40 avaliações no Google</small></a>",
-      "css": ".ds-reviews{display:inline-flex;flex-direction:column;align-items:flex-start;gap:12px;min-height:44px;padding:0 0 16px;border-bottom:1px solid rgb(223 184 121 / 30%);background:var(--color-brand-900,#1b302b);color:var(--color-brand-100,#dce4da);text-decoration:none;transition:color 150ms}.ds-reviews span{font:400 24px/32px \"Libre Caslon Display\",Georgia,serif;letter-spacing:-.025em}.ds-reviews small{font:400 14px/20px \"Source Sans 3\",sans-serif}.ds-reviews:hover{color:var(--color-brand-300,#cfa86e)}.ds-reviews:focus-visible{outline:2px solid var(--color-brand-300,#cfa86e);outline-offset:4px}"
+      "description": "Details nativo expansível.",
+      "html": "<details class=\"ds-faq\"><summary>Onde fica o escritório?</summary><p>R. Geraldo Contador, 119, sala 101, Centro, Inhapim — MG.</p></details>",
+      "css": ".ds-faq{border-bottom:1px solid var(--color-linen,#d6dcda);background:var(--color-ivory,#f6f7f6);color:var(--color-ink,#202729);font-family:var(--font-sans,Manrope,sans-serif)}.ds-faq summary{padding:22px 0;min-height:24px;font-size:14px;font-weight:600;cursor:pointer}.ds-faq summary:hover{color:var(--color-brand-700,#805b25)}.ds-faq summary:focus-visible{outline:2px solid var(--color-brand-700,#805b25);outline-offset:5px}.ds-faq p{padding:0 24px 22px 0;margin:0;font-size:12px;line-height:1.95;color:var(--color-ink-soft,#505b5e)}"
     }
   ],
   "narrative": {
-    "northStar": "Estratégia jurídica com acolhimento",
-    "overview": "A identidade de Morato Advocacia combina o verde profundo da marca, dourado e bronze dos detalhes metálicos e áreas de leitura em marfim. O logo original permanece íntegro sobre superfícies claras; a alternância tonal organiza uma apresentação sóbria e próxima.\n\nLibre Caslon Display aproxima os títulos das serifas clássicas do logo. Source Sans 3 sustenta textos e controles. O retrato fornecido de Michelle Morato mantém proporção e conteúdo integrais, dentro de uma moldura fina.",
+    "northStar": "Direito com clareza, atendimento com cuidado",
+    "overview": "O sistema organiza a presença do escritório como uma publicação editorial clara: grandes serifas, ênfases em bronze sem itálico, superfícies de papel e fotografias fornecidas. O logo dourado e branco permanece integral sem fundo próprio no cabeçalho e sobre o rodapé escuro.\n\nA atualização responde à rejeição explícita do hero escuro e da página percebida como vazia. A referência enviada orienta composição e densidade; os fatos e a identidade permanecem da Campos Costa.",
     "keyCharacteristics": [
-      "Libre Caslon Display nos títulos e Source Sans 3 na leitura e nos controles.",
-      "Dourado nas ações sobre verde profundo; bronze legível nos destaques sobre claro.",
-      "Logo íntegro sobre claro e retrato integral com moldura fina."
+      "Merriweather com pesos 600/700 e sem itálico com Manrope na leitura e nos controles.",
+      "Papel e cinza mineral predominantes; grafite nas ações e bronze nos detalhes; ouro na marca e nos detalhes sobre escuro.",
+      "Fotografias originais, cartões de leitura e transições discretas entre superfícies."
     ],
     "rules": [
       {
-        "section": "colors",
-        "name": "The Contrast Rule",
-        "body": "Usar bronze sobre claro e dourado sobre verde profundo; preservar foco visível em cada superfície."
+        "name": "Contraste Contextual",
+        "body": "Usar bronze nas ênfases sobre claro e grafite nas ações; ouro nos detalhes sobre carvão.",
+        "section": "colors"
       },
       {
-        "section": "typography",
-        "name": "The Two Voices Rule",
-        "body": "Reservar Libre Caslon Display para títulos e Source Sans 3 para leitura e controles."
+        "name": "Ênfase Editorial",
+        "body": "Preservar a relação entre serifa robusta escura e trechos retos em bronze, sem transformar os parágrafos em títulos.",
+        "section": "typography"
       }
     ],
     "dos": [
-      "Do preservar o logo original transparente e o retrato integral de Michelle Morato.",
-      "Do manter foco visível, leitura responsiva e respeito à preferência por movimento reduzido.",
-      "Do usar os tokens registrados e manter textos de atuação coerentes com o conteúdo fornecido."
+      "Do preservar arquivos originais, proporção da marca, retrato integral e autoria dos relatos.",
+      "Do manter foco visível, texto legível, movimento reduzido e hierarquia clara em cada largura."
     ],
     "donts": [
-      "Don't distorcer, recortar ou recolorir os assets originais.",
-      "Don't inferir novas áreas de atuação a partir do subtítulo preservado no logo.",
-      "Don't inventar credenciais, resultados, contatos ou avaliações."
+      "Don't inventar especialidades, e-mail, horários, atendimento online, experiência, domínio ou resultados.",
+      "Don't identificar o profissional das fotos editoriais como Dr. Davi; somente o retrato fornecido o identifica.",
+      "Don't reconstruir o logo com texto ou copiar os fatos da referência visual."
     ]
   }
 }

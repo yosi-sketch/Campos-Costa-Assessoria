@@ -1,281 +1,162 @@
 ---
-name: "Morato Advocacia — Michelle Morato"
-description: "Verde profundo, dourado e marfim; serifas clássicas, clareza e acolhimento."
+name: "Campos Costa Assessoria Jurídica"
+description: "Leitura editorial clara, serifas expressivas, bronze e fotografias originais."
 colors:
-  ink: "#172c27"
-  ink-soft: "#59665f"
-  paper: "#fbfbf7"
-  ivory: "#f0f1ea"
-  linen: "#d5d9cf"
-  brand-50: "#eaf0e8"
-  brand-100: "#dce4da"
-  brand-200: "#e3c99e"
-  brand-300: "#cfa86e"
-  brand-400: "#c29a5e"
-  brand-500: "#b58949"
-  brand-600: "#926c32"
-  brand-700: "#705223"
-  brand-800: "#29453f"
-  brand-900: "#1b302b"
-  brand-950: "#0b1715"
-  gold-divider: "rgb(207 168 110 / 25%)"
+  ink: "#202729"
+  ink-soft: "#505b5e"
+  paper: "#ffffff"
+  ivory: "#f6f7f6"
+  linen: "#d6dcda"
+  brand-50: "#eef1ef"
+  brand-100: "#e7ece8"
+  brand-200: "#ffe6a0"
+  brand-300: "#ffd060"
+  brand-400: "#d4ab55"
+  brand-500: "#b78a31"
+  brand-600: "#95691d"
+  brand-700: "#805b25"
+  brand-800: "#62471f"
+  brand-900: "#263033"
+  brand-950: "#172023"
 typography:
   display:
-    fontFamily: "Libre Caslon Display, Georgia, serif"
-    fontSize: "4.2rem"
-    fontWeight: 400
-    lineHeight: 1.1
-    letterSpacing: "-0.025em"
-  display-tablet:
-    fontFamily: "Libre Caslon Display, Georgia, serif"
-    fontSize: "3.6rem"
-    fontWeight: 400
-    lineHeight: 1.1
-    letterSpacing: "-0.025em"
-  display-mobile:
-    fontFamily: "Libre Caslon Display, Georgia, serif"
-    fontSize: "2.75rem"
-    fontWeight: 400
-    lineHeight: 1.1
+    fontFamily: "Merriweather, Georgia, serif"
+    fontSize: "clamp(2.8rem, 3.9vw, 3.6rem)"
+    fontWeight: 700
+    lineHeight: 1.14
     letterSpacing: "-0.025em"
   headline:
-    fontFamily: "Libre Caslon Display, Georgia, serif"
-    fontSize: "3.55rem"
-    fontWeight: 400
-    lineHeight: 1.07
-    letterSpacing: "-0.035em"
-  headline-tablet:
-    fontFamily: "Libre Caslon Display, Georgia, serif"
-    fontSize: "3rem"
-    fontWeight: 400
-    lineHeight: 1.07
-    letterSpacing: "-0.035em"
-  headline-mobile:
-    fontFamily: "Libre Caslon Display, Georgia, serif"
-    fontSize: "2.25rem"
-    fontWeight: 400
-    lineHeight: 1.07
-    letterSpacing: "-0.035em"
+    fontFamily: "Merriweather, Georgia, serif"
+    fontSize: "clamp(1.8rem, 2.7vw, 2.5rem)"
+    fontWeight: 700
+    lineHeight: 1.25
+    letterSpacing: "-0.025em"
   title:
-    fontFamily: "Libre Caslon Display, Georgia, serif"
-    fontSize: "1.8rem"
-    fontWeight: 400
-    lineHeight: 1.25
-    letterSpacing: "-0.025em"
-  title-mobile:
-    fontFamily: "Libre Caslon Display, Georgia, serif"
-    fontSize: "1.55rem"
-    fontWeight: 400
-    lineHeight: 1.25
-    letterSpacing: "-0.025em"
-  dialog-mobile:
-    fontFamily: "Libre Caslon Display, Georgia, serif"
-    fontSize: "1.7rem"
-    fontWeight: 400
-    lineHeight: 1.25
-    letterSpacing: "-0.025em"
-  dialog-tablet:
-    fontFamily: "Libre Caslon Display, Georgia, serif"
-    fontSize: "1.875rem"
-    fontWeight: 400
-    lineHeight: 1.25
-    letterSpacing: "-0.025em"
-  value-mobile:
-    fontFamily: "Libre Caslon Display, Georgia, serif"
+    fontFamily: "Merriweather, Georgia, serif"
     fontSize: "1.5rem"
-    fontWeight: 400
-    lineHeight: "2rem"
-    letterSpacing: "-0.025em"
-  value-tablet:
-    fontFamily: "Libre Caslon Display, Georgia, serif"
-    fontSize: "1.7rem"
-    fontWeight: 400
-    letterSpacing: "-0.025em"
+    fontWeight: 700
+    lineHeight: 1.3
   body:
-    fontFamily: "Source Sans 3, system-ui, sans-serif"
-    fontSize: "16px"
-    fontWeight: 400
-    lineHeight: "28px"
-  body-spacious:
-    fontFamily: "Source Sans 3, system-ui, sans-serif"
-    fontSize: "16px"
-    fontWeight: 400
-    lineHeight: "32px"
-  intro:
-    fontFamily: "Source Sans 3, system-ui, sans-serif"
-    fontSize: "15px"
-    fontWeight: 400
-    lineHeight: "28px"
-  small:
-    fontFamily: "Source Sans 3, system-ui, sans-serif"
-    fontSize: "12px"
-    fontWeight: 400
-    lineHeight: "24px"
-  label:
-    fontFamily: "Source Sans 3, system-ui, sans-serif"
+    fontFamily: "Manrope, system-ui, sans-serif"
     fontSize: "14px"
-    fontWeight: 600
-    lineHeight: "20px"
-  navigation:
-    fontFamily: "Source Sans 3, system-ui, sans-serif"
-    fontSize: "15px"
-    fontWeight: 600
-    lineHeight: "22.5px"
-  label-large:
-    fontFamily: "Source Sans 3, system-ui, sans-serif"
-    fontSize: "16px"
-    fontWeight: 600
-    lineHeight: "24px"
+    fontWeight: 400
+    lineHeight: 1.85
+  label:
+    fontFamily: "Manrope, system-ui, sans-serif"
+    fontSize: "12px"
+    fontWeight: 700
+    lineHeight: 1.6
 rounded:
-  sm: "0.25rem"
-  modal-mobile: "1rem"
-  full: "calc(infinity * 1px)"
+  button: "2px"
+  panel: "2px"
+  card: "2px"
+  portrait: "2px"
+  dialog: "4px"
 spacing:
-  gutter-mobile: "1.25rem"
-  gutter-tablet: "2rem"
-  gutter-desktop: "3rem"
-  section-mobile: "5rem"
-  section-tablet: "7rem"
-  section-desktop: "8rem"
+  gutter-mobile: "20px"
+  gutter-tablet: "24px"
+  gutter-desktop: "32px"
+  section-mobile: "54px"
+  section-tablet: "64px"
+  section-desktop: "88px"
 components:
   button-primary:
-    backgroundColor: "{colors.brand-300}"
-    textColor: "{colors.ink}"
-    typography: "{typography.label}"
-    rounded: "{rounded.sm}"
-    padding: "0.875rem 1.5rem"
-  button-primary-hover:
-    backgroundColor: "{colors.brand-200}"
-    textColor: "{colors.ink}"
-  button-large:
-    backgroundColor: "{colors.brand-300}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.sm}"
-    padding: "1rem 1.75rem"
-    typography: "{typography.label-large}"
-  button-dark:
     backgroundColor: "{colors.brand-950}"
-    textColor: "{colors.brand-100}"
+    textColor: "{colors.paper}"
     typography: "{typography.label}"
-    rounded: "{rounded.sm}"
-    padding: "1rem 1.5rem"
-  button-dark-hover:
+    rounded: "{rounded.button}"
+    padding: "13px 20px"
+  button-primary-hover:
     backgroundColor: "{colors.brand-900}"
-    textColor: "{colors.brand-100}"
-  button-small:
-    backgroundColor: "{colors.brand-300}"
+    textColor: "{colors.paper}"
+  button-secondary:
+    backgroundColor: "{colors.paper}"
     textColor: "{colors.ink}"
     typography: "{typography.label}"
-    rounded: "{rounded.sm}"
-    padding: "0.75rem 1.25rem"
+    rounded: "{rounded.button}"
+    padding: "13px 20px"
 ---
 
-# Design System: Morato Advocacia
+# Design System: Campos Costa Assessoria Jurídica
 
 ## Overview
 
-**Creative North Star: "Estratégia jurídica com acolhimento"**
+**Creative North Star: "Direito com clareza, atendimento com cuidado"**
 
-A identidade de Morato Advocacia combina o verde profundo da marca, dourado e bronze dos detalhes metálicos e áreas de leitura em marfim. O logo original permanece íntegro sobre superfícies claras; a alternância tonal organiza uma apresentação sóbria e próxima.
+O sistema organiza a presença do escritório como uma publicação editorial clara: grandes serifas, ênfases em bronze sem itálico, superfícies de papel e fotografias fornecidas. O logo dourado e branco permanece integral sem fundo próprio no cabeçalho e sobre o rodapé escuro.
 
-Libre Caslon Display aproxima os títulos das serifas clássicas do logo. Source Sans 3 sustenta textos e controles. O retrato fornecido de Michelle Morato mantém proporção e conteúdo integrais, dentro de uma moldura fina.
+A atualização responde à rejeição explícita do hero escuro e da página percebida como vazia. A referência enviada orienta composição e densidade; os fatos e a identidade permanecem da Campos Costa.
 
 **Key Characteristics:**
 
-- Libre Caslon Display nos títulos e Source Sans 3 na leitura e nos controles.
-- Dourado nas ações sobre verde profundo; bronze legível nos destaques sobre claro.
-- Logo íntegro sobre claro e retrato integral com moldura fina.
-
-
-
-Refinamento cromático de 19/10/2026: verde quase preto (#0b1715) aproxima as superfícies escuras das letras e do aro da marca; dourado suave (#cfa86e) acompanha o metal do logo e a madeira na fotografia; claros e textos com um leve tom de sálvia retomam os cinzas esverdeados do escritório e equilibram o azul acinzentado da roupa. Retrato integral mantido no hero. As amostras originais do logo permanecem registradas em PRODUCT.md; os tokens são variações de aplicação, não novas amostras extraídas.
+- Merriweather com pesos 600/700 e sem itálico com Manrope na leitura e nos controles.
+- Papel e cinza mineral predominantes; grafite nas ações e bronze nos detalhes; ouro na marca e nos detalhes sobre escuro.
+- Fotografias originais, cartões de leitura e transições discretas entre superfícies.
 
 ## Colors
 
-Verde profundo, ouro, bronze e marfim extraídos da identidade fornecida e ajustados no CSS para leitura. O frontmatter registra os valores normativos; amostras quantizadas do logo são evidência de origem em PRODUCT.md, não substitutos dos tokens.
-
 ### Primary
 
-brand-950 sustenta hero, etapas e rodapé; brand-900, a área de avaliações; brand-800 é um verde de apoio usado em títulos e ações. A escala numérica mistura verdes e metais: não interpretar todos os passos como uma única rampa de matiz.
-
-### Secondary
-
-brand-300 é o dourado das ações e dos destaques sobre escuro; brand-200 aparece no hover e em textos secundários sobre verde. brand-400 a brand-600 preservam a progressão metálica derivada do logo. brand-700 é o bronze legível dos links, ícones e foco sobre claro. brand-50 e brand-100 oferecem tons claros para painéis e textos.
+O bronze sustenta links, ícones e trechos de destaque sobre claro. A variante profunda indica hover. Ouro e suas variações derivam do emblema; neutros e tons de leitura foram adaptados para contraste. A escala brand reúne metais e neutros, não uma rampa de matiz único.
 
 ### Neutral
 
-paper recebe cabeçalho, sobre e endereço; ivory sustenta leitura e placas do logo; linen delimita superfícies claras. ink e ink-soft formam a hierarquia de texto. As variáveis de base --brand-paper, --brand-ink e --brand-ink-soft coincidem, respectivamente, com ivory, ink e ink-soft.
+Papel branco acolhe cartões e navegação; cinza mineral e superfícies minerais próximas separam seções. Tinta principal nos títulos e leitura, tinta suave nos textos auxiliares, linho nas bordas. Grafite na faixa de informações, nas ações, na legenda do retrato e no rodapé.
 
-gold-divider registra exatamente a borda do rodapé declarada no CSS, e não uma correção visual. Outras linhas usam ink a 10%/15%, branco a 15% e brand-300 a 15%/20%/30%. O cabeçalho preserva as cores claras também no menu móvel.
-
-**The Contrast Rule.** Usar bronze sobre claro e dourado sobre verde profundo; preservar foco visível em cada superfície.
+**The Contraste Contextual Rule.** Usar bronze nas ênfases sobre claro e grafite nas ações; ouro nos detalhes sobre carvão.
 
 ## Typography
 
-**Display Font:** Libre Caslon Display, Georgia, serif (400). **Body Font:** Source Sans 3, system-ui, sans-serif (400/500/600/700). Carregamento por next/font com display swap. A aproximação ao logo é tipográfica; sua arte original não é reconstruída como texto.
+Merriweather (600/700, somente normal) e Manrope (400/500/600/700) são carregadas por next/font com display swap. Títulos usam peso 700; bronze destaca trechos da mensagem.
 
-O H1 passa de display-mobile a display-tablet em 640px e display em 1024px. O H2 de seção usa headline-mobile, headline-tablet e headline nos mesmos marcos. Títulos dos temas passam de title-mobile a title em 640px; os diálogos usam dialog-mobile e dialog-tablet. A classe de display aplica peso 400 e tracking de -0.025em; o H2 de seção tem tracking de -0.035em.
+H1 segue o display da frontmatter no desktop, com ajustes para 3.35rem abaixo de 1200px, 2.8rem abaixo de 1024px e escala móvel; abaixo de 480px usa 2.25rem. Títulos de seção próximos de 1.85rem no celular. Corpo global de 14px; parágrafos de cartões de atendimento e relatos de 13px, entrelinha 1.95. Títulos de cartões variam entre 20 e 27px conforme função e largura.
 
-Textos de leitura usam body ou body-spacious; o texto do hero passa de intro a body-spacious em 640px. Parágrafos recorrentes têm largura máxima de 36rem. FAQ: perguntas em 16px/24px e respostas em 14px/28px. Navegação usa o papel navigation; botões compactos e padrão usam label; amplos usam label-large.
-
-A faixa de atendimento usa value-mobile e value-tablet; a entrelinha do tamanho arbitrário de 1.7rem mantém a razão da utilidade text-2xl (2/1.5), enquanto o diálogo usa 1.25. Os tamanhos descrevem a implementação existente. Metadados do rodapé usam 10px; seus títulos locais usam peso 600, caixa alta e tracking de 0.18em, sem criar um padrão de chamada acima de títulos.
-
-**The Two Voices Rule.** Reservar Libre Caslon Display para títulos e Source Sans 3 para leitura e controles.
+**The Ênfase Editorial Rule.** Preservar a relação entre serifa robusta escura e trechos retos em bronze, sem transformar os parágrafos em títulos.
 
 ## Layout
 
-Contêiner de 80rem, com gutters e respiros recorrentes no frontmatter. Breakpoints usados: 640px, 768px e 1024px. Cabeçalho sticky de 104px, passando a 112px em 640px; navegação desktop em 1024px. Logo compartilhado de 210px no celular e 260px a partir de 640px, com proporção original 3:1.
+Contêiner máximo de 1180px, com margens mínimas de 32px no desktop, 24px abaixo de 1024px e 20px abaixo de 768px. Seções com 88px de espaçamento vertical, reduzidos para 64px e 54px. Cabeçalho sticky de 90px, reduzido para 82px no celular; navegação móvel abaixo de 1024px.
 
-A composição existente foi preservada por solicitação: cabeçalho, hero, informações de atendimento, três temas, sobre, etapas, FAQ, quatro relatos, contato, ação final e rodapé. Hero empilhado até 1024px, depois em colunas 1.2fr/0.8fr, com altura mínima desktop de 650px. Retrato de até 360px, passando a 390px em 640px, altura automática. Sobre em colunas 0.85fr/1.15fr no desktop, placa de logo de até 420px. Contato em 0.9fr/1.1fr no desktop; relatos em uma coluna e duas a partir de 768px. Rodapé passa a duas colunas em 640px e três em 1024px.
-
-A barra de rolagem personalizada tem 9px. As capturas de página inteira registram a largura útil de conteúdo, descontando essa barra; isso não muda os breakpoints CSS.
+Hero em duas colunas (1.13fr/1fr), distância de 72px e retrato limitado a 460px. Abaixo de 768px, texto e retrato se empilham. A apresentação combina duas fotos editoriais; no celular o texto precede as imagens. Atendimento e relatos usam três colunas no desktop, duas em larguras intermediárias e uma abaixo de 480px. Compromissos em duas colunas; etapas, FAQ e contato combinam introdução e conteúdo, empilhados no celular.
 
 ## Elevation & Depth
 
-Profundidade por alternância tonal e bordas finas; temas e relatos não recebem sombra. O diálogo usa --shadow-card (0 18px 48px rgb(11 23 21 / 18%)); o fundo é ink a 55% com desfoque. A sombra pertence à sobreposição, sem imitar material metálico na página.
+Bordas de linho e alternância tonal organizam a maior parte da página. Fotografias recebem sombras suaves: cartão (0 14px 38px rgb(48 41 30 / 12%)) e retrato (0 12px 28px rgb(23 32 35 / 12%)). Ações principais são planas, sem sombra; diálogo usa sombra de sobreposição (0 20px 60px rgb(25 23 17 / 25%)).
 
 ## Shapes
 
-Botões com cantos sm; controles de ícone e marcadores circulares usam full. Diálogo móvel com cantos superiores modal-mobile, raio sm a partir de 640px, altura máxima de 90dvh e rolagem interna. Logo transparente e retrato retangular preservam proporção e conteúdo. Placas de logo, linhas de atendimento e painéis de relatos permanecem retangulares.
+Botões, cartões e fotografias usam cantos retos de 2px. Avatar de avaliação circular, sem fotografia inventada. Diálogo com raio de 4px. Logo e retrato mantêm proporção integral. Bordas finas e sombras difusas acompanham as superfícies claras.
 
 ## Components
 
 ### Buttons
 
-Ação direta em dourado, texto ink, hover brand-200 e borda correspondente. Altura mínima de 44px; padding compacto 12px 20px, padrão 14px 24px e amplo 16px 28px. Transição de cor/borda em 200ms. A ação final inverte para verde profundo sobre a faixa dourada, com hover brand-900.
-
-Foco global com contorno de 2px e afastamento de 4px; botão compartilhado usa afastamento de 3px. Bronze sobre claro; hero e avaliações usam dourado; rodapé e superfícies brand-950 usam branco, conforme os seletores contextuais do CSS.
+Ação principal grafite com texto branco, altura mínima de 48px, ícone vetorial e hover profundo. Secundária branca com borda de linho e hover bronze. Foco visível de 2px e afastamento de 5px; no rodapé, foco ouro.
 
 ### Navigation
 
-Cabeçalho claro, links ink-soft com hover bronze e sublinhado fino em 180ms. Menu móvel marfim abre em 220ms, informa aria-expanded/aria-controls e fecha por seleção ou Escape. O link de salto aparece ao receber foco.
+Cabeçalho branco com logo original sem placa de fundo. Links discretos e CTA grafite; menu móvel fecha por seleção e Escape, devolvendo foco ao botão.
 
-### Practice rows and dialogs
+### Cards / Containers
 
-Três linhas de atendimento: Divórcio e partilha, Alimentos, Guarda e convivência. Ícones SVG, títulos serifados, divisões finas e botão de detalhes. Diálogos nomeados, fechados pelo controle, Escape ou fundo; código com foco inicial, ciclo nos dois sentidos, fundo inert, bloqueio de rolagem e retorno do foco/rolagem. O WhatsApp contextual recebe o assunto selecionado.
+Seis cartões institucionais com ícone vetorial, título serifado, explicação e ação Saiba mais. Dois painéis de compromisso e três etapas numeradas aprofundam o conteúdo. As numerações representam sequência real de atendimento.
 
-### FAQ, reviews and contact
+### Reviews
 
-FAQ nativo em details/summary. Quatro transcrições integrais em painéis verdes, com autoria e links ao perfil do escritório. Origem e data da nota/contagem ficam explícitas; fonte factual em PRODUCT.md e app/lib/brand.ts. Contato direto sem formulário, com WhatsApp, telefone, Instagram e endereço em painel paper com borda fina.
+Quinze transcrições fornecidas em cartões brancos com autoria. Relatos longos mostram cinco linhas e botão para expandir ou recolher; texto integral preservado. Nota, total e origem temporal identificados como material enviado, sem atualização automática.
 
-### Motion
+### FAQ and Dialogs
 
-Retrato com revelação por clip-path em 1s cubic-bezier(0.16, 1, 0.3, 1). Variantes de conteúdo em 680ms cubic-bezier(0.22, 1, 0.36, 1), sequenciamento de 100ms e atraso de 40ms; diálogo em 240ms. Conteúdo usa initial=false; não tratar variantes declaradas como ocultação inicial obrigatória. CSS e MotionConfig respeitam movimento reduzido.
+FAQ nativo details/summary. Diálogos com WhatsApp contextual, Escape, ciclo e retorno do foco, fundo inert e bloqueio de rolagem. Não há formulário sem destino.
 
-Registro extraído de app/page.tsx, app/globals.css, app/layout.tsx e componentes. Validação e parecer fornecidos estão em .impeccable/review/morato/: lint/tipos/build aprovados e disposition ship no escopo descrito em finish-review.md. Esta etapa documental não executou testes, captura ou detector.
+### Contact and Motion
+
+Telefone, Instagram, endereço e link externo para rotas no Google Maps. O painel de visita oferece conteúdo local em vez de depender de incorporação externa vazia. Revelação curta do retrato por clip-path; conteúdo não aguarda rolagem para aparecer. Movimento reduzido desativa animações e transições.
 
 ## Do's and Don'ts
 
-### Do:
-
-- Do preservar o logo original transparente e o retrato integral de Michelle Morato.
-- Do manter foco visível, leitura responsiva e respeito à preferência por movimento reduzido.
-- Do usar os tokens registrados e manter textos de atuação coerentes com o conteúdo fornecido.
-
-### Don't:
-
-- Don't distorcer, recortar ou recolorir os assets originais.
-- Don't inferir novas áreas de atuação a partir do subtítulo preservado no logo.
-- Don't inventar credenciais, resultados, contatos ou avaliações.
-
-Não canonizado nem reparado: os títulos de grupo do rodapé em 10px/caixa alta permanecem locais, sem virar um padrão de kicker/eyebrow. O subtítulo Previdenciário e Trabalhista pertence à arte original preservada; não redefine o conteúdo de Direito de Família. A divisória registrada resolve a lacuna documental apontada pelo detector, sem nova execução ou mudança de UI.
+- **Do** preservar arquivos originais, proporção da marca, retrato integral e autoria dos relatos.
+- **Do** manter foco visível, texto legível, movimento reduzido e hierarquia clara em cada largura.
+- **Don't** inventar especialidades, e-mail, horários, atendimento online, experiência, domínio ou resultados.
+- **Don't** identificar o profissional das fotos editoriais como Dr. Davi; somente o retrato fornecido o identifica.
+- **Don't** reconstruir o logo com texto ou copiar os fatos da referência visual.

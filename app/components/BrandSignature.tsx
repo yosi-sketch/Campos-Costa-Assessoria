@@ -6,10 +6,10 @@ export default function BrandSignature() {
     <Image
       src={brand.logo}
       alt={brand.businessName}
-      width={2172}
-      height={724}
-      sizes="(max-width: 639px) 210px, 260px"
-      className="h-auto w-[210px] sm:w-[260px]"
+      width={1944}
+      height={809}
+      sizes="(max-width: 639px) 180px, 230px"
+      className="h-auto w-[180px] sm:w-[230px]"
     />
   );
 }

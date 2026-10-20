@@ -1,16 +1,17 @@
 import type { Metadata, Viewport } from "next";
-import { Libre_Caslon_Display, Source_Sans_3 } from "next/font/google";
+import { Merriweather, Manrope } from "next/font/google";
 import { brand } from "./lib/brand";
 import "./globals.css";
 
-const displayFont = Libre_Caslon_Display({
+const displayFont = Merriweather({
   variable: "--font-display-face",
   subsets: ["latin"],
-  weight: "400",
+  weight: ["600", "700"],
+  style: "normal",
   display: "swap",
 });
 
-const bodyFont = Source_Sans_3({
+const bodyFont = Manrope({
   weight: ["400", "500", "600", "700"],
   variable: "--font-body",
   subsets: ["latin"],
@@ -20,14 +21,14 @@ const bodyFont = Source_Sans_3({
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 const metadataBase = siteUrl ? new URL(siteUrl) : undefined;
 const shareImage = brand.portrait;
-const title = "Morato Advocacia | Michelle Morato · Direito de Família em Contagem";
-const description = "Direito de Família em Contagem com Michelle Morato. Divórcio, alimentos, guarda, convivência e partilha. Atendimento presencial e online. (31) 2568-2738.";
+const title = "Campos Costa Assessoria Jurídica | Advogado em Inhapim";
+const description = "Assessoria jurídica em Inhapim com atenção, clareza e responsabilidade. Dr. Davi Oliveira Costa, OAB/MG 171.888. Agende pelo WhatsApp (33) 99811-0480.";
 
 export const metadata: Metadata = {
   ...(metadataBase ? { metadataBase } : {}),
   title,
   description,
-  keywords: ["Morato Advocacia", "Michelle Morato", "advogada de família em Contagem", "divórcio", "guarda", "alimentos", "partilha"],
+  keywords: ["Campos Costa", "assessoria jurídica", "advogado em Inhapim", "Davi Oliveira Costa", "Inhapim MG"],
   icons: { icon: [{ url: brand.logo, type: "image/png" }] },
   openGraph: {
     title,
@@ -39,8 +40,8 @@ export const metadata: Metadata = {
       ? [
           {
             url: shareImage,
-            width: 667,
-            height: 828,
+            width: 1254,
+            height: 1254,
             alt: brand.businessName,
           },
         ]
@@ -55,7 +56,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0b1715",
+  themeColor: "#f6f7f6",
 };
 
 export default function RootLayout({

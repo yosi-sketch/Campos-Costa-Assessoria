@@ -1,22 +1,41 @@
 {
-  "client": "Morato Advocacia",
+  "client": "Campos Costa Assessoria Jurídica",
+  "verifiedAt": "2026-10-20T11:25:41.8547760Z",
   "assets": [
     {
-      "source": "C:/Users/matheus/Downloads/Logo Luxuoso Morato Advocacia.png",
-      "destination": "public/morato-advocacia-logo.png",
-      "width": 2172,
-      "height": 724,
-      "sha256": "1d1827932ffc1610c0c28f689b17f5e9a45d7086b554642489253ad9d4259872",
-      "sourceSha256": "1d1827932ffc1610c0c28f689b17f5e9a45d7086b554642489253ad9d4259872",
+      "source": "C:/Users/matheus/Downloads/Emblema Dourado Campos Costa.png",
+      "destination": "public/campos-costa-logo.png",
+      "width": 1944,
+      "height": 809,
+      "sha256": "df36faee34d3209ece41c90312aeaeb873ae02517ef57bd19da10ad27474f339",
+      "sourceSha256": "df36faee34d3209ece41c90312aeaeb873ae02517ef57bd19da10ad27474f339",
       "identicalToSource": true
     },
     {
-      "source": "C:/Users/matheus/AppData/Local/Temp/codex-clipboard-acd5eb98-787a-4d02-a272-bc263cdcd2b5.png",
-      "destination": "public/michelle-morato.png",
-      "width": 667,
-      "height": 828,
-      "sha256": "2f9d73ec5ac3cc1237a3e8919215b612950084a82e4c1a0db1752934be026724",
-      "sourceSha256": "2f9d73ec5ac3cc1237a3e8919215b612950084a82e4c1a0db1752934be026724",
+      "source": "C:/Users/matheus/Downloads/Imagem do ChatGPT 20 de out. de 2026, 08_09_42-2.png",
+      "destination": "public/campos-costa-atendimento.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d69cdc5dc0b094381668799fbe3ee7d8a24675a92d47a09679d7a325f9913787",
+      "sourceSha256": "d69cdc5dc0b094381668799fbe3ee7d8a24675a92d47a09679d7a325f9913787",
+      "identicalToSource": true
+    },
+    {
+      "source": "C:/Users/matheus/Downloads/Imagem do ChatGPT 20 de out. de 2026, 08_09_41-1.png",
+      "destination": "public/campos-costa-pesquisa.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1270578e10c4470c6c8ba57d3625a39820030df3cf235d0da1b5ac3f95fe2c2e",
+      "sourceSha256": "1270578e10c4470c6c8ba57d3625a39820030df3cf235d0da1b5ac3f95fe2c2e",
+      "identicalToSource": true
+    },
+    {
+      "source": "C:/Users/matheus/Downloads/Retrato Profissional Dr. Davi Oliveira Costa.png",
+      "destination": "public/davi-oliveira-costa.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "70b02e4f89dff74619ad9a8ec254680a50bd5abf3a2adbd44e21f5bc8e2421f7",
+      "sourceSha256": "70b02e4f89dff74619ad9a8ec254680a50bd5abf3a2adbd44e21f5bc8e2421f7",
       "identicalToSource": true
     }
   ]
